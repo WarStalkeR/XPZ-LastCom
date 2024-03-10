@@ -1,0 +1,23 @@
+craftWeapons:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # Temporary Changes
+  - update: STR_GECKO_SAM_UC
+    ammoMax: 12
+  - update: STR_MED_CANNON_UC
+    #stats:
+    #  craftSize: 30
+  - update: STR_MINI_LASER_UC
+    #stats:
+    #  craftSize: 1
+  - update: STR_HIDEOUT_DETECTOR_UC
+    #stats:
+    #  craftSize: 20
+    #  soldiers: 4
+  - update: STR_HIDEOUT_DETECTOR_BTX_UC
+    #stats:
+    #  craftSize: 20
+    #  soldiers: 4

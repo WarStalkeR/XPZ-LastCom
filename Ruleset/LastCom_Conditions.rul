@@ -1,0 +1,78 @@
+startingConditions:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # More Crafts for Stealth Missions
+  - update: STR_STARCON_GROUND_OR_UNDETECTABLE
+    allowedCraft: !add
+      - STR_GDXCAR
+      - STR_CHARIOT
+      - STR_DELOREAN
+      - STR_DELOREAN2
+  - update: STR_STARCON_UNDERGROUND_TIGHT
+
+  # Allow Classic Gals in Underground
+    allowedSoldierTypes: !add
+      - STR_SOLDIER
+
+  # Allow Flying Cars in Ground Race
+  - update: STR_STARCON_GROUND_VEHICLE_RACE
+    allowedCraft: !add
+      - STR_GDXCAR
+      - STR_CHARIOT
+      - STR_DELOREAN
+      - STR_DELOREAN2
+
+  # Allow More Flying Cars in Air Race
+  - update: STR_STARCON_AIRCAR_RACE
+    allowedCraft: !add
+      - STR_CHARIOT
+      - STR_JETBIKE
+
+  # Allow Classic Gals as Human Females
+  - update: STR_STARCON_HUMAN_FEMALES
+    allowedSoldierTypes: !add
+      - STR_SOLDIER
+
+  # Allow Classic Gals as Weak Females
+  - update: STR_STARCON_WEAK_FEMALES_NOTANKS
+    allowedSoldierTypes: !add
+      - STR_SOLDIER
+
+  # Allow Classic Gals as Local Citizens
+  - update: STR_STARCON_LOCAL_CITIZENS
+    allowedSoldierTypes: !add
+      - STR_SOLDIER
+
+  # Allow Classic Gals in No Gals Missions
+  - update: STR_STARCON_NOGALSNOTANKS
+    forbiddenSoldierTypes: !remove
+      - STR_SOLDIER
+
+  # Allow Classic Gals as Weak Race
+  - update: STR_STARCON_WEAKRACESNOTANKS
+    allowedSoldierTypes: !add
+      - STR_SOLDIER
+
+  # Allow Classic Gals in Alien Dungeon
+  - update: STR_STARCON_RETICULAN_DUNGEON
+    allowedSoldierTypes: !add
+      - STR_SOLDIER
+
+  # More Crafts for Underwater Missions
+  - update: STR_STARCON_SEA
+    allowedCraft: !add
+      - STR_WAR_HARVESTER
+      - STR_SKYRANGER
+      - STR_CHARIOT
+
+  # Underwater Gnome Missions Rebalance
+  - update: STR_STARCON_SEA_GNOMES
+    allowedCraft: !add
+      - STR_WAR_HARVESTER
+      - STR_SKYRANGER
+      - STR_CHARIOT
+    allowedSoldierTypes: !add
+      - STR_SOLDIER

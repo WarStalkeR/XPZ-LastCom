@@ -1,0 +1,297 @@
+armors:
+  - update: STR_PIR_TOPLESS_UC
+    psiVision: 6
+  - update: STR_PIR_CASTAWAY_ARMOR_UC
+    psiVision: 6
+  - update: STR_BARBARIAN_FURS_UC
+    psiVision: 6
+  - update: STR_BARBARIAN_RAGS_UC
+    psiVision: 6
+  - update: STR_BARBARIAN_ARMOR_S_UC
+    psiVision: 6
+  - update: STR_BARBARIAN_ARMOR_UC
+    psiVision: 6
+  - update: STR_SAVAGE_ARMOR_UC
+    psiVision: 6
+  - update: STR_HOBO_DRESS_UC
+    psiVision: 6
+  - update: STR_WHITE_DRESS_UC
+    psiVision: 6
+  - update: STR_RAGS_UC
+    psiVision: 6
+  - update: STR_HERMIT_UC
+    psiVision: 6
+  - update: STR_PIR_CHAINS_UC
+    psiVision: 6
+  - update: STR_SCOUT_OUTFIT_UC
+    psiVision: 6
+  - update: STR_ADVENTURER_OUTFIT_UC
+    psiVision: 6
+  - update: STR_GANGER_OUTFIT_UC
+    psiVision: 6
+  - update: STR_SAILOR_UNIFORM_UC
+    psiVision: 6
+  - update: STR_PIR_ROGUE_UC
+    psiVision: 6
+  - update: STR_PIR_ROBBER_UC
+    psiVision: 6
+  - update: STR_PIR_SWASHBUCKLER_UC
+    psiVision: 6
+  - update: STR_CLOTHING_UC
+    psiVision: 6
+  - update: STR_RUNT_OUTFIT_UC
+    psiVision: 6
+  - update: STR_BRAINER_OUTFIT_UC
+    psiVision: 6
+  - update: STR_GYM_OUTFIT_UC
+    psiVision: 6
+  - update: STR_SWIMSUIT_UC
+    psiVision: 6
+  - update: STR_BIKINI_UC
+    psiVision: 6
+  - update: STR_PATIENT_OUTFIT_UC
+    psiVision: 6
+  - update: STR_NURSE_OUTFIT_UC
+    psiVision: 6
+  - update: STR_MEDSPIDER_SUIT_UC
+    psiVision: 6
+  - update: STR_NURSE_OUTFIT_ADV_UC
+    psiVision: 6
+  - update: STR_AMAZON_ARMOR_UC
+    psiVision: 6
+  - update: STR_BERSERKER_ARMOR_UC
+    psiVision: 6
+  - update: STR_PIR_OFFICER_UC
+    psiVision: 6
+  - update: STR_SMOKEY_ARMOR_UC
+    psiVision: 6
+  - update: STR_SMOKEY_MK2_ARMOR_UC
+    psiVision: 6
+  - update: STR_THIEF_ARMOR_UC
+    psiVision: 6
+  - update: STR_CHILLER_UC
+    psiVision: 6
+  - update: STR_SPACE_SUIT_UC
+    psiVision: 6
+  - update: STR_SCALE_MAIL_A_UC
+    psiVision: 6
+  - update: STR_SCALE_MAIL_UC
+    psiVision: 6
+  - update: STR_BASIC_ARMOR_UC
+    psiVision: 6
+  - update: STR_AGGRESSOR_ARMOR_UC
+    psiVision: 6
+  - update: STR_CAMO_PAINT_UC
+    psiVision: 6
+  - update: STR_KEVLAR_ARMOR_UC
+    psiVision: 6
+  - update: STR_HEAVY_KEVLAR_ARMOR_UC
+    psiVision: 6
+  - update: STR_SNIPER_ARMOR_UC
+    psiVision: 6
+  - update: STR_TAC_VEST_UC
+    psiVision: 6
+  - update: STR_PERSONAL_ARMOR_UC
+    psiVision: 6
+  - update: STR_TAC_ARMOR_UC
+    psiVision: 6
+  - update: STR_TAC_FULL_ARMOR_UC
+    psiVision: 6
+  - update: STR_LEATHER_ARMOR_UC
+    psiVision: 6
+  - update: STR_METAL_ARMOR_UC
+    psiVision: 6
+  - update: STR_GLITTER_ARMOR_UC
+    psiVision: 6
+  - update: STR_CHAIN_MAIL_A_UC
+    psiVision: 6
+  - update: STR_CHAIN_MAIL_UC
+    psiVision: 6
+  - update: STR_PLATE_MAIL_A_UC
+    psiVision: 6
+  - update: STR_PLATE_MAIL_UC
+    psiVision: 6
+  - update: STR_POWER_SUIT_WRECKED_UC
+    psiVision: 6
+  - update: STR_POWER_SUIT_UC
+    psiVision: 6
+  - update: STR_POWER_SUIT_ADV_UC
+    psiVision: 6
+  - update: STR_POWER_SUIT_ADV_EVA_UC
+    psiVision: 6
+  - update: STR_BIO_SUIT_ADV_UC
+    psiVision: 6
+  - update: STR_BIO_SUIT_NECRO_UC
+    psiVision: 6
+  - update: STR_FLYING_SUIT_UC
+    psiVision: 6
+  - update: STR_IRONMAN_ARMOR_UC
+    psiVision: 6
+  - update: STR_LOOTED_RAIDER_BOSS_ARMOR_UC
+    psiVision: 6
+  - update: STR_REVENANT_ARMOR_UC
+    psiVision: 6
+  - update: STR_MUSCLE_ARMOR_UC
+    psiVision: 6
+  - update: STR_CARBON_ARMOR_UC
+    psiVision: 6
+  - update: STR_ZORTRIUM_SUIT_UC
+    psiVision: 6
+  - update: STR_BRUTE_ARMOR_UC
+    psiVision: 6
+  - update: STR_ANNIHILATOR_ARMOR_UC
+    psiVision: 6
+  - update: STR_THEBAN_DRESS_UC
+    psiVision: 6
+  - update: STR_MARTYR_OUTFIT_UC
+    psiVision: 6
+  - update: STR_MAGE_ROBE_UC
+    psiVision: 9
+  - update: STR_VAMPY_ROBE_UC
+    psiVision: 9
+  - update: STR_PIR_SLAVE_ARMOR_UC
+    psiVision: 6
+  - update: STR_PIR_SLAVE_ARMOR_FAKE_UC
+    psiVision: 6
+  - update: STR_PIR_MINX_UC
+    psiVision: 6
+  - update: STR_VOODOO_ARMOR_UC
+    psiVision: 6
+  - update: STR_SORCERESS_ARMOR_UC
+    psiVision: 13
+  - update: STR_STEALTH_ARMOR_UC
+    psiVision: 9
+  - update: STR_HOLOSUIT_UC
+    psiVision: 6
+  - update: STR_FORCE_ARMOR_UC
+    psiVision: 6
+  - update: STR_SWIFTSUIT_UC
+    psiVision: 6
+  - update: STR_BLITZ_ARMOR_UC
+    psiVision: 6
+  - update: STR_GRAVBALL_OUTFIT_UC
+    psiVision: 6
+  - update: STR_DEMONIC_ARMOR_UC
+    psiVision: 6
+  - update: STR_INFERNA_ARMOR_A_UC
+    psiVision: 6
+  - update: STR_INFERNA_ARMOR_UC
+    psiVision: 6
+  - update: STR_SLAYER_ARMOR_UC
+    psiVision: 6
+  - update: STR_ARRANCAR_ARMOR_UC
+    psiVision: 10
+  - update: STR_ASSASSIN_UC
+    psiVision: 6
+  - update: STR_ASSAULT_UC
+    psiVision: 6
+  - update: STR_ASSAULT_2_UC
+    psiVision: 6
+  - update: STR_PIR_STORM_ARMOR_UC
+    psiVision: 6
+  - update: STR_DEFENDER_DMG_UC
+    psiVision: 6
+  - update: STR_DEFENDER_UC
+    psiVision: 6
+  - update: STR_GUARDIAN_UC
+    psiVision: 6
+  - update: STR_GRAV_ARMOR_UC
+    psiVision: 6
+  - update: STR_CRYSTALISK_ARMOR_UC
+    psiVision: 6
+  - update: STR_LOADER_ARMOR_UC
+    psiVision: 6
+  - update: STR_NIGHT_OPS_ARMOR_UC
+    psiVision: 6
+  - update: STR_MEIDO_OUTFIT_UC
+    psiVision: 6
+  - update: STR_PARTY_DRESS_UC
+    psiVision: 6
+  - update: STR_LINGERIE_SET_X_UC
+    psiVision: 6
+  - update: STR_LINGERIE_SET_UC
+    psiVision: 6
+  - update: STR_MAGICAL_GIRL_OUTFIT_UC
+    psiVision: 18
+  - update: STR_ARMOR_SAINT_UC
+    psiVision: 11
+  - update: STR_ARMOR_SAINT_FAKE_UC
+    psiVision: 11
+  - update: STR_LINGERIE_TEDDY_UC
+    psiVision: 6
+  - update: STR_LINGERIE_BRA_UC
+    psiVision: 6
+  - update: STR_NIGHTGOWN_UC
+    psiVision: 6
+  - update: STR_PIR_GREMRIN_UC
+    psiVision: 6
+  - update: STR_TOPLESS_SEA_UC
+    psiVision: 6
+  - update: STR_SWIMSUIT_SEA_UC
+    psiVision: 6
+  - update: STR_BIKINI_SEA_UC
+    psiVision: 6
+  - update: STR_MEDSPIDER_SUIT_SEA_UC
+    psiVision: 6
+  - update: STR_AMAZON_ARMOR_SEA_UC
+    psiVision: 6
+  - update: STR_BRAINER_OUTFIT_SEA_UC
+    psiVision: 6
+  - update: STR_THIEF_ARMOR_SEA_UC
+    psiVision: 6
+  - update: STR_CHILLER_SEA_UC
+    psiVision: 6
+  - update: STR_SPACE_SUIT_SEA_UC
+    psiVision: 6
+  - update: STR_POWER_SUIT_ADV_EVA_SEA_UC
+    psiVision: 6
+  - update: STR_BIO_SUIT_ADV_SEA_UC
+    psiVision: 6
+  - update: STR_BIO_SUIT_NECRO_SEA_UC
+    psiVision: 6
+  - update: STR_ZORTRIUM_SUIT_SEA_UC
+    psiVision: 6
+  - update: STR_ANNIHILATOR_ARMOR_SEA_UC
+    psiVision: 6
+  - update: STR_THEBAN_DRESS_SEA_UC
+    psiVision: 6
+  - update: STR_SORCERESS_ARMOR_SEA_UC
+    psiVision: 13
+  - update: STR_STEALTH_ARMOR_SEA_UC
+    psiVision: 9
+  - update: STR_FORCE_ARMOR_SEA_UC
+    psiVision: 6
+  - update: STR_SWIFTSUIT_SEA_UC
+    psiVision: 6
+  - update: STR_BLITZ_ARMOR_SEA_UC
+    psiVision: 6
+  - update: STR_DEMONIC_ARMOR_SEA_UC
+    psiVision: 6
+  - update: STR_INFERNA_ARMOR_SEA_UC
+    psiVision: 6
+  - update: STR_CRYSTALISK_ARMOR_SEA_UC
+    psiVision: 6
+  - update: STR_LOADER_ARMOR_SEA_UC
+    psiVision: 6
+  - update: STR_MAGICAL_GIRL_OUTFIT_SEA_UC
+    psiVision: 18
+  - update: STR_SPACE_POD_UC
+    psiVision: 6
+  - update: STR_SPACE_SUIT_SPACE_UC
+    psiVision: 6
+  - update: STR_IRONMAN_ARMOR_SPACE_UC
+    psiVision: 6
+  - update: STR_ANNIHILATOR_ARMOR_SPACE_UC
+    psiVision: 6
+  - update: STR_SORCERESS_ARMOR_SPACE_UC
+    psiVision: 13
+  - update: STR_NIGHTGOWN_DREAMLAND_UC
+    psiVision: 6
+  - update: STR_PIR_GREMRIN_DREAMLAND_UC
+    psiVision: 6
+  - update: STR_MARTYR_OUTFIT_DREAMLAND_UC
+    psiVision: 6
+  - update: STR_SP_BABYDOLL_UC
+    psiVision: 6
+  - update: STR_SP_BABYDOLL_FAKE_UC
+    psiVision: 6

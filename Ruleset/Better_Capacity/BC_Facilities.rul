@@ -1,0 +1,181 @@
+facilities:
+  - update: STR_ACCESS_LIFT
+    storage: 100
+  - update: STR_BURROW
+    personnel: 20
+    aliens: 20
+    storage: 75
+  - update: STR_BEAST_DEN
+    aliens: 50
+    storage: 150
+  - update: STR_LIVING_QUARTERS_SMALL
+    personnel: 30
+    storage: 100
+  - update: STR_CAPSULE_QUARTERS
+    personnel: 80
+  - update: STR_LIVING_QUARTERS
+    personnel: 60
+  - update: STR_LIVING_QUARTERS_DAMAGED
+    personnel: 50
+  - update: STR_LIVING_QUARTERS_LARGE
+    personnel: 300
+    storage: 250
+  - update: STR_LIVING_QUARTERS_LARGE_DAMAGED
+    personnel: 200
+    storage: 75
+  - update: STR_LIVING_QUARTERS_ADVANCED
+    personnel: 100
+    storage: 150
+  - update: STR_LIVING_QUARTERS_ADVANCED_DAMAGED
+    personnel: 100
+    storage: 100
+  - update: STR_LIVING_QUARTERS_ADVANCED_LARGE
+    personnel: 500
+    storage: 350
+  - update: STR_LIVING_QUARTERS_ADVANCED_LARGE_DAMAGED
+    personnel: 500
+    storage: 250
+  - update: STR_BUNKER_FACILITY
+    personnel: 20
+    storage: 100
+  - update: STR_BUNKER_FACILITY_DAMAGED1
+    personnel: 20
+    storage: 100
+  - update: STR_BUNKER_FACILITY_DAMAGED2
+    personnel: 20
+    storage: 100
+  - update: STR_WAR_BARRACKS
+    personnel: 400
+    storage: 1500
+    workshops: 80
+    aliens: 50
+  - update: STR_WAR_BARRACKS_DAMAGED1
+    personnel: 350
+    storage: 1250
+    workshops: 60
+    aliens: 40
+  - update: STR_WAR_BARRACKS_DAMAGED2
+    personnel: 300
+    storage: 1000
+    workshops: 40
+    aliens: 30
+  - update: STR_WAR_BARRACKS_DAMAGED3
+    personnel: 250
+    storage: 750
+    workshops: 20
+    aliens: 20
+  - update: STR_GENERAL_STORES
+    storage: 500
+    workshops: 10
+  - update: STR_GENERAL_STORES_DAMAGED
+    storage: 200
+  - update: STR_GENERAL_STORES_LARGE
+    storage: 3500
+    workshops: 50
+  - update: STR_GENERAL_STORES_LARGE_DAMAGED
+    storage: 1500
+  - update: STR_GENERAL_STORES_XLARGE
+    storage: 15000
+    workshops: 150
+  - update: STR_GENERAL_STORES_ARMORED
+    storage: 1250
+    workshops: 20
+  - update: STR_GENERAL_STORES_ARMORED_DAMAGED
+    storage: 750
+    workshops: 10
+  - update: STR_JAIL
+    aliens: 30
+  - update: STR_JAIL_DOUBLE
+    aliens: 50
+  - update: STR_PRISON
+    aliens: 250
+  - update: STR_CRYO_PRISON
+    aliens: 100
+  - update: STR_DUNGEON
+    workshops: 30
+    aliens: 50
+  - update: STR_ALENIUM_CHAMBER
+    labs: 8
+  - update: STR_FLAK_TOWER
+    personnel: 20
+    storage: 200
+  - update: STR_FLAK_TOWER_DAMAGED
+    personnel: 10
+    storage: 150
+  - update: STR_SAM_DEFENSES
+    personnel: 20
+  - update: STR_ARMORY
+    storage: 750
+    workshops: 40
+  - update: STR_ARMORY_DAMAGED_1
+    storage: 600
+    workshops: 20
+  - update: STR_ARMORY_DAMAGED_2
+    storage: 450
+    workshops: 10
+  - update: STR_VIP_CLUB_FAC
+    labs: 2
+  - update: STR_MESS_HALL
+    labs: 2
+  - update: STR_MESS_HALL_ADV
+    labs: 4
+  - update: STR_HOTEL
+    personnel: 40
+    storage: 150
+  - update: STR_MED_BAY
+    labs: 2
+  - update: STR_LOVE_CLINIC
+    personnel: 20
+  - update: STR_METAGARDEN
+    storage: 250
+  - update: STR_CLONING_CENTRE
+    workshops: 20
+  - update: STR_STILL
+    workshops: 10
+  - update: STR_MINT
+    workshops: 20
+  - update: STR_REFINERY
+    workshops: 20
+    labs: 2
+  - update: STR_SUMMONING_CIRCLE
+    workshops: 20
+    labs: 6
+  - update: STR_WELL
+    workshops: 40
+  - update: STR_WORKSHOP
+    workshops: 60
+  - update: STR_HELLERIUM_PLANT
+    workshops: 150
+    labs: 6
+  - update: STR_INDUSTRIAL_PRINTER
+    workshops: 200
+  - update: STR_FACTORY
+    workshops: 800
+  - update: STR_FUSION_REACTOR
+    labs: 4
+  - update: STR_LABORATORY
+    labs: 24
+    storage: 500
+  - update: STR_PERSONAL_LABS
+    labs: 8
+  - update: STR_LIBRARY
+    labs: 2
+  - update: STR_GREAT_LIBRARY
+    labs: 42
+  - update: STR_SURGERY_ROOM
+    aliens: 10
+    labs: 4
+  - update: STR_STUDY_ROOM
+    labs: 8
+  - update: STR_DATA_CENTER
+    labs: 6
+  - update: STR_COMPUTER_CORE
+    labs: 8
+  - update: STR_ASTROSENSORIUM
+    labs: 6
+  - update: STR_GDX_LAB
+    labs: 20
+  - update: STR_RED_TOWER
+    labs: 10
+  - update: STR_BLACK_TOWER
+    labs: 16

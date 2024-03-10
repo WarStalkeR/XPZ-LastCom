@@ -1,0 +1,51 @@
+missionScripts:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # Isolated Valley: Frequency + Availability
+  - update: isolatedValley
+    executionOdds: 50
+    lastMonth: 24
+  - update: isolatedValleyLate
+    executionOdds: 30
+    firstMonth: 25
+
+  # Save Captured Gal: Frequency + Availability
+  - update: saveSister
+    executionOdds: 50
+    lastMonth: 12
+  - update: saveSister1
+    executionOdds: 35
+    lastMonth: 36
+  - update: saveSister2
+    executionOdds: 20
+    lastMonth: 60
+
+  # Save Stranded Gal: Frequency + Availability
+  - update: distressBunker
+    executionOdds: 100
+    lastMonth: 12
+  - update: distressBunker1
+    executionOdds: 70
+    lastMonth: 36
+  - update: distressBunker2
+    executionOdds: 40
+    lastMonth: 60
+
+  # Blood Rituals: Frequency + Availability
+  - update: AdventureLand
+    lastMonth: 24
+  - update: AdventureLand1
+    lastMonth: 96
+
+  # UAC Vaults: Limits Removal
+  - update: UACVaults
+    maxRuns: -1
+  - update: UACVaultsEarly
+    maxRuns: -1
+
+  # Humanists Tank Test: Limits Removal
+  - update: NaziTankTest
+    maxRuns: -1

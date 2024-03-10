@@ -1,0 +1,33 @@
+extended:
+  scripts:
+    createUnit:
+      - new: LCSCRIPT_ENEMY_RAND_INIT_TU
+        offset: 4.19
+        code: |
+          var int UnitID 0;
+          var int UnitFaction;
+          
+          var int UnitMaxTU;
+          var int UnitCurTU;
+          var int UnitNewTU;
+          var int UnitMinRefTU;
+          var int UnitMaxRefTU;
+          
+          unit.getId UnitID;
+          unit.getFaction UnitFaction;
+          unit.getTimeUnits UnitCurTU;
+          unit.getTimeUnitsMax UnitMaxTU;
+          set UnitMinRefTU UnitMaxTU;
+          set UnitMaxRefTU UnitMaxTU;
+          
+          if eq UnitFaction FACTION_HOSTILE;
+            if eq UnitCurTU UnitMaxTU;
+              muldiv UnitMinRefTU 10 100;
+              muldiv UnitMaxRefTU 50 100;
+              battle_game.randomRange UnitNewTU UnitMinRefTU UnitMaxRefTU;
+              # debug_log "Enemy ID#" UnitID "TUs:" UnitCurTU "/" UnitMaxTU "->" UnitNewTU "/" UnitMaxTU;
+              unit.setTimeUnits UnitNewTU;
+            end;
+          end;
+          
+          return;

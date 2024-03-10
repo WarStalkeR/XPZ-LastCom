@@ -1,0 +1,13 @@
+extraSprites:
+  - type: BASEBITS.PCK
+    files:
+      ## Vanilla XPZ Craft Sprites Override
+      177: Resources/Planes/Jetbike_Basescape.png
+      262: Resources/Planes/Harvester_Basescape.png
+  - type: INTICON.PCK
+    files:
+      ## Vanilla XPZ Craft Sprites Override
+      144: Resources/Planes/Jetbike_Minimized.png
+      155: Resources/Planes/Jetbike_Dogfight.png
+      229: Resources/Planes/Harvester_Minimized.png
+      240: Resources/Planes/Harvester_Dogfight.png

@@ -1,0 +1,38 @@
+#manufacture:
+#  - update: STR_HUNTING_PARTY
+#    time: 1
+#arcScripts:
+#  - type: STR_ARC_SCRIPT_LOL_NOPE
+#    sequentialArcs:
+#      - STR_MISSION_SEA_ADVENTURE
+#      - STR_REALM_OF_DEATH
+#      - STR_SKELETON_ARMOR
+#      - STR_CAPTAINS_RANK_02_UNLOCK
+#      - STR_CAPTAINS_RANK_03_UNLOCK
+#    randomArcs:
+#      STR_DARK_STAR: 50
+#      STR_PSI_LAB: 30
+#      STR_UNDERGROUND_MISSIONS: 20
+#    firstMonth: 12
+#    lastMonth: 48
+#    executionOdds: 28
+#    maxArcs: 4
+#    minDifficulty: 0
+#    maxDifficulty: 4
+#    minScore: 20000
+#    maxScore: 25000
+#    minFunds: -5000000
+#    maxFunds: 15000000
+#    researchTriggers:
+#      STR_CAPTAINS_RANK_01_UNLOCK: true
+#      STR_CAPTAINS_RANK_09_UNLOCK: false
+#    itemTriggers:
+#      STR_RAIL_DRIVER: false
+#      STR_RAIL_COIL: true
+#    facilityTriggers:
+#      STR_WAR_BARRACKS: true
+#      STR_LUXURY_SPA: false
+#    xcomBaseInRegionTriggers:
+#      STR_PACIFIC: false
+#    xcomBaseInCountryTriggers:
+#      STR_BRAZIL: true

@@ -1,0 +1,151 @@
+crafts:
+  - update: STR_VENTURA
+    craftSize: 100
+  - update: STR_FUEGO
+    craftSize: 100
+  - update: STR_FORTUNA
+    craftSize: 100
+  - update: STR_METALLO
+    craftSize: 100
+  - update: STR_DROPSHIP
+    craftSize: 140
+  - update: STR_BRIG
+    craftSize: 140
+  - update: STR_AIRSPEEDER
+    craftSize: 20
+  - update: STR_PIRANHA_AIRBIKE
+    craftSize: 20
+  - update: STR_AIRCAR
+    craftSize: 20
+  - update: STR_AIRVAN
+    craftSize: 30
+  - update: STR_AIRBUS
+    craftSize: 30
+  - update: STR_AIRBUS_STANDARD
+    craftSize: 30
+  - update: STR_AIRTRUCK
+    craftSize: 50
+  - update: STR_FAUST
+    craftSize: 30
+  - update: STR_WAR_HARVESTER
+    craftSize: 140
+  - update: STR_SCHOOLBUS
+    craftSize: 70
+  - update: STR_GDXCAR
+    craftSize: 50
+  - update: STR_GOLDHAWK
+    craftSize: 50
+  - update: STR_SAKURABUS
+    craftSize: 70
+  - update: STR_WHITEWORM
+    craftSize: 50
+  - update: STR_SCARAB
+    craftSize: 50
+  - update: STR_MI2400
+    craftSize: 50
+  - update: STR_VERDANT_SNAKE
+    craftSize: 50
+  - update: STR_SAPPHIRE_JELLYFISH
+    craftSize: 70
+  - update: STR_SHADOWBAT
+    craftSize: 50
+  - update: STR_CHARIOT
+    craftSize: 50
+  - update: STR_FIRESTORM
+    craftSize: 70
+  - update: STR_DRAKKAR
+    craftSize: 100
+  - update: STR_DEVASTATOR
+    craftSize: 100
+  - update: STR_JETBIKE
+    craftSize: 30
+  - update: STR_INTERCEPTOR
+    craftSize: 30
+  - update: STR_PREDATOR
+    craftSize: 30
+  - update: STR_NIGHTMARE
+    craftSize: 30
+  - update: STR_SABRE
+    craftSize: 30
+  - update: STR_BRAVE_WHALER
+    craftSize: 30
+  - update: STR_BARACUDA
+    craftSize: 50
+  - update: STR_SWORDFISH
+    craftSize: 50
+  - update: STR_LIGHTNING
+    craftSize: 70
+  - update: STR_KRAKEN
+    craftSize: 70
+  - update: STR_HYDRA
+    craftSize: 100
+  - update: STR_MINING_SHIP
+    craftSize: 100
+  - update: STR_MRSHAN_FIGHTER
+    craftSize: 30
+  - update: STR_FIREFOX
+    craftSize: 30
+  - update: STR_M_WING
+    craftSize: 30
+  - update: STR_RAIL_POD
+    craftSize: 1
+  - update: STR_FATSUB
+    craftSize: 50
+  - update: STR_TRITON
+    craftSize: 70
+  - update: STR_SKYRANGER
+    craftSize: 70
+  - update: STR_TIGERSHARK
+    craftSize: 30
+  - update: STR_SPITFIRE
+    craftSize: 20
+  - update: STR_BUCKAROO
+    craftSize: 30
+  - update: STR_HYPERJET
+    craftSize: 30
+  - update: STR_NECROBOMBER
+    craftSize: 50
+  - update: STR_LITTLE_BIRD
+    craftSize: 20
+  - update: STR_WAR_BIRD
+    craftSize: 30
+  - update: STR_THUNDER_BIRD
+    craftSize: 30
+  - update: STR_HUEY
+    craftSize: 20
+  - update: STR_BIG_BIRD
+    craftSize: 50
+  - update: STR_PIGEON
+    craftSize: 70
+  - update: STR_ZEPPELIN
+    craftSize: 140
+  - update: STR_HUNTING_PARTY
+    craftSize: 2
+  - update: STR_RAIDING_PARTY
+    craftSize: 2
+  - update: STR_EXPEDITION
+    craftSize: 2
+  - update: STR_CONVOY
+    craftSize: 10
+  - update: STR_TRUCKS
+    craftSize: 10
+  - update: STR_CADILLAC
+    craftSize: 10
+  - update: STR_BIKES
+    craftSize: 10
+  - update: STR_HIGHWAY_STAR
+    craftSize: 10
+  - update: STR_BATTLE_TAXI
+    craftSize: 10
+  - update: STR_MBT
+    craftSize: 10
+  - update: STR_HUMVEE
+    craftSize: 10
+  - update: STR_DELOREAN
+    craftSize: 10
+  - update: STR_DELOREAN2
+    craftSize: 10
+  - update: STR_CAPSULE
+    craftSize: 30
+  - update: STR_AVENGER
+    craftSize: 140 #300

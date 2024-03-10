@@ -1,0 +1,284 @@
+facilities:
+  - update: STR_ACCESS_LIFT
+    spriteShape: 2002
+  - update: STR_CORRIDOR
+    spriteShape: 2003
+  - update: STR_BURROW
+    spriteShape: 2001
+  - update: STR_BEAST_DEN
+    spriteShape: 2001
+  - update: STR_LIVING_QUARTERS_SMALL
+    spriteShape: 2001
+  - update: STR_CAPSULE_QUARTERS
+    spriteShape: 2001
+  - update: STR_LIVING_QUARTERS
+    spriteShape: 2001
+  - update: STR_LIVING_QUARTERS_DAMAGED
+    spriteShape: 2101
+    spriteFacility: 543
+  - update: STR_LIVING_QUARTERS_LARGE
+    spriteShape: 2011
+    spriteFacility: 301
+    spriteEnabled: true
+  - update: STR_LIVING_QUARTERS_LARGE_DAMAGED
+    spriteShape: 2111
+    spriteFacility: 527
+    spriteEnabled: true
+  - update: STR_LIVING_QUARTERS_ADVANCED
+    spriteShape: 2001
+  - update: STR_LIVING_QUARTERS_ADVANCED_DAMAGED
+    spriteShape: 2101
+  - update: STR_LIVING_QUARTERS_ADVANCED_LARGE
+    spriteShape: 2011
+    spriteFacility: 617
+    spriteEnabled: true
+  - update: STR_LIVING_QUARTERS_ADVANCED_LARGE_DAMAGED
+    spriteShape: 2111
+    spriteFacility: 625
+    spriteEnabled: true
+  - update: STR_BUNKER_FACILITY
+    spriteShape: 2001
+  - update: STR_BUNKER_FACILITY_DAMAGED1
+    spriteShape: 2001
+  - update: STR_BUNKER_FACILITY_DAMAGED2
+    spriteShape: 2001
+  - update: STR_WAR_BARRACKS
+    connectorsDisabled: false
+    spriteShape: 2041
+    spriteFacility: 549
+    spriteEnabled: true
+  - update: STR_WAR_BARRACKS_DAMAGED1
+    connectorsDisabled: false
+    spriteShape: 2041
+    spriteFacility: 567
+    spriteEnabled: true
+  - update: STR_WAR_BARRACKS_DAMAGED2
+    connectorsDisabled: false
+    spriteShape: 2141
+    spriteFacility: 576
+    spriteEnabled: true
+  - update: STR_WAR_BARRACKS_DAMAGED3
+    connectorsDisabled: false
+    spriteShape: 2141
+    spriteFacility: 585
+    spriteEnabled: true
+  - update: STR_GENERAL_STORES
+    spriteShape: 2001
+  - update: STR_GENERAL_STORES_DAMAGED
+    spriteShape: 2101
+    spriteFacility: 544
+  - update: STR_GENERAL_STORES_LARGE
+    spriteShape: 2011
+    spriteFacility: 309
+    spriteEnabled: true
+  - update: STR_GENERAL_STORES_LARGE_DAMAGED
+    spriteShape: 2111
+    spriteFacility: 535
+    spriteEnabled: true
+  - update: STR_GENERAL_STORES_XLARGE
+    spriteShape: 2041
+    spriteFacility: 1018
+    spriteEnabled: true
+  - update: STR_GENERAL_STORES_ARMORED
+    spriteShape: 2001
+  - update: STR_GENERAL_STORES_ARMORED_DAMAGED
+    spriteShape: 2101
+  - update: STR_JAIL
+    spriteShape: 2001
+  - update: STR_JAIL_DOUBLE
+    spriteShape: 2001
+  - update: STR_PRISON
+    spriteShape: 2011
+    spriteFacility: 376
+    spriteEnabled: true
+  - update: STR_CRYO_PRISON
+    spriteShape: 2001
+  - update: STR_DUNGEON
+    spriteShape: 2001
+  - update: STR_SMALL_RADAR_SYSTEM
+    spriteShape: 2002
+  - update: STR_LARGE_RADAR_SYSTEM
+    spriteShape: 2001
+  - update: STR_ALENIUM_CHAMBER
+    spriteShape: 2002
+  - update: STR_HYPER_WAVE_DECODER
+    spriteShape: 2002
+  - update: STR_SPACE_RADIO
+    spriteShape: 2002
+  - update: STR_HANGAR
+    connectorsOnSprite: true
+    spriteShape: 2011
+    spriteFacility: 9
+    spriteEnabled: true
+  - update: STR_HANGAR_DAMAGED
+    connectorsOnSprite: true
+    spriteShape: 2111
+    spriteFacility: 519
+    spriteEnabled: true
+  - update: STR_EYE_OF_HORUS
+    spriteShape: 2002
+  - update: STR_IRRADIATOR_TOWER
+    spriteShape: 2002
+  - update: STR_FLAK_TOWER
+    spriteShape: 2002
+    spriteFacility: 514
+  - update: STR_FLAK_TOWER_DAMAGED
+    spriteShape: 2102
+    spriteFacility: 594
+  - update: STR_FLAK_DEFENSES
+    spriteShape: 2003
+  - update: STR_VULCAN_DEFENSES
+    spriteShape: 2003
+    spriteFacility: 518
+  - update: STR_SAM_DEFENSES
+    spriteShape: 2003
+    spriteFacility: 353
+  - update: STR_MISSILE_DEFENSES
+    spriteShape: 2002
+  - update: STR_LASER_DEFENSES
+    spriteShape: 2003
+  - update: STR_GAUSS_DEFENSES
+    spriteShape: 2003
+  - update: STR_PLASMA_DEFENSES
+    spriteShape: 2003
+    spriteFacility: 27
+  - update: STR_FUSION_BALL_DEFENSES
+    spriteShape: 2003
+  - update: STR_ARMORY
+    spriteShape: 2001
+  - update: STR_ARMORY_DAMAGED_1
+    spriteShape: 2001
+  - update: STR_ARMORY_DAMAGED_2
+    spriteShape: 2101
+  - update: STR_GRAV_SHIELD
+    spriteShape: 2002
+  - update: STR_GYM_ROOM
+    spriteShape: 2001
+  - update: STR_ONSEN
+    spriteShape: 2001
+  - update: STR_LUXURY_SPA
+    spriteShape: 2011
+    spriteFacility: 360
+    spriteEnabled: true
+  - update: STR_VIP_CLUB_FAC
+    spriteShape: 2001
+  - update: STR_MESS_HALL
+    spriteShape: 2001
+  - update: STR_MESS_HALL_ADV
+    spriteShape: 2001
+  - update: STR_HOTEL
+    connectorsDisabled: false
+    spriteShape: 2011
+    spriteFacility: 595
+    spriteEnabled: true
+  - update: STR_MED_BAY
+    spriteShape: 2001
+  - update: STR_LOVE_CLINIC
+    spriteShape: 2001
+  - update: STR_METAGARDEN
+    spriteShape: 2001
+  - update: STR_CLONING_CENTRE
+    spriteShape: 2001
+  - update: STR_PSIONIC_LABORATORY
+    spriteShape: 2001
+  - update: STR_MIND_SHIELD
+    spriteShape: 2002
+  - update: STR_DISRUPTOR_SHROUD
+    spriteShape: 2002
+  - update: STR_FIRE_PIT
+    spriteShape: 2003
+  - update: STR_GAS_CHAMBER
+    spriteShape: 2003
+  - update: STR_HYDROPONICS
+    connectorsOnSprite: true
+    spriteShape: 2021
+    spriteFacility: 389
+    spriteEnabled: true
+  - update: STR_HYDROPONICS_WEED
+    connectorsOnSprite: true
+    spriteShape: 2021
+    spriteFacility: 405
+    spriteEnabled: true
+  - update: STR_HYDROPONICS_WEED_HARVEST
+    connectorsOnSprite: true
+    spriteShape: 2021
+    spriteFacility: 409
+    spriteEnabled: true
+  - update: STR_HYDROPONICS_BOOM
+    connectorsOnSprite: true
+    spriteShape: 2021
+    spriteFacility: 413
+    spriteEnabled: true
+  - update: STR_HYDROPONICS_BOOM_HARVEST
+    connectorsOnSprite: true
+    spriteShape: 2021
+    spriteFacility: 417
+    spriteEnabled: true
+  - update: STR_BODY_FARM
+    spriteShape: 2011
+    spriteFacility: 1044
+    spriteEnabled: true
+  - update: STR_BODY_FARM_E
+    spriteShape: 2011
+    spriteFacility: 1036
+    spriteEnabled: true
+  - update: STR_BEE_HIVE
+    spriteShape: 2001
+  - update: STR_CASINO
+    spriteShape: 2011
+    spriteFacility: 460
+    spriteEnabled: true
+  - update: STR_STILL
+    spriteShape: 2001
+  - update: STR_MINT
+    spriteShape: 2001
+  - update: STR_REFINERY
+    spriteShape: 2001
+  - update: STR_SUMMONING_CIRCLE
+    spriteShape: 2001
+  - update: STR_WELL
+    spriteShape: 2001
+  - update: STR_WORKSHOP
+    spriteShape: 2001
+  - update: STR_HELLERIUM_PLANT
+    spriteShape: 2011
+    spriteFacility: 608
+    spriteEnabled: true
+  - update: STR_INDUSTRIAL_PRINTER
+    spriteShape: 2011
+    spriteFacility: 342
+    spriteEnabled: true
+  - update: STR_FACTORY
+    spriteShape: 2041
+    spriteFacility: 318
+    spriteEnabled: true
+  - update: STR_POWER_PLANT
+    spriteShape: 2001
+  - update: STR_FUSION_REACTOR
+    spriteShape: 2001
+  - update: STR_LABORATORY
+    spriteShape: 2001
+  - update: STR_PERSONAL_LABS
+    spriteShape: 2001
+  - update: STR_LIBRARY
+    spriteShape: 2001
+  - update: STR_GREAT_LIBRARY
+    spriteShape: 2011
+    spriteFacility: 505
+    spriteEnabled: true
+  - update: STR_SURGERY_ROOM
+    spriteShape: 2001
+  - update: STR_STUDY_ROOM
+    spriteShape: 2001
+  - update: STR_DATA_CENTER
+    spriteShape: 2001
+  - update: STR_COMPUTER_CORE
+    spriteShape: 2001
+  - update: STR_ASTROSENSORIUM
+    spriteShape: 2002
+  - update: STR_GDX_LAB
+    spriteShape: 2001
+  - update: STR_RED_TOWER
+    spriteShape: 2001
+  - update: STR_BLACK_TOWER
+    spriteShape: 2001

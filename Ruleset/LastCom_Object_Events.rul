@@ -1,0 +1,58 @@
+events:
+### New Entries
+  # Super Anomaly Tension Event
+  - name: STR_LIMITLESS_ANOMALY_TENSION_EVENT
+    description: STR_LIMITLESS_ANOMALY_TENSION_EVENT_DESC
+    background: HELL_ELEVATOR_BACKGROUND.SCR
+    music: GMTACTIC16
+    funds: -100000
+    points: 1000
+    everyMultiItemList:
+      STR_MAD_SCRIBBLINGS: 10
+      STR_BIG_ROCK: 50
+      STR_JUNK_PILE: 50
+      STR_HIDEOUT_CLEANING_BILL: 25
+    timer: 1600
+    timerRandom: 6600
+
+  # Super Anomaly Stable Event
+  - name: STR_LIMITLESS_ANOMALY_EVENT
+    description: STR_LIMITLESS_ANOMALY_EVENT_DESC
+    background: HELL_ELEVATOR_BACKGROUND.SCR
+    music: BLACK_KNIGHT
+    researchList: [STR_ANOMALY_DEP2]
+    everyMultiItemList:
+      # Grey Codex Rewards
+      STR_CODEX_GRAY: 1
+      STR_DATA_DISK: 300
+      STR_GNOME: 1
+      STR_BRAINER_OUTFIT: 10
+      STR_LIBER_OCCULTIS: 5
+      STR_TOME_OF_WITCHERY: 5
+      # Gold Codex Rewards
+      STR_CODEX_GOLD: 1
+      STR_SILVER_BAR: 250
+      STR_GOLD_BAR: 100
+      STR_TREASURE_CHEST: 50
+      STR_SPACE_SUIT: 15
+      STR_CLOTHING_OFFICER: 3
+      STR_OFFICERS_BATON: 15
+      # Red Codex Rewards
+      STR_CODEX_RED: 1
+      STR_RAYGUN: 35
+      STR_RAY_RIFLE: 15
+      STR_RAYGUN_CLIP: 500
+      STR_AGGRESSOR_ARMOR: 45
+      STR_SKULL: 10
+      # Green Codex Rewards
+      STR_CODEX_GREEN: 1
+      STR_HEALING_GEL: 200
+      STR_MEDICAL_SUPPLIES: 500
+      STR_NURSE_OUTFIT: 10
+      STR_STASIS_POD_GREEN_GAL: 3
+    timer: 7000
+    timerRandom: 23000
+
+### Related Overrides
+
+### Integration

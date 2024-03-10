@@ -1,0 +1,13 @@
+items:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # No Prison Space Usage
+  - update: STR_COURTESAN
+    size: -0.1
+    liveAlien: false
+  - update: STR_DANCER_SLAVE
+    size: -0.25
+    liveAlien: false

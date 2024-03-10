@@ -1,0 +1,18 @@
+items:
+### New Entries
+
+### Related Overrides
+  # Various Camera Tests
+  - update: STR_SPAWN_CAMERA
+    spawnUnitFaction: 0
+
+### Integration
+  # Player Controlled Turrets
+  - update: STR_SPAWN_XTURRET_CANNON
+    spawnUnitFaction: 0
+  - update: STR_SPAWN_XTURRET_LASER
+    spawnUnitFaction: 0
+  - update: STR_SPAWN_XTURRET_GAUSS
+    spawnUnitFaction: 0
+  - update: STR_SPAWN_XTURRET_PLASMA
+    spawnUnitFaction: 0

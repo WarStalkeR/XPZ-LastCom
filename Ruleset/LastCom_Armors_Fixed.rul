@@ -1,0 +1,70 @@
+armors:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # Player Turrets Better Detection
+  - update: CAMERA_ARMOR
+    heatVision: 20
+    camouflageAtDay: 12
+    camouflageAtDark: 4
+    visibilityAtDay: 24
+    visibilityAtDark: 18
+    antiCamouflageAtDay: 6
+    antiCamouflageAtDark: 2
+    #scripts:
+    #  createUnit: |
+    #    var ptr RuleUnit unitWeWant;
+    #    
+    #    debug_log "camera create unit";
+    #    
+    #    rules.getRuleUnit unitWeWant "STR_XCOM_ROBOTURRET_LASER";
+    #    
+    #    unit.setSpawnUnit unitWeWant;
+    #    unit.setSpawnUnitFaction 0;
+    #    unit.setSpawnUnitInstantRespawn 1;
+    #    
+    #    return;
+  - update: TRUCK_TURRET_ARMOR
+    heatVision: 50
+    visibilityAtDay: 35
+    visibilityAtDark: 20
+    antiCamouflageAtDay: 8
+    antiCamouflageAtDark: 4
+  - update: BUNKER_TURRET_ARMOR
+    heatVision: 50
+    visibilityAtDay: 35
+    visibilityAtDark: 20
+    antiCamouflageAtDay: 8
+    antiCamouflageAtDark: 4
+  - update: TRUCK_TURRET_14MM_ARMOR
+    heatVision: 50
+    visibilityAtDay: 35
+    visibilityAtDark: 20
+    antiCamouflageAtDay: 8
+    antiCamouflageAtDark: 4
+  - update: XTURRET_CANNON_ARMOR
+    heatVision: 65
+    visibilityAtDay: 35
+    visibilityAtDark: 20
+    antiCamouflageAtDay: 12
+    antiCamouflageAtDark: 6
+  - update: XTURRET_LASER_ARMOR
+    heatVision: 75
+    visibilityAtDay: 45
+    visibilityAtDark: 25
+    antiCamouflageAtDay: 15
+    antiCamouflageAtDark: 10
+  - update: XTURRET_GAUSS_ARMOR
+    heatVision: 75
+    visibilityAtDay: 45
+    visibilityAtDark: 25
+    antiCamouflageAtDay: 15
+    antiCamouflageAtDark: 10
+  - update: XTURRET_PLASMA_ARMOR
+    heatVision: 75
+    visibilityAtDay: 45
+    visibilityAtDark: 25
+    antiCamouflageAtDay: 15
+    antiCamouflageAtDark: 10

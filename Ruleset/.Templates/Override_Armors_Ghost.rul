@@ -1,0 +1,9 @@
+armors:
+  - update: STR_PIR_SPECTRE_UC
+  - update: STR_DULLAHAN_SUIT_UC
+  - update: STR_DULLAHAN_SUIT_SEA_UC
+  - update: STR_SLIMEGAL_BODY_UC
+  - update: STR_SLIMEGAL_BODY_SEA_UC
+  - update: STR_PIR_SPECTRE_DREAMLAND_UC
+  - update: STR_CHORT_ARMOR_UC
+  - update: STR_CHORT_ARMOR_INFILTRATION_UC

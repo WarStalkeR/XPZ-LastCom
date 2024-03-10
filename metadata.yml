@@ -1,0 +1,8 @@
+name: "Last Commander"
+version: "N5.2.1"
+description: "The abandoned fortress contained one more unexpected specimen, considered perished along with the forgotten history of the Old Earth."
+author: "WarStalkeR"
+id: xpzLastCommander
+reservedSpace: 3
+master: piratez
+requiredExtendedVersion: "7.9.8"

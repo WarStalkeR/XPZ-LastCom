@@ -1,0 +1,90 @@
+eventScripts:
+### New Entries
+  # Super Anomaly Tension Event
+  - type: STR_LIMITLESS_ANOMALY_TENSION_EVENT
+    eventWeights:
+      0:
+        STR_LIMITLESS_ANOMALY_TENSION_EVENT: 100
+    researchTriggers:
+       STR_ANOMALY_DEP2: false
+    itemTriggers:
+       STR_FORTUNA_ANOMALY: true
+       STR_FUEGO_ANOMALY: true
+       STR_METALLO_ANOMALY: true
+       STR_VENTURA_ANOMALY: true
+    executionOdds: 100
+
+  # Super Anomaly Stable Event
+  - type: STR_LIMITLESS_ANOMALY_EVENT
+    eventWeights:
+      0:
+        STR_LIMITLESS_ANOMALY_EVENT: 100
+    researchTriggers:
+       STR_ANOMALY_DEP2: false
+    itemTriggers:
+       STR_FORTUNA_ANOMALY: true
+       STR_FUEGO_ANOMALY: true
+       STR_METALLO_ANOMALY: true
+       STR_VENTURA_ANOMALY: true
+    executionOdds: 100
+
+### Related Overrides
+  # Tensions Dedicated Trigger
+  - update: STR_FORTUNA_ANOMALY_TENSION_EVENT
+    itemTriggers:
+       STR_FORTUNA_ANOMALY: true
+       STR_FUEGO_ANOMALY: false
+       STR_METALLO_ANOMALY: false
+       STR_VENTURA_ANOMALY: false
+  - update: STR_FUEGO_ANOMALY_TENSION_EVENT
+    itemTriggers:
+       STR_FORTUNA_ANOMALY: false
+       STR_FUEGO_ANOMALY: true
+       STR_METALLO_ANOMALY: false
+       STR_VENTURA_ANOMALY: false
+  - update: STR_METALLO_ANOMALY_TENSION_EVENT
+    itemTriggers:
+       STR_FORTUNA_ANOMALY: false
+       STR_FUEGO_ANOMALY: false
+       STR_METALLO_ANOMALY: true
+       STR_VENTURA_ANOMALY: false
+  - update: STR_VENTURA_ANOMALY_TENSION_EVENT
+    itemTriggers:
+       STR_FORTUNA_ANOMALY: false
+       STR_FUEGO_ANOMALY: false
+       STR_METALLO_ANOMALY: false
+       STR_VENTURA_ANOMALY: true
+
+  # Anomalies Dedicated Trigger
+  - update: STR_FORTUNA_ANOMALY_EVENT
+    itemTriggers:
+       STR_FORTUNA_ANOMALY: true
+       STR_FUEGO_ANOMALY: false
+       STR_METALLO_ANOMALY: false
+       STR_VENTURA_ANOMALY: false
+  - update: STR_FUEGO_ANOMALY_EVENT
+    itemTriggers:
+       STR_FORTUNA_ANOMALY: false
+       STR_FUEGO_ANOMALY: true
+       STR_METALLO_ANOMALY: false
+       STR_VENTURA_ANOMALY: false
+  - update: STR_METALLO_ANOMALY_EVENT
+    itemTriggers:
+       STR_FORTUNA_ANOMALY: false
+       STR_FUEGO_ANOMALY: false
+       STR_METALLO_ANOMALY: true
+       STR_VENTURA_ANOMALY: false
+  - update: STR_VENTURA_ANOMALY_EVENT
+    itemTriggers:
+       STR_FORTUNA_ANOMALY: false
+       STR_FUEGO_ANOMALY: false
+       STR_METALLO_ANOMALY: false
+       STR_VENTURA_ANOMALY: true
+
+### Integration
+  # Ninja War Requires Rank
+  - update: STR_GODS_WILL_BE_WATCHING
+    lastMonth: -1
+    researchTriggers:
+       STR_CAPTAINS_RANK_03: true
+       STR_NINJA_WAR: false

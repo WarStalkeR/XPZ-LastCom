@@ -1,0 +1,78 @@
+research:
+  - name: STR_CAPTAINS_RANK_01_UNLOCK
+    cost: 1
+  - name: STR_CAPTAINS_RANK_02_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_01_UNLOCK
+      - STR_CAPTAINS_RANK_01
+  - name: STR_CAPTAINS_RANK_03_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_02_UNLOCK
+      - STR_CAPTAINS_RANK_02
+  - name: STR_CAPTAINS_RANK_04_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_03_UNLOCK
+      - STR_CAPTAINS_RANK_03
+  - name: STR_CAPTAINS_RANK_05_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_04_UNLOCK
+      - STR_CAPTAINS_RANK_04
+  - name: STR_CAPTAINS_RANK_06_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_05_UNLOCK
+      - STR_CAPTAINS_RANK_05
+  - name: STR_CAPTAINS_RANK_07_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_06_UNLOCK
+      - STR_CAPTAINS_RANK_06
+  - name: STR_CAPTAINS_RANK_08_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_07_UNLOCK
+      - STR_CAPTAINS_RANK_07
+  - name: STR_CAPTAINS_RANK_09_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_08_UNLOCK
+      - STR_CAPTAINS_RANK_08
+  - name: STR_CAPTAINS_RANK_10_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_09_UNLOCK
+      - STR_CAPTAINS_RANK_09
+  - name: STR_CAPTAINS_RANK_11_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_10_UNLOCK
+      - STR_CAPTAINS_RANK_10
+  - name: STR_CAPTAINS_RANK_12_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_11_UNLOCK
+      - STR_CAPTAINS_RANK_11
+  - name: STR_CAPTAINS_RANK_13_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_12_UNLOCK
+      - STR_CAPTAINS_RANK_12
+  - name: STR_CAPTAINS_RANK_14_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_13_UNLOCK
+      - STR_CAPTAINS_RANK_13
+  - name: STR_CAPTAINS_RANK_15_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_14_UNLOCK
+      - STR_CAPTAINS_RANK_14
+  - name: STR_CAPTAINS_RANK_16_UNLOCK
+    cost: 1
+    dependencies:
+      - STR_CAPTAINS_RANK_15_UNLOCK
+      - STR_CAPTAINS_RANK_15

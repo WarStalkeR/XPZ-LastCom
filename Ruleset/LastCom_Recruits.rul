@@ -1,0 +1,11 @@
+soldiers:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # No Monthly Limit
+  - update: STR_SOLDIER_OGRE
+    monthlyBuyLimit: 0
+  - update: STR_SOLDIER_NEKOMIMI
+    monthlyBuyLimit: 0

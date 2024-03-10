@@ -1,0 +1,227 @@
+ufos:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # Score Rebalance
+  - update: STR_SMALL_SCOUT
+    score: 100
+  - update: STR_MEDIUM_SCOUT_D
+    score: 250
+  - update: STR_MEDIUM_SCOUT
+    score: 250
+  - update: STR_LARGE_SCOUT
+    score: 400
+  - update: STR_HARVESTER
+    score: 1800
+  - update: STR_ABDUCTOR
+    score: 1200
+  - update: STR_TERROR_SHIP
+    score: 2000
+  - update: STR_BATTLESHIP
+    score: 3500
+  - update: STR_VESSEL_SEKTRAK
+    score: 300
+  - update: STR_VESSEL_SEKAR
+    score: 200
+  - update: STR_VESSEL_SEC_SCOUT
+    score: 100
+  - update: STR_VESSEL_BOARDING_TORPEDO
+    score: 800
+  - update: STR_VESSEL_BREAKER
+    score: 1100
+  - update: STR_VESSEL_ASSAULT_TRANSPORT
+    score: 1400
+  - update: STR_VESSEL_EXCAVATOR
+    score: 300
+  - update: STR_VESSEL_MESSENGER
+    score: 800
+  - update: STR_VESSEL_SMUGGLER_MILENIO
+    score: 100
+  - update: STR_VESSEL_SMUGGLER
+    score: 100
+  - update: STR_VESSEL_NAZI
+    score: 250
+  - update: STR_VESSEL_TEC_01
+    score: 300
+  - update: STR_VESSEL_PINK
+    score: 200
+  - update: STR_VESSEL_ESCORT
+    score: 600
+  - update: STR_VESSEL_SENTRY
+    score: 300
+  - update: STR_VESSEL_FIGHTER
+    score: 300
+  - update: STR_VESSEL_FIGHTER_G
+    score: -100
+  - update: STR_VESSEL_FIGHTER_HUNT
+    score: 300
+  - update: STR_VESSEL_VIPER_FIGHTER
+    score: 600
+  - update: STR_VESSEL_MARSEC_GUNSHIP
+    score: 1800
+  - update: STR_VESSEL_GOVSHIP
+    score: -200
+  - update: STR_VESSEL_GOVSHIP_ASSAULT
+    score: -200
+  - update: STR_VESSEL_GOVT_CRUISER
+    score: -1500
+  - update: STR_VESSEL_RAIDER
+    score: 300
+  - update: STR_VESSEL_RAIDER_GUNSHIP
+    score: 800
+  - update: STR_VESSEL_RAIDER_FIGHTER
+    score: 200
+  - update: STR_VESSEL_REBEL_FIGHTER
+    score: -500
+  - update: STR_VESSEL_REBEL_FREIGHTER
+    score: -500
+  - update: STR_VESSEL_GUNBOAT
+    score: 500
+  - update: STR_VESSEL_LIGHT_GUNBOAT
+    score: 300
+  - update: STR_VESSEL_MILITARY_TRANSPORT
+    score: 800
+  - update: STR_VESSEL_HOPPER
+    score: 300
+  - update: STR_VESSEL_HOPPER_ACADEMY
+    score: 300
+  - update: STR_VESSEL_HOTROD
+    score: 200
+  - update: STR_VESSEL_COURIER
+    score: 700
+  - update: STR_VESSEL_GUNSHIP
+    score: 1000
+  - update: STR_VESSEL_HEAVY_GUNSHIP
+    score: 1500
+  - update: STR_VESSEL_CORVETTE
+    score: 1800
+  - update: STR_VESSEL_FRIGATE
+    score: 2200
+  - update: STR_VESSEL_DESTROYER
+    score: 3000
+  - update: STR_VESSEL_SOTL
+    score: 6000
+  - update: STR_VESSEL_BOMBER
+    score: 3000
+  - update: STR_VESSEL_FREIGHTER_G
+    score: 1300
+  - update: STR_VESSEL_FREIGHTER_L
+    score: 1000
+  - update: STR_VESSEL_FREIGHTER
+    score: 1600
+  - update: STR_VESSEL_HEAVY_FREIGHTER
+    score: 2000
+  - update: STR_VESSEL_SNAKEBOAT
+    score: 2400
+  - update: STR_SUPPLY_SHIP
+    score: 1000
+  - update: STR_VESSEL_LABSHIP
+    score: 2500
+  - update: STR_VESSEL_SILVER_TOWERS
+    score: 6000
+  - update: STR_VESSEL_BRUH_CYD
+    score: 12000
+  - update: STR_VESSEL_AIRBUS
+    score: 120
+  - update: STR_VESSEL_AMBULANCE
+    score: 200
+  - update: STR_VESSEL_NIN_1
+    score: 800
+  - update: STR_VESSEL_NIN_2
+    score: 600
+  - update: STR_VESSEL_NIN_APC
+    score: 200
+  - update: STR_VESSEL_NIN_CRAWLER
+    score: 500
+  - update: STR_VESSEL_NIN_LANDCRUISER
+    score: 1500
+  - update: STR_VESSEL_NIN_LANDCRUISER_BA
+    score: 1500
+  - update: STR_VESSEL_NIN_CASTLE
+    score: 4000
+  - update: STR_VESSEL_NIN_HOVERTRUCK_PRISON
+    score: 800
+  - update: STR_VESSEL_NIN_MLRS
+    score: 600
+  - update: STR_VESSEL_NIN_MIG
+    score: 150
+  - update: STR_VESSEL_NIN_INTERCEPTOR
+    score: 250
+  - update: STR_VESSEL_NIN_BOMBER
+    score: 200
+  - update: STR_VESSEL_NIN_JETBIKE
+    score: 80
+  - update: STR_VESSEL_POL_CHASER
+    score: 160
+  - update: STR_VESSEL_POL_CRUISER
+    score: 240
+  - update: STR_VESSEL_POL_INTERCEPTOR
+    score: 320
+  - update: STR_VESSEL_POL_DROPSHIP
+    score: 240
+  - update: STR_VESSEL_POL_PATROL
+    score: 160
+  - update: STR_VESSEL_BANDIT_WASP
+    score: 140
+  - update: STR_VESSEL_BANDIT_MOSQUITO
+    score: 170
+  - update: STR_VESSEL_BANDIT_COBRA
+    score: 200
+  - update: STR_VESSEL_CC_TRANSIT
+    score: 70
+  - update: STR_VESSEL_CC_SKYBUS
+    score: 70
+  - update: STR_VESSEL_CC_FAUST
+    score: 70
+  - update: STR_VESSEL_CC_SKYFISH
+    score: 70
+  - update: STR_VESSEL_CC_CLOUDCAR
+    score: 70
+  - update: STR_VESSEL_CE_LIMO
+    score: 250
+  - update: STR_VESSEL_CE_CHASER
+    score: 120
+  - update: STR_VESSEL_CI_TRUCK
+    score: 100
+  - update: STR_VESSEL_CI_HARVESTER
+    score: 130
+  - update: STR_CIVILIAN_TRAFFIC
+    score: 80
+  - update: STR_VESSEL_MISSILES_1
+    score: 120
+  - update: STR_VESSEL_MISSILES_3
+    score: 180
+  - update: STR_VESSEL_PROBE
+    score: 50
+  - update: STR_VESSEL_BLACK_HELICOPTER
+    score: 80
+  - update: STR_VESSEL_RUSTFIGHTER3
+    score: 100
+  - update: STR_VESSEL_CRASHPLANE
+    score: 140
+  - update: STR_VESSEL_BANDIT_ZEPP
+    score: 140
+  - update: STR_VESSEL_BOGEYMAN_FLOCK
+    score: 130
+  - update: STR_VESSEL_BOGEYMAN_FLOCK_HUNT
+    score: 130
+  - update: STR_VESSEL_HARBINGER_OF_DOOM
+    score: 1200
+  - update: STR_VESSEL_DREADKNIGHT_FIGHTER
+    score: 400
+  - update: STR_VESSEL_GHOUL_CRAWLER
+    score: 100
+  - update: STR_VESSEL_RUFF_RAIDERS
+    score: 100
+  - update: STR_VESSEL_MILCONVOY
+    score: 90
+  - update: STR_VESSEL_ROGUE_COURIER
+    score: 70
+  - update: STR_VESSEL_FOOT_PATROL
+    score: 40
+  - update: STR_VESSEL_FOOT_PATROL_NECRO
+    score: 40
+  - update: STR_VESSEL_ZOMBIE_ARMY
+    score: 1500

@@ -1,0 +1,132 @@
+ufopaedia:
+### Original Ufopaedia Entries Override
+  # Advanced Living Quarters
+  - id: STR_LIVING_QUARTERS_ADVANCED
+    requires:
+      - STR_LUXURY_LIVING
+
+  # Old Civilian Hangar
+  - id: STR_HANGAR
+    text: STR_HANGAR_UFOPEDIA
+    listOrder: 19155
+  - id: STR_HANGAR_DAMAGED
+    text: STR_HANGAR_UFOPEDIA
+    listOrder: 19156
+
+### Last Commander New Ufopaedia Entries
+  # Reinforced Hangar
+  - id: STR_HANGAR_REINFORCED
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_INSPECT_MACHINERY
+    text: STR_HANGAR_REINFORCED_UFOPEDIA
+    listOrder: 19157
+  - id: STR_HANGAR_REINFORCED_DAMAGE_1
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_UNAVAILABLE
+    text: STR_HANGAR_REINFORCED_UFOPEDIA
+    listOrder: 19158
+  - id: STR_HANGAR_REINFORCED_RUIN
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_UNAVAILABLE
+    text: STR_HANGAR_REINFORCED_UFOPEDIA
+    listOrder: 19159
+
+  # Composite Hangar
+  - id: STR_HANGAR_COMPOSITE
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_INSPECT_MACHINERY
+    text: STR_HANGAR_COMPOSITE_UFOPEDIA
+    listOrder: 19160
+  - id: STR_HANGAR_COMPOSITE_RUIN
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_UNAVAILABLE
+    text: STR_HANGAR_COMPOSITE_UFOPEDIA
+    listOrder: 19161
+
+  # Interception Hangar
+  - id: STR_HANGAR_INTERCEPTOR
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_INSPECT_MACHINERY
+    text: STR_HANGAR_INTERCEPTOR_UFOPEDIA
+    listOrder: 19162
+  - id: STR_HANGAR_INTERCEPTOR_RUIN
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_UNAVAILABLE
+    text: STR_HANGAR_INTERCEPTOR_UFOPEDIA
+    listOrder: 19163
+
+  # Relic X-COM Hangar
+  - id: STR_HANGAR_XCOM_RELIC
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_INSPECT_MACHINERY
+    text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
+    listOrder: 19164
+  - id: STR_HANGAR_XCOM_RELIC_SEALED
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_UNAVAILABLE
+    text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
+    listOrder: 19165
+  - id: STR_HANGAR_XCOM_RELIC_CLOSED
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_UNAVAILABLE
+    text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
+    listOrder: 19166
+  - id: STR_HANGAR_XCOM_RELIC_DAMAGE_1
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_UNAVAILABLE
+    text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
+    listOrder: 19167
+  - id: STR_HANGAR_XCOM_RELIC_DAMAGE_2
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_UNAVAILABLE
+    text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
+    listOrder: 19168
+  - id: STR_HANGAR_XCOM_RELIC_DAMAGE_3
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_UNAVAILABLE
+    text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
+    listOrder: 19169
+  - id: STR_HANGAR_XCOM_RELIC_RUIN
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_UNAVAILABLE
+    text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
+    listOrder: 19170
+
+  # No Codex Selection Limit
+  - id: STR_TINY_DRILL_OVERRIDE
+    type_id: 7
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_TINY_DRILL_OVERRIDE
+    text: STR_TINY_DRILL_OVERRIDE_UFOPAEDIA
+    image_id: BIG_CODEX_CHOICE
+    text_width: 310
+    listOrder: 15401

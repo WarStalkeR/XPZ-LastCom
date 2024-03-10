@@ -1,0 +1,37 @@
+craftsCanChangeClass: false
+craftClasses:
+  500: STR_CRAFT_CLASS_MX
+  300: STR_CRAFT_CLASS_11
+  200: STR_CRAFT_CLASS_10
+  140: STR_CRAFT_CLASS_09
+  100: STR_CRAFT_CLASS_08
+  70: STR_CRAFT_CLASS_07
+  50: STR_CRAFT_CLASS_06
+  30: STR_CRAFT_CLASS_05
+  20: STR_CRAFT_CLASS_04
+  10: STR_CRAFT_CLASS_03
+  2: STR_CRAFT_CLASS_02
+  1: STR_CRAFT_CLASS_01
+  0: STR_CRAFT_CLASS_NA
+  -1: STR_CRAFT_CLASS_NO
+fixedUserOptions:
+  oxcePediaShowClipSize: true
+  oxceBaseCraftListShowClass: true
+  oxceBaseCraftListClassShort: false
+  oxceBasescapeShortHangarLinks: true
+  oxcePediaFacilityLockedStats: false
+  oxcePediaFacilityRowsCutoff: 5
+  oxcePediaFacilityColOffset: 0
+constants:
+  extendedPediaFacilityParams: [3, 3, -16, -16]
+initialFunding: 1500
+lessAliensDuringBaseDefense: true
+allowCountriesToCancelAlienPact: true
+accelerationPenaltyStandoff: 10
+accelerationPenaltyCautious: 10
+accelerationPenaltyCombat: 10
+accelerationPenaltyManeuver: 10
+accelerationCoefficientStandoff: [20, 10]
+accelerationCoefficientCautious: [35, 15]
+accelerationCoefficientCombat: [50, 20]
+accelerationCoefficientManeuver: [70, 25]

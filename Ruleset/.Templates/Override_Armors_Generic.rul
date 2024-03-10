@@ -1,0 +1,5 @@
+armors:
+  - update: STR_UAC_SPACE_SUIT_UC
+  - update: STR_UAC_SPACE_SUIT_SEA_UC
+  - update: STR_UAC_SPACE_SUIT_SPACE_UC
+  - update: BOXX_ARMOR

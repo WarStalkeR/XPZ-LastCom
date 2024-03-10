@@ -1,0 +1,451 @@
+ufopaedia:
+  - id: STR_WRECK
+    rect_stats:
+      x: 245
+      y: 15
+      width: 100
+      height: 48
+  - id: STR_NECROWRECK
+    rect_stats:
+      x: 245
+      y: 15
+      width: 100
+      height: 48
+  - id: STR_VENTURA
+    rect_stats:
+      x: 220
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_FUEGO
+    rect_stats:
+      x: 220
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_FORTUNA
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_METALLO
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_DROPSHIP
+    rect_stats:
+      x: 220
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_BRIG
+    rect_stats:
+      x: 5
+      y: 135
+      width: 160
+      height: 64
+  - id: STR_AIRSPEEDER
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_AIRCAR
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_PIRANHA_AIRBIKE
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_AIRVAN
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_AIRBUS_STANDARD
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_AIRTRUCK
+    rect_stats:
+      x: 240
+      y: 120
+      width: 160
+      height: 64
+  - id: STR_FAUST
+    rect_stats:
+      x: 5
+      y: 130
+      width: 160
+      height: 64
+  - id: STR_WAR_HARVESTER
+    rect_stats:
+      x: 5
+      y: 40
+      width: 80
+      height: 64
+  - id: STR_SCHOOLBUS
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_GDXCAR
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_GOLDHAWK
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_SAKURABUS
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_WHITEWORM
+    rect_stats:
+      x: 240
+      y: 120
+      width: 160
+      height: 64
+  - id: STR_SCARAB
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_MI2400
+    rect_stats:
+      x: 5
+      y: 52
+      width: 160
+      height: 64
+  - id: STR_VERDANT_SNAKE
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_SAPPHIRE_JELLYFISH
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_SHADOWBAT
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_CHARIOT
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_FIRESTORM
+    rect_stats:
+      x: 220
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_DRAKKAR
+    rect_stats:
+      x: 240
+      y: 130
+      width: 160
+      height: 64
+  - id: STR_DEVASTATOR
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_JETBIKE
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_INTERCEPTOR
+    rect_stats:
+      x: 230
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_PREDATOR
+    rect_stats:
+      x: 240
+      y: 138
+      width: 160
+      height: 64
+  - id: STR_NIGHTMARE
+    rect_stats:
+      x: 225
+      y: 135
+      width: 160
+      height: 64
+  - id: STR_SABRE
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_BRAVE_WHALER
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_BARACUDA
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_SWORDFISH
+    rect_stats:
+      x: 240
+      y: 130
+      width: 160
+      height: 64
+  - id: STR_LIGHTNING
+    rect_stats:
+      x: 5
+      y: 135
+      width: 160
+      height: 64
+  - id: STR_KRAKEN
+    rect_stats:
+      x: 5
+      y: 135
+      width: 160
+      height: 64
+  - id: STR_HYDRA
+    rect_stats:
+      x: 5
+      y: 135
+      width: 160
+      height: 64
+  - id: STR_MINING_SHIP
+    rect_stats:
+      x: 240
+      y: 130
+      width: 160
+      height: 64
+  - id: STR_MRSHAN_FIGHTER
+    rect_stats:
+      x: 230
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_FIREFOX
+    rect_stats:
+      x: 230
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_M_WING
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 48
+  - id: STR_RAIL_POD
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_FATSUB
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_TRITON
+    rect_stats:
+      x: 230
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_SKYRANGER
+    rect_stats:
+      x: 160
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_TIGERSHARK
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_SPITFIRE
+    rect_stats:
+      x: 240
+      y: 10
+      width: 160
+      height: 64
+  - id: STR_BUCKAROO
+    rect_stats:
+      x: 240
+      y: 140
+      width: 160
+      height: 64
+  - id: STR_HYPERJET
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_NECROBOMBER
+    rect_stats:
+      x: 240
+      y: 10
+      width: 160
+      height: 64
+  - id: STR_LITTLE_BIRD
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_WAR_BIRD
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_THUNDER_BIRD
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_HUEY
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_BIG_BIRD
+    rect_stats:
+      x: 240
+      y: 110
+      width: 160
+      height: 64
+  - id: STR_PIGEON
+    rect_stats:
+      x: 230
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_ZEPPELIN
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_HUNTING_PARTY
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_RAIDING_PARTY
+    rect_stats:
+      x: 5
+      y: 130
+      width: 160
+      height: 64
+  - id: STR_EXPEDITION
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_CONVOY
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_TRUCKS
+    rect_stats:
+      x: 236
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_CADILLAC
+    rect_stats:
+      x: 5
+      y: 130
+      width: 160
+      height: 64
+  - id: STR_BIKES
+    rect_stats:
+      x: 240
+      y: 60
+      width: 160
+      height: 64
+  - id: STR_HIGHWAY_STAR
+    rect_stats:
+      x: 240
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_BATTLE_TAXI
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_MBT
+    rect_stats:
+      x: 245
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_HUMVEE
+    rect_stats:
+      x: 230
+      y: 5
+      width: 160
+      height: 64
+  - id: STR_DELOREAN
+    rect_stats:
+      x: 230
+      y: 125
+      width: 160
+      height: 64
+  - id: STR_CAPSULE
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_AVENGER
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64

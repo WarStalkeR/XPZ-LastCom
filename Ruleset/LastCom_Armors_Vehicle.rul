@@ -1,0 +1,11 @@
+armors:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # Obsolete Sentry Fix
+  - update: HWP_SENTRY_LAUNCHER_ARMOR
+    createsMeleeThreat: false
+    allowsKneeling: false
+    allowsMoving: false

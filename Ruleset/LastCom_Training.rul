@@ -1,0 +1,458 @@
+soldierTransformation:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # Repeatable Training
+  - update: STR_PERSONAL_ATTENTION
+    cost: 15000
+    allowedSoldierTypes: &ALL_PIRATEZ
+      - STR_SOLDIER
+      - STR_SOLDIER_S
+      - STR_SOLDIER_M
+      - STR_SOLDIER_V
+      - STR_SOLDIER_R
+      - STR_SOLDIER_X
+      - STR_SOLDIER_W
+      - STR_SOLDIER_SLAVE
+      - STR_SOLDIER_PUREBLOOD
+      - STR_SOLDIER_HERO
+      - STR_SOLDIER_PEASANT
+      - STR_SOLDIER_DAMSEL
+      - STR_SOLDIER_HYBRID
+      - STR_SOLDIER_LOKNAR
+      - STR_SOLDIER_GNOME
+      - STR_SOLDIER_OGRE
+      - STR_SOLDIER_SYNTH
+      - STR_SOLDIER_CHORT
+      - STR_SOLDIER_NEKOMIMI
+      - STR_SOLDIER_NEKOMIMI_O
+      - STR_SOLDIER_NEKOMIMI_W
+      - STR_SOLDIER_NEKOMIMI_H
+    flatMin:
+      tu: 2
+      stamina: 2
+      health: 2
+      bravery: 0
+      reactions: 2
+      firing: 2
+      throwing: 2
+      strength: 2
+      psiStrength: 0
+      psiSkill: 0
+      melee: 2
+      mana: 2
+    flatMax:
+      tu: 5
+      stamina: 5
+      health: 5
+      bravery: 2
+      reactions: 5
+      firing: 5
+      throwing: 5
+      strength: 5
+      psiStrength: 2
+      psiSkill: 2
+      melee: 5
+      mana: 5
+    flatOverallStatChange: &STATS_ZERO
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+      mana: 0
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_PERSONAL_ATTENTION
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_REVOLUTIONARY_TRAINING
+    allowedSoldierTypes: *ALL_PIRATEZ
+    cost: 75000
+    transferTime: 0
+    recoveryTime: 35
+    flatMin:
+      tu: 10
+      stamina: 12
+      health: 8
+      bravery: 2
+      reactions: 8
+      firing: 14
+      throwing: 12
+      strength: 6
+      psiStrength: 12
+      psiSkill: 2
+      melee: 16
+      mana: 14
+    flatMax:
+      tu: 25
+      stamina: 30
+      health: 20
+      bravery: 5
+      reactions: 20
+      firing: 40
+      throwing: 30
+      strength: 15
+      psiStrength: 30
+      psiSkill: 5
+      melee: 40
+      mana: 35
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_REVOLUTIONARY_TRAINING
+      - STR_SUN_WARRIORS_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_MILITIA_TRAINING
+    allowedSoldierTypes: *ALL_PIRATEZ
+    cost: 35000
+    flatMin:
+      tu: 4
+      stamina: 4
+      health: 2
+      bravery: 2
+      reactions: 4
+      firing: 6
+      throwing: 6
+      melee: 6
+    flatMax:
+      tu: 10
+      stamina: 10
+      health: 5
+      bravery: 5
+      reactions: 10
+      firing: 15
+      throwing: 15
+      melee: 15
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_MILITIA_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_SIMPLETON_TRAINING
+    cost: 7500
+    recoveryTime: 14
+    flatMin:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      strength: 0
+      psiStrength: 0
+    flatMax:
+      tu: 5
+      stamina: 5
+      health: 3
+      bravery: 2
+      strength: 3
+      psiStrength: 2
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_SIMPLETON_TRAINING
+      - STR_PERSON_OF_CULTURE_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_PERSON_OF_CULTURE_TRAINING
+    cost: 12500
+    transferTime: 0
+    recoveryTime: 7
+    requiredItems:
+      STR_PORN: 5
+    flatMin:
+      tu: 0
+      stamina: 0
+      health: 0
+      firing: 2
+      psiStrength: 0
+      melee: 0
+      mana: 4
+    flatMax:
+      tu: 3
+      stamina: 3
+      health: 2
+      firing: 5
+      psiStrength: 2
+      melee: 5
+      mana: 10
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_SIMPLETON_TRAINING
+      - STR_PERSON_OF_CULTURE_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_HUNTRESS_TRAINING
+    cost: 17500
+    recoveryTime: 21
+    flatMin:
+      tu: 2
+      stamina: 6
+      health: 2
+      reactions: 2
+      throwing: 8
+    flatMax:
+      tu: 5
+      stamina: 15
+      health: 5
+      reactions: 5
+      throwing: 20
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_HUNTRESS_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_MAGICIENNE_TRAINING
+    requiredItems:
+      STR_SECTOWEED: 10
+    flatMin:
+      psiSkill: 1
+    flatMax:
+      psiSkill: 3
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_MAGICIENNE_TRAINING
+      - STR_BOOT_CAMP_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_SUN_WARRIORS_TRAINING
+    cost: 27500
+    recoveryTime: 21
+    flatMin:
+      tu: 2
+      stamina: 8
+      health: 4
+      bravery: 4
+      strength: 4
+      psiStrength: 0
+      melee: 2
+      mana: 4
+    flatMax:
+      tu: 5
+      stamina: 20
+      health: 10
+      bravery: 10
+      strength: 10
+      psiStrength: 3
+      melee: 5
+      mana: 10
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_SUN_WARRIORS_TRAINING
+      - STR_REVOLUTIONARY_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_HOLY_WARRIOR_TRAINING
+    cost: 27500
+    flatMin:
+      tu: 4
+      stamina: 4
+      health: 6
+      bravery: 2
+      strength: 2
+      psiStrength: 0
+      melee: 2
+    flatMax:
+      tu: 10
+      stamina: 10
+      health: 15
+      bravery: 5
+      strength: 5
+      psiStrength: 2
+      melee: 5
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_HOLY_WARRIOR_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_CHARMY_DANCE_TRAINING
+    cost: 17500
+    flatMin:
+      tu: 5
+      stamina: 5
+      health: 5
+      bravery: 5
+      reactions: 5
+      psiSkill: 2
+      mana: 5
+    flatMax:
+      tu: 10
+      stamina: 10
+      health: 10
+      bravery: 10
+      reactions: 10
+      psiSkill: 5
+      mana: 10
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_CHARMY_DANCE_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_MMA_TRAINING
+    cost: 25000
+    flatMin:
+      tu: 4
+      stamina: 6
+      bravery: 4
+      reactions: 4
+      throwing: 2
+      psiStrength: 0
+      melee: 6
+      mana: 4
+    flatMax:
+      tu: 10
+      stamina: 15
+      bravery: 10
+      reactions: 10
+      throwing: 5
+      psiStrength: 1
+      melee: 15
+      mana: 10
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_MMA_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_GLADIATOR_TRAINING
+    cost: 35000
+    recoveryTime: 28
+    flatMin:
+      tu: 4
+      stamina: 4
+      health: 4
+      bravery: 4
+      reactions: 4
+      throwing: 2
+      strength: 6
+      melee: 8
+    flatMax:
+      tu: 10
+      stamina: 10
+      health: 10
+      bravery: 10
+      reactions: 10
+      throwing: 5
+      strength: 15
+      melee: 20
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_GLADIATOR_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_BOOT_CAMP_TRAINING
+    cost: 50000
+    recoveryTime: 28
+    flatMin:
+      tu: 10
+      stamina: 8
+      health: 6
+      bravery: 6
+      reactions: 4
+      firing: 4
+      throwing: 4
+      strength: 4
+      psiStrength: 2
+      psiSkill: 2
+      melee: 4
+      mana: 4
+    flatMax:
+      tu: 25
+      stamina: 20
+      health: 15
+      bravery: 15
+      reactions: 10
+      firing: 10
+      throwing: 10
+      strength: 10
+      psiStrength: 5
+      psiSkill: 5
+      melee: 10
+      mana: 10
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_BOOT_CAMP_TRAINING
+      - STR_MAGICIENNE_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_BASIC_FIREARMS_TRAINING
+    cost: 12500
+    flatMin:
+      reactions: 2
+      firing: 6
+    flatMax:
+      reactions: 5
+      firing: 15
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_BASIC_FIREARMS_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+  - update: STR_GUN_KATA_TRAINING
+    cost: 17500
+    recoveryTime: 14
+    flatMin:
+      reactions: 4
+      firing: 8
+      throwing: 6
+    flatMax:
+      reactions: 10
+      firing: 20
+      throwing: 15
+    flatOverallStatChange: *STATS_ZERO
+    percentGainedStatChange: *STATS_ZERO
+    forbiddenPreviousTransformations: !remove
+      - STR_GUN_KATA_TRAINING
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: true
+
+  # Negative Effects Removal
+  - update: STR_SHAKEUP
+    percentGainedStatChange: *STATS_ZERO
+  - update: STR_SYN_ACCEPTANCE_TRAINING
+    percentGainedStatChange: *STATS_ZERO
+  - update: STR_SLEEPING_BEAUTY_REVIVAL
+    percentGainedStatChange: *STATS_ZERO
+  - update: STR_SLEEPING_BEAUTY_REVIVAL_PLUS
+    percentGainedStatChange: *STATS_ZERO
+  - update: STR_ZOMBI_REVIVAL
+    percentGainedStatChange: *STATS_ZERO
+  - update: STR_BODY_SWAP
+    percentGainedStatChange: *STATS_ZERO
+  - update: STR_SPECTRE_SUMMONING
+    percentGainedStatChange: *STATS_ZERO
+  - update: STR_SOLDIER_TYPE_SYNTH_REVIVAL
+    percentGainedStatChange: *STATS_ZERO

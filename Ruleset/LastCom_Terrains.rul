@@ -1,0 +1,44 @@
+terrains:
+  - name: XBASE
+    addOnly: true
+    mapBlocks:
+      - name: XBR_1000
+        width: 10
+        length: 10
+        items:
+          STR_SPAWN_CAMERA:
+            - [4, 4, 4]
+        fuseTimers:
+          STR_SPAWN_CAMERA: [0, 0]
+      - name: XBR_1001
+        width: 10
+        length: 10
+        items:
+          STR_SPAWN_CAMERA:
+            - [2, 2, 4]
+        fuseTimers:
+          STR_SPAWN_CAMERA: [0, 0]
+      - name: XBR_1002
+        width: 10
+        length: 10
+        items:
+          STR_SPAWN_CAMERA:
+            - [6, 2, 4]
+        fuseTimers:
+          STR_SPAWN_CAMERA: [0, 0]
+      - name: XBR_1003
+        width: 10
+        length: 10
+        items:
+          STR_SPAWN_CAMERA:
+            - [2, 6, 4]
+        fuseTimers:
+          STR_SPAWN_CAMERA: [0, 0]
+      - name: XBR_1004
+        width: 10
+        length: 10
+        items:
+          STR_SPAWN_CAMERA:
+            - [6, 6, 4]
+        fuseTimers:
+          STR_SPAWN_CAMERA: [0, 0]

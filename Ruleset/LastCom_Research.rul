@@ -1,0 +1,284 @@
+research:
+### New Entries
+  # Early Luxury Quarters Info
+  - name: STR_LUXURY_LIVING
+    points: 30
+    dependencies:
+      - STR_INSPECT_MACHINERY
+
+  # No Codex Selection Limit
+  - name: STR_TINY_DRILL_OVERRIDE
+    cost: 100
+    points: 1000
+    dependencies:
+      - STR_TINY_DRILL_INVESTIGATION
+      - STR_CAPTAINS_RANK_04
+    disables:
+      - STR_ANOMALY_SHARD
+
+  # All Anomalies Use Lock
+  - name: STR_ANOMALY_CORE
+    points: 100
+    disables:
+      - STR_ANOMALY_SHARD
+    needItem: true
+
+  # Single Anomaly Use Lock
+  - name: STR_ANOMALY_SHARD
+    points: 100
+    disables:
+      - STR_TINY_DRILL_OVERRIDE
+      - STR_ANOMALY_CORE
+    needItem: true
+
+  # Limitless Anomaly Cutscene
+  - name: STR_LIMITLESS_ANOMALY_CHOICE
+    cutscene: HullAnomalyResearchCutscene
+    dependencies:
+      - STR_FORTUNA_ANOMALY
+      - STR_FUEGO_ANOMALY
+      - STR_METALLO_ANOMALY
+      - STR_VENTURA_ANOMALY
+      - STR_ANOMALY_CORE
+    disables:
+      - STR_FORTUNA_ANOMALY_CHOICE
+      - STR_FUEGO_ANOMALY_CHOICE
+      - STR_METALLO_ANOMALY_CHOICE
+      - STR_VENTURA_ANOMALY_CHOICE
+
+  # FORTUNA Anomaly Cutscene
+  - name: STR_FORTUNA_ANOMALY_CHOICE
+    cutscene: HullAnomalyResearchCutscene
+    dependencies:
+      - STR_FORTUNA_ANOMALY
+      - STR_ANOMALY_SHARD
+    disables:
+      - STR_FUEGO_ANOMALY_CHOICE
+      - STR_METALLO_ANOMALY_CHOICE
+      - STR_VENTURA_ANOMALY_CHOICE
+      - STR_LIMITLESS_ANOMALY_CHOICE
+
+  # FUEGO Anomaly Cutscene
+  - name: STR_FUEGO_ANOMALY_CHOICE
+    cutscene: HullAnomalyResearchCutscene
+    dependencies:
+      - STR_FUEGO_ANOMALY
+      - STR_ANOMALY_SHARD
+    disables:
+      - STR_FORTUNA_ANOMALY_CHOICE
+      - STR_METALLO_ANOMALY_CHOICE
+      - STR_VENTURA_ANOMALY_CHOICE
+      - STR_LIMITLESS_ANOMALY_CHOICE
+
+  # METALLO Anomaly Cutscene
+  - name: STR_METALLO_ANOMALY_CHOICE
+    cutscene: HullAnomalyResearchCutscene
+    dependencies:
+      - STR_METALLO_ANOMALY
+      - STR_ANOMALY_SHARD
+    disables:
+      - STR_FORTUNA_ANOMALY_CHOICE
+      - STR_FUEGO_ANOMALY_CHOICE
+      - STR_VENTURA_ANOMALY_CHOICE
+      - STR_LIMITLESS_ANOMALY_CHOICE
+
+  # VENTURA Anomaly Cutscene
+  - name: STR_VENTURA_ANOMALY_CHOICE
+    cutscene: HullAnomalyResearchCutscene
+    dependencies:
+      - STR_VENTURA_ANOMALY
+      - STR_ANOMALY_SHARD
+    disables:
+      - STR_FORTUNA_ANOMALY_CHOICE
+      - STR_FUEGO_ANOMALY_CHOICE
+      - STR_METALLO_ANOMALY_CHOICE
+      - STR_LIMITLESS_ANOMALY_CHOICE
+
+### Related Overrides
+  # Early Luxury Quarters Info
+  - update: STR_LIVING_QUARTERS_ADVANCED
+    dependencies: !add
+      - STR_LUXURY_LIVING
+  
+  # No Original Anomaly Cutscene
+  - update: STR_FORTUNA_ANOMALY
+    cutscene: ""
+  - update: STR_FUEGO_ANOMALY
+    cutscene: ""
+  - update: STR_METALLO_ANOMALY
+    cutscene: ""
+  - update: STR_VENTURA_ANOMALY
+    cutscene: ""
+
+### Integration
+  # No Captain Type Limit
+  - update: STR_CAPTAIN_JACKASS
+    disables: !remove
+      - STR_SCAMMING
+      - STR_BULK_EXCAVATION
+      - STR_BUNKER_FACILITY
+      - STR_BOOT_CAMP_TRAINING
+      - STR_HOTEL
+      - STR_JAIL_DOUBLE
+      - STR_GENERAL_STORES_XLARGE
+      - STR_CAPSULE_QUARTERS
+  - update: STR_CAPTAIN_DUMBASS
+    disables: !remove
+      - STR_BULK_EXCAVATION
+      - STR_BUNKER_FACILITY
+      - STR_BOOT_CAMP_TRAINING
+      - STR_DUNGEON_MASTER
+      - STR_HOTEL
+      - STR_STUDY_ROOM
+      - STR_JAIL_DOUBLE
+      - STR_GENERAL_STORES_XLARGE
+      - STR_CAPSULE_QUARTERS
+  - update: STR_CAPTAIN_LAZYASS
+    disables: !remove
+      - STR_SCAMMING
+      - STR_BULK_EXCAVATION
+      - STR_BUNKER_FACILITY
+      - STR_BOOT_CAMP_TRAINING
+      - STR_DUNGEON_MASTER
+      - STR_JAIL_DOUBLE
+      - STR_GENERAL_STORES_XLARGE
+      - STR_CAPSULE_QUARTERS
+  - update: STR_CAPTAIN_SOREASS
+    disables: !remove
+      - STR_SCAMMING
+      - STR_DUNGEON_MASTER
+      - STR_HOTEL
+      - STR_JAIL_DOUBLE
+      - STR_GENERAL_STORES_XLARGE
+      - STR_CAPSULE_QUARTERS
+  - update: STR_CAPTAIN_PUSSY
+    disables: !remove
+      - STR_SCAMMING
+      - STR_BULK_EXCAVATION
+      - STR_BUNKER_FACILITY
+      - STR_BOOT_CAMP_TRAINING
+      - STR_DUNGEON_MASTER
+      - STR_HOTEL
+  - update: STR_TREASURE_HUNTING
+    dependencies: !remove
+      - STR_CAPTAIN_JACKASS
+  - update: STR_IRRADIATOR_TOWER
+    dependencies: !remove
+      - STR_CAPTAIN_JACKSORE
+  - update: STR_BOOT_CAMP_TRAINING
+    dependencies: !remove
+      - STR_CAPTAIN_SOREASS
+  - update: STR_GENERAL_STORES_XLARGE
+    dependencies: !remove
+      - STR_CAPTAIN_PUSSY_UP
+  - update: STR_BULK_EXCAVATION
+    dependencies: !remove
+      - STR_CAPTAIN_SOREASS
+  - update: STR_NECRODEFENSES
+    dependencies: !remove
+      - STR_CAPTAIN_LAZYSORE
+  - update: STR_CAPSULE_QUARTERS
+    dependencies: !remove
+      - STR_CAPTAIN_PURE
+      - STR_CAPTAIN_GREEN
+  - update: STR_BUNKER_FACILITY
+    dependencies: !remove
+      - STR_CAPTAIN_SOREASS
+  - update: STR_JAIL_DOUBLE
+    dependencies: !remove
+      - STR_CAPTAIN_PUSSY_UP
+      - STR_CAPTAIN_RED
+  - update: STR_HOTEL
+    dependencies: !remove
+      - STR_CAPTAIN_LAZYASS
+  - update: STR_DUNGEON_MASTER
+    dependencies: !remove
+      - STR_CAPTAIN_JACKASS
+  - update: STR_SCAMMING
+    dependencies: !remove
+      - STR_CAPTAIN_DUMBASS
+  - update: STR_VIP_CLUB
+    dependencies: !remove
+      - STR_CAPTAIN_DUMBASS
+  - update: STR_NINJA_PORN
+    dependencies: !remove
+      - STR_CAPTAIN_GOLD
+
+  # No Peasant Revolution Limit
+  - update: STR_GALS_ARE_SUPERIOR_PREQ
+    disables: !remove
+      - STR_CAT_PATH
+      - STR_CAT_PATH_PREQ
+      - STR_PEASANT_REVOLUTION
+      - STR_PEASANT_REVOLUTION_PREQ
+  - update: STR_WE_NEED_MALE_TOUCH_PREQ
+    disables: !remove
+      - STR_CAT_PATH
+      - STR_CAT_PATH_PREQ
+      - STR_PEASANT_REVOLUTION
+      - STR_PEASANT_REVOLUTION_PREQ
+  - update: STR_PEASANT_REVOLUTION_PREQ
+    disables: !remove
+      - STR_CAT_PATH
+      - STR_CAT_PATH_PREQ
+      - STR_WE_NEED_MALE_TOUCH
+      - STR_WE_NEED_MALE_TOUCH_PREQ
+      - STR_GALS_ARE_SUPERIOR
+      - STR_GALS_ARE_SUPERIOR_PREQ
+      - STR_PURE_MAIDEN_TRAINING
+  - update: STR_CAT_PATH_PREQ
+    disables: !remove
+      - STR_PEASANT_REVOLUTION
+      - STR_PEASANT_REVOLUTION_PREQ
+      - STR_WE_NEED_MALE_TOUCH
+      - STR_WE_NEED_MALE_TOUCH_PREQ
+      - STR_GALS_ARE_SUPERIOR
+      - STR_GALS_ARE_SUPERIOR_PREQ
+
+  # No Codex Selection Limit
+  - update: STR_NINJA_WEAPON_USE
+    dependencies: !remove
+      - STR_REJECT_THE_POWER
+  - update: STR_CODEX_GRAY
+    disables: !remove
+      - STR_CODEX_GOLD
+      - STR_CODEX_GREEN
+      - STR_CODEX_RED
+  - update: STR_CODEX_GOLD
+    disables: !remove
+      - STR_CODEX_GRAY
+      - STR_CODEX_GREEN
+      - STR_CODEX_RED
+  - update: STR_CODEX_GREEN
+    disables: !remove
+      - STR_CODEX_GRAY
+      - STR_CODEX_GOLD
+      - STR_CODEX_RED
+  - update: STR_CODEX_RED
+    disables: !remove
+      - STR_CODEX_GRAY
+      - STR_CODEX_GOLD
+      - STR_CODEX_GREEN
+  - update: STR_CODEX_GOLD_EXP
+    disables: !remove
+      - STR_BERSERKER_ARMOR
+      - STR_POWERED_BY_RAGE
+      - STR_AGGRESSOR_ARMOR_PRODUCTION
+  - update: STR_CODEX_GREEN_EXP
+    disables: !remove
+      - STR_ASTROSENSORIUM
+      - STR_MUTANT_MAGIC
+      - STR_GRIMOIRE
+  - update: STR_CODEX_RED_EXP
+    disables: !remove
+      - STR_AMAZON_ARMOR_PRODUCTION
+      - STR_GRAV_CANNON
+  - update: STR_CODEX_GRAY_EXP
+    disables: !remove
+      - STR_ZOMBIE_MEDICINE
+      - STR_MUSHROOM_MEDICINE
+
+  # Ninja War Requires Rank
+  - name: STR_NINJA_WAR
+    dependencies: !add
+      - STR_CAPTAINS_RANK_03

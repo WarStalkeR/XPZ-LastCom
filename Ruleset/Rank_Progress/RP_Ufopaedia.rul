@@ -1,0 +1,154 @@
+ufopaedia:
+  - id: STR_CAPTAINS_RANK_01_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_01
+    requires:
+      - STR_CAPTAINS_RANK_01_UNLOCK
+    text: STR_CAPTAINS_RANK_01_UNLOCK_UFOPEDIA
+    text_width: 168
+    listOrder: 49911
+  - id: STR_CAPTAINS_RANK_02_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_02_CPAL
+    requires:
+      - STR_CAPTAINS_RANK_02_UNLOCK
+    text: STR_CAPTAINS_RANK_02_UNLOCK_UFOPEDIA
+    text_width: 158
+    listOrder: 49912
+  - id: STR_CAPTAINS_RANK_03_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_03
+    requires:
+      - STR_CAPTAINS_RANK_03_UNLOCK
+    text: STR_CAPTAINS_RANK_03_UNLOCK_UFOPEDIA
+    text_width: 128
+    listOrder: 49913
+  - id: STR_CAPTAINS_RANK_04_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_04
+    requires:
+      - STR_CAPTAINS_RANK_04_UNLOCK
+    text: STR_CAPTAINS_RANK_04_UNLOCK_UFOPEDIA
+    text_width: 148
+    listOrder: 49914
+  - id: STR_CAPTAINS_RANK_05_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_05_CPAL
+    requires:
+      - STR_CAPTAINS_RANK_05_UNLOCK
+    text: STR_CAPTAINS_RANK_05_UNLOCK_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    listOrder: 49915
+  - id: STR_CAPTAINS_RANK_06_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_06
+    requires:
+      - STR_CAPTAINS_RANK_06_UNLOCK
+    text: STR_CAPTAINS_RANK_06_UNLOCK_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    listOrder: 49916
+  - id: STR_CAPTAINS_RANK_07_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_07
+    requires:
+      - STR_CAPTAINS_RANK_07_UNLOCK
+    text: STR_CAPTAINS_RANK_07_UNLOCK_UFOPEDIA
+    text_width: 148
+    listOrder: 49917
+  - id: STR_CAPTAINS_RANK_08_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_08
+    requires:
+      - STR_CAPTAINS_RANK_08_UNLOCK
+    text: STR_CAPTAINS_RANK_08_UNLOCK_UFOPEDIA
+    text_width: 158
+    listOrder: 49918
+  - id: STR_CAPTAINS_RANK_09_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_09_CPAL
+    requires:
+      - STR_CAPTAINS_RANK_09_UNLOCK
+    text: STR_CAPTAINS_RANK_09_UNLOCK_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    listOrder: 49919
+  - id: STR_CAPTAINS_RANK_10_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_10
+    requires:
+      - STR_CAPTAINS_RANK_10_UNLOCK
+    text: STR_CAPTAINS_RANK_10_UNLOCK_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    listOrder: 49920
+  - id: STR_CAPTAINS_RANK_11_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_11
+    requires:
+      - STR_CAPTAINS_RANK_11_UNLOCK
+    text: STR_CAPTAINS_RANK_11_UNLOCK_UFOPEDIA
+    text_width: 158
+    listOrder: 49921
+  - id: STR_CAPTAINS_RANK_12_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_12
+    requires:
+      - STR_CAPTAINS_RANK_12_UNLOCK
+    text: STR_CAPTAINS_RANK_12_UNLOCK_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    listOrder: 49922
+  - id: STR_CAPTAINS_RANK_13_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_13
+    requires:
+      - STR_CAPTAINS_RANK_13_UNLOCK
+    text: STR_CAPTAINS_RANK_13_UNLOCK_UFOPEDIA
+    text_width: 128
+    align_bottom: true
+    listOrder: 49923
+  - id: STR_CAPTAINS_RANK_14_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_14
+    requires:
+      - STR_CAPTAINS_RANK_14_UNLOCK
+    text: STR_CAPTAINS_RANK_14_UNLOCK_UFOPEDIA
+    text_width: 128
+    align_bottom: true
+    listOrder: 49924
+  - id: STR_CAPTAINS_RANK_15_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_15
+    requires:
+      - STR_CAPTAINS_RANK_15_UNLOCK
+    text: STR_CAPTAINS_RANK_15_UNLOCK_UFOPEDIA
+    text_width: 128
+    align_bottom: true
+    listOrder: 49925
+  - id: STR_CAPTAINS_RANK_16_UNLOCK
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    image_id: BIG_CAP_RANK_16
+    requires:
+      - STR_CAPTAINS_RANK_16_UNLOCK
+    text: STR_CAPTAINS_RANK_16_UNLOCK_UFOPEDIA
+    text_width: 310
+    align_bottom: true
+    listOrder: 49926

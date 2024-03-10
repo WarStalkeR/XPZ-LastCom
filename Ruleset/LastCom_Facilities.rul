@@ -1,0 +1,517 @@
+facilities:
+### New Entries
+  # Reinforced Hangar
+  - type: STR_HANGAR_REINFORCED
+    spriteShape: 2011
+    spriteFacility: 2525
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_EXCAVATION
+    destroyedFacility: STR_HANGAR_REINFORCED_DAMAGE_1
+    provideBaseFunc: [SHOP]
+    monthlyCost: 30000
+    buildCost: 400000
+    buildCostItems:
+      STR_FLAK_TOWER_KIT:
+        build: 1
+        refund: 1
+    buildTime: 30
+    refundValue: 275000
+    canBeBuiltOver: true
+    defense: 225
+    hitRatio: 65
+    fireSound: {mod: piratez, index: 39}
+    hitSound: 10
+    crafts: 1
+    craftOptions:
+      - {x: 1, y: -3, min: 20, max: 199, hide: false}
+    optionGroups: [1]
+    workshops: 30
+    storage: 150
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBR_1001
+    missileAttraction: 150
+    listOrder: 9157
+  - type: STR_HANGAR_REINFORCED_DAMAGE_1
+    spriteShape: 2011
+    spriteFacility: 2529
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_UNAVAILABLE
+    leavesBehindOnSell:
+      - STR_HANGAR_REINFORCED
+    destroyedFacility: STR_HANGAR_REINFORCED_RUIN
+    provideBaseFunc: [SHOP]
+    monthlyCost: 15000
+    buildCost: 125000
+    buildTime: 10
+    removalTime: 10
+    refundValue: -125000
+    canBeBuiltOver: false
+    crafts: 1
+    craftOptions:
+      - {x: 1, y: -3, min: 20, max: 199, hide: false}
+    optionGroups: [1]
+    workshops: 20
+    storage: 100
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBR_1001
+    missileAttraction: 100
+    listOrder: 9158
+  - type: STR_HANGAR_REINFORCED_RUIN
+    spriteShape: 2111
+    spriteFacility: 2533
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_UNAVAILABLE
+    leavesBehindOnSell:
+      - STR_HANGAR_REINFORCED
+    monthlyCost: 2500
+    buildCost: 275000
+    buildTime: 20
+    removalTime: 20
+    refundValue: -275000
+    canBeBuiltOver: false
+    crafts: 1
+    craftOptions:
+      - {x: 1, y: -3, min: 20, max: 139, hide: false}
+    optionGroups: [1]
+    workshops: 10
+    storage: 50
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBR_1001
+    missileAttraction: 100
+    listOrder: 9159
+
+  # Composite Hangar
+  - type: STR_HANGAR_COMPOSITE
+    spriteShape: 2011
+    spriteFacility: 2537
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_EXCAVATION
+    destroyedFacility: STR_HANGAR_COMPOSITE_RUIN
+    provideBaseFunc: [SHOP]
+    monthlyCost: 30000
+    buildCost: 400000
+    buildCostItems:
+      STR_FLAK_TOWER_KIT:
+        build: 2
+        refund: 2
+    buildTime: 30
+    refundValue: 275000
+    canBeBuiltOver: true
+    defense: 450
+    hitRatio: 65
+    fireSound: {mod: piratez, index: 39}
+    hitSound: 10
+    crafts: 2
+    craftOptions:
+      - {x: 12, y: 8, min: 2, max: 69, hide: false}
+      - {x: -5, y: -9, min: 2, max: 99, hide: false}
+    optionGroups: [1, 1]
+    workshops: 30
+    storage: 200
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBR_1001
+    missileAttraction: 150
+    listOrder: 9160
+  - type: STR_HANGAR_COMPOSITE_RUIN
+    spriteShape: 2111
+    spriteFacility: 2541
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_UNAVAILABLE
+    leavesBehindOnSell:
+      - STR_HANGAR_COMPOSITE
+    monthlyCost: 1500
+    buildCost: 275000
+    buildTime: 15
+    removalTime: 15
+    refundValue: -275000
+    canBeBuiltOver: false
+    defense: 225
+    hitRatio: 40
+    fireSound: {mod: piratez, index: 39}
+    hitSound: 10
+    crafts: 2
+    craftOptions:
+      - {x: 12, y: 8, min: 2, max: 49, hide: false}
+      - {x: -5, y: -9, min: 2, max: 99, hide: false}
+    optionGroups: [1, 1]
+    workshops: 20
+    storage: 100
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBR_116
+    missileAttraction: 25
+    listOrder: 9161
+
+  # Interceptor Hangar
+  - type: STR_HANGAR_INTERCEPTOR
+    spriteShape: 2011
+    spriteFacility: 2545
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_EXCAVATION
+    destroyedFacility: STR_HANGAR_INTERCEPTOR_RUIN
+    provideBaseFunc: [SHOP]
+    monthlyCost: 40000
+    buildCost: 600000
+    buildCostItems:
+      STR_FLAK_TOWER_KIT:
+        build: 2
+        refund: 2
+    buildTime: 35
+    refundValue: 400000
+    canBeBuiltOver: true
+    defense: 450
+    hitRatio: 65
+    fireSound: {mod: piratez, index: 39}
+    hitSound: 10
+    crafts: 3
+    craftOptions:
+      - {x: -12, y: -12, min: 20, max: 49, hide: false}
+      - {x: 14, y: -12, min: 20, max: 49, hide: false}
+      - {x: 1, y: 6, min: 20, max: 49, hide: false}
+    optionGroups: [1, 1, 1]
+    workshops: 15
+    storage: 100
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBR_1001
+    missileAttraction: 200
+    listOrder: 9162
+  - type: STR_HANGAR_INTERCEPTOR_RUIN
+    spriteShape: 2111
+    spriteFacility: 2549
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_UNAVAILABLE
+    leavesBehindOnSell:
+      - STR_HANGAR_INTERCEPTOR
+    monthlyCost: 1500
+    buildCost: 400000
+    buildTime: 20
+    removalTime: 20
+    refundValue: -400000
+    canBeBuiltOver: false
+    defense: 225
+    hitRatio: 40
+    fireSound: {mod: piratez, index: 39}
+    hitSound: 10
+    crafts: 2
+    craftOptions:
+      - {x: -12, y: -12, min: 20, max: 49, hide: false}
+      - {x: 14, y: -12, min: -1, max: -1, hide: false}
+      - {x: 1, y: 6, min: 20, max: 29, hide: false}
+    optionGroups: [1, 1, 1]
+    workshops: 5
+    storage: 25
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBR_116
+    missileAttraction: 25
+    listOrder: 9163
+
+  # Relic X-COM Hangar
+  - type: STR_HANGAR_XCOM_RELIC
+    spriteShape: 2011
+    spriteFacility: 2553
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_EXCAVATION
+    destroyedFacility: STR_HANGAR_XCOM_RELIC_DAMAGE_1
+    provideBaseFunc: [SHOP, WORKS, MED]
+    monthlyCost: 50000
+    buildCost: 2500000
+    buildCostItems:
+      STR_SIDEWINDER_LAUNCHER:
+        build: 4
+        refund: 4
+    buildTime: 60
+    refundValue: 2000000
+    canBeBuiltOver: true
+    defense: 1600
+    hitRatio: 85
+    fireSound: {mod: piratez, index: 33}
+    hitSound: 10
+    crafts: 3
+    craftOptions:
+      - {x: -13, y: -3, min: 2, max: 29, hide: false}
+      - {x: 15, y: -3, min: 2, max: 29, hide: false}
+      - {x: 1, y: -3, min: 20, max: 199, hide: false}
+    optionGroups: [1, 1, 1]
+    workshops: 50
+    labs: 12
+    aliens: 20
+    storage: 250
+    storageTiles: [[-1, -1, -1]]
+    sickBayAbsoluteBonus: 2.0
+    radarRange: 750
+    radarChance: 80
+    mapName: XBR_1001
+    missileAttraction: 350
+    listOrder: 9164
+  - type: STR_HANGAR_XCOM_RELIC_SEALED
+    spriteShape: 2011
+    spriteFacility: 2501
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_UNAVAILABLE
+    leavesBehindOnSell:
+      - STR_HANGAR_XCOM_RELIC
+    destroyedFacility: STR_HANGAR_XCOM_RELIC_SEALED
+    monthlyCost: 0
+    buildCost: 0
+    buildTime: 90
+    removalTime: 90
+    refundValue: 0
+    canBeBuiltOver: false
+    mapName: XBR_1001
+    missileAttraction: 25
+    listOrder: 9165
+  - type: STR_HANGAR_XCOM_RELIC_CLOSED
+    spriteShape: 2011
+    spriteFacility: 2501
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_UNAVAILABLE
+    leavesBehindOnSell:
+      - STR_HANGAR_XCOM_RELIC
+    destroyedFacility: STR_HANGAR_XCOM_RELIC_DAMAGE_1
+    monthlyCost: 2500
+    buildCost: 0
+    buildTime: 1
+    removalTime: 1
+    refundValue: 0
+    canBeBuiltOver: false
+    crafts: 3
+    craftOptions:
+      - {x: -13, y: -3, min: 2, max: 29, hide: false}
+      - {x: 15, y: -3, min: 2, max: 29, hide: false}
+      - {x: 1, y: -3, min: 20, max: 199, hide: false}
+    optionGroups: [1, 1, 1]
+    aliens: 20
+    storage: 250
+    storageTiles: [[-1, -1, -1]]
+    radarRange: 750
+    radarChance: 80
+    mapName: XBR_1001
+    missileAttraction: 350
+    listOrder: 9166
+  - type: STR_HANGAR_XCOM_RELIC_DAMAGE_1
+    spriteShape: 2011
+    spriteFacility: 2505
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_UNAVAILABLE
+    leavesBehindOnSell:
+      - STR_HANGAR_XCOM_RELIC_CLOSED
+    destroyedFacility: STR_HANGAR_XCOM_RELIC_DAMAGE_2
+    monthlyCost: 7500
+    buildCost: 100000
+    buildTime: 5
+    removalTime: 5
+    refundValue: -100000
+    canBeBuiltOver: false
+    crafts: 3
+    craftOptions:
+      - {x: -13, y: -3, min: 2, max: 29, hide: false}
+      - {x: 15, y: -3, min: 2, max: 29, hide: false}
+      - {x: 1, y: -3, min: 20, max: 199, hide: false}
+    optionGroups: [1, 1, 1]
+    aliens: 20
+    storage: 250
+    storageTiles: [[-1, -1, -1]]
+    radarRange: 750
+    radarChance: 80
+    mapName: XBR_1001
+    missileAttraction: 350
+    listOrder: 9167
+  - type: STR_HANGAR_XCOM_RELIC_DAMAGE_2
+    spriteShape: 2011
+    spriteFacility: 2509
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_UNAVAILABLE
+    leavesBehindOnSell:
+      - STR_HANGAR_XCOM_RELIC_CLOSED
+    destroyedFacility: STR_HANGAR_XCOM_RELIC_DAMAGE_3
+    monthlyCost: 7500
+    buildCost: 250000
+    buildTime: 10
+    removalTime: 10
+    refundValue: -250000
+    canBeBuiltOver: false
+    crafts: 3
+    craftOptions:
+      - {x: -13, y: -3, min: 2, max: 29, hide: false}
+      - {x: 15, y: -3, min: 2, max: 29, hide: false}
+      - {x: 1, y: -3, min: 20, max: 199, hide: false}
+    optionGroups: [1, 1, 1]
+    aliens: 20
+    storage: 250
+    storageTiles: [[-1, -1, -1]]
+    radarRange: 750
+    radarChance: 80
+    mapName: XBR_1001
+    missileAttraction: 350
+    listOrder: 9168
+  - type: STR_HANGAR_XCOM_RELIC_DAMAGE_3
+    spriteShape: 2011
+    spriteFacility: 2513
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_UNAVAILABLE
+    leavesBehindOnSell:
+      - STR_HANGAR_XCOM_RELIC_CLOSED
+    destroyedFacility: STR_HANGAR_XCOM_RELIC_RUIN
+    monthlyCost: 7500
+    buildCost: 500000
+    buildTime: 20
+    removalTime: 20
+    refundValue: -500000
+    canBeBuiltOver: false
+    crafts: 3
+    craftOptions:
+      - {x: -13, y: -3, min: 2, max: 29, hide: false}
+      - {x: 15, y: -3, min: 2, max: 29, hide: false}
+      - {x: 1, y: -3, min: 20, max: 199, hide: false}
+    optionGroups: [1, 1, 1]
+    aliens: 20
+    storage: 250
+    storageTiles: [[-1, -1, -1]]
+    radarRange: 750
+    radarChance: 80
+    mapName: XBR_1001
+    missileAttraction: 350
+    listOrder: 9169
+  - type: STR_HANGAR_XCOM_RELIC_RUIN
+    spriteShape: 2111
+    spriteFacility: 2517
+    spriteEnabled: true
+    placeSound: {mod: piratez, index: 317}
+    size: 2
+    requires:
+      - STR_UNAVAILABLE
+    leavesBehindOnSell:
+      - STR_HANGAR_XCOM_RELIC_CLOSED
+    destroyedFacility: STR_HANGAR_XCOM_RELIC_RUIN
+    monthlyCost: 25000
+    buildCost: 1000000
+    buildTime: 40
+    removalTime: 40
+    refundValue: -1000000
+    canBeBuiltOver: false
+    crafts: 3
+    craftOptions:
+      - {x: -13, y: -3, min: 2, max: 29, hide: false}
+      - {x: 15, y: -3, min: 2, max: 29, hide: false}
+      - {x: 1, y: -3, min: 20, max: 199, hide: false}
+    optionGroups: [1, 1, 1]
+    aliens: 20
+    storage: 250
+    storageTiles: [[-1, -1, -1]]
+    radarRange: 750
+    radarChance: 80
+    mapName: XBR_1001
+    missileAttraction: 350
+    listOrder: 9170
+
+### Related Overrides
+  # Civilian Hangar
+  - update: STR_HANGAR
+    workshops: 20
+    storage: 100
+    craftOptions:
+      - {x: 1, y: -3, min: 2, max: 139, hide: false}
+    optionGroups: [1]
+    provideBaseFunc: [SHOP]
+    listOrder: 9155
+  - update: STR_HANGAR_DAMAGED
+    workshops: 10
+    storage: 100
+    crafts: 1
+    craftsHidden: false
+    craftOptions:
+      - {x: 1, y: -3, min: 2, max: 99, hide: false}
+    optionGroups: [1]
+    listOrder: 9156
+
+### Integration
+  # Various Changes
+  - update: STR_ACCESS_LIFT
+    mapName: XBR_1000
+    sickBayAbsoluteBonus: 10
+  - update: STR_BEAST_DEN
+    canBeBuiltOver: true
+  - update: STR_BUNKER_FACILITY
+    forbiddenBaseFunc: []
+  - update: STR_BUNKER_FACILITY_DAMAGED1
+    forbiddenBaseFunc: []
+  - update: STR_BUNKER_FACILITY_DAMAGED2
+    forbiddenBaseFunc: []
+  - update: STR_WAR_BARRACKS
+    rightClickActionType: 4
+  - update: STR_WAR_BARRACKS_DAMAGED1
+    rightClickActionType: 4
+  - update: STR_WAR_BARRACKS_DAMAGED2
+    rightClickActionType: 4
+  - update: STR_WAR_BARRACKS_DAMAGED3
+    rightClickActionType: 4
+  - update: STR_JAIL
+    canBeBuiltOver: true
+  - update: STR_JAIL_DOUBLE
+    canBeBuiltOver: true
+  - update: STR_CRYO_PRISON
+    canBeBuiltOver: true
+  - update: STR_IRRADIATOR_TOWER
+    canBeBuiltOver: true
+  - update: STR_FLAK_TOWER
+    canBeBuiltOver: true
+  - update: STR_FLAK_DEFENSES
+    canBeBuiltOver: true
+  - update: STR_VULCAN_DEFENSES
+    canBeBuiltOver: true
+  - update: STR_SAM_DEFENSES
+    canBeBuiltOver: true
+  - update: STR_MISSILE_DEFENSES
+    canBeBuiltOver: true
+  - update: STR_LASER_DEFENSES
+    canBeBuiltOver: true
+  - update: STR_GAUSS_DEFENSES
+    canBeBuiltOver: true
+  - update: STR_PLASMA_DEFENSES
+    canBeBuiltOver: true
+  - update: STR_FUSION_BALL_DEFENSES
+    canBeBuiltOver: true
+  - update: STR_ONSEN
+    canBeBuiltOver: true
+  - update: STR_MED_BAY
+    canBeBuiltOver: true
+  - update: STR_LOVE_CLINIC
+    canBeBuiltOver: true

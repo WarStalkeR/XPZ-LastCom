@@ -1,0 +1,103 @@
+eventScripts:
+  - update: STR_CAPTAINS_RANK_01
+    researchTriggers:
+       STR_CAPTAINS_RANK_01_UNLOCK: true
+       STR_CAPTAINS_RANK_01: false
+  - update: STR_CAPTAINS_RANK_02
+    researchTriggers:
+       STR_CAPTAINS_RANK_02_UNLOCK: true
+       STR_KULTUR: true
+       STR_ALIEN_ORIGINS: true
+       STR_CAPTAINS_RANK_01: true
+       STR_CAPTAINS_RANK_02: false
+  - update: STR_CAPTAINS_RANK_03
+    researchTriggers:
+       STR_CAPTAINS_RANK_03_UNLOCK: true
+       STR_ANY_BASIC_TROPHY_UNLOCKED: true
+       STR_CAPTAINS_RANK_02: true
+       STR_CAPTAINS_RANK_03: false
+  - update: STR_CAPTAINS_RANK_04
+    researchTriggers:
+       STR_CAPTAINS_RANK_04_UNLOCK: true
+       STR_NEWSPAPER: true
+       STR_CAPTAINS_RANK_03: true
+       STR_CAPTAINS_RANK_04: false
+  - update: STR_CAPTAINS_RANK_05
+    researchTriggers:
+       STR_CAPTAINS_RANK_05_UNLOCK: true
+       STR_PIRATEZ_HIERARCHY: true
+       STR_OFFICER_PLUS: true
+       STR_CAPTAINS_RANK_04: true
+       STR_CAPTAINS_RANK_05: false
+  - update: STR_CAPTAINS_RANK_06
+    researchTriggers:
+       STR_CAPTAINS_RANK_06_UNLOCK: true
+       STR_LEADER_PLUS: true
+       STR_CAPTAINS_RANK_05: true
+       STR_CAPTAINS_RANK_06: false
+  - update: STR_CAPTAINS_RANK_07
+    researchTriggers:
+       STR_CAPTAINS_RANK_07_UNLOCK: true
+       STR_GUILD_ANGRY: true
+       STR_ACADEMY_ANGRY: true
+       STR_CAPTAINS_RANK_06: true
+       STR_CAPTAINS_RANK_07: false
+  - update: STR_CAPTAINS_RANK_08
+    researchTriggers:
+       STR_CAPTAINS_RANK_08_UNLOCK: true
+       STR_COMMANDER_PLUS: true
+       STR_CAPTAINS_RANK_07: true
+       STR_CAPTAINS_RANK_08: false
+  - update: STR_CAPTAINS_RANK_09
+    researchTriggers:
+       STR_CAPTAINS_RANK_09_UNLOCK: true
+       STR_CYDONIA_OR_BUST: true
+       STR_ANY_KNOWHOW: true
+       STR_PIRATE_AIRFORCE: true
+       STR_CAPTAINS_RANK_08: true
+       STR_CAPTAINS_RANK_09: false
+  - update: STR_CAPTAINS_RANK_10
+    researchTriggers:
+       STR_CAPTAINS_RANK_10_UNLOCK: true
+       STR_ACADEMY_MED_KNOWHOW: true
+       STR_ACADEMY_ENG_KNOWHOW: true
+       STR_ACADEMY_ARC_KNOWHOW: true
+       STR_TRADERS_ENG_KNOWHOW: true
+       STR_TRADERS_ARC_KNOWHOW: true
+       STR_CHURCH_ARC_KNOWHOW: true
+       STR_CAPTAINS_RANK_09: true
+       STR_CAPTAINS_RANK_10: false
+  - update: STR_CAPTAINS_RANK_11
+    researchTriggers:
+       STR_CAPTAINS_RANK_11_UNLOCK: true
+       STR_ETHEREAL_NOVICE: true
+       STR_AIR_SUPREMACY: true
+       STR_DIPLOMACY: true
+       STR_CAPTAINS_RANK_10: true
+       STR_CAPTAINS_RANK_11: false
+  - update: STR_CAPTAINS_RANK_12
+    researchTriggers:
+       STR_CAPTAINS_RANK_12_UNLOCK: true
+       STR_MIND_MACHINE_INTERFACE: true
+       STR_MERCS_ENG_KNOWHOW: true
+       STR_CAPTAINS_RANK_11: true
+       STR_CAPTAINS_RANK_12: false
+  - update: STR_CAPTAINS_RANK_13
+    researchTriggers:
+       STR_CAPTAINS_RANK_13_UNLOCK: true
+       STR_MOON_MISSION_DONE: true
+       STR_SPACE_FREIGHTER_DONE: true
+       STR_CAPTAINS_RANK_12: true
+       STR_CAPTAINS_RANK_13: false
+  - update: STR_CAPTAINS_RANK_14
+    researchTriggers:
+       STR_CAPTAINS_RANK_14_UNLOCK: true
+       STR_MARS_MISSION_DONE: true
+       STR_CAPTAINS_RANK_13: true
+       STR_CAPTAINS_RANK_14: false
+  - update: STR_CAPTAINS_RANK_15
+    researchTriggers:
+       STR_CAPTAINS_RANK_15_UNLOCK: true
+  - update: STR_CAPTAINS_RANK_16
+    researchTriggers:
+       STR_CAPTAINS_RANK_16_UNLOCK: true

@@ -1,0 +1,17 @@
+items:
+### New Entries
+  # Dedicated Anomalies Lock
+  - type: STR_ANOMALY_SHARD
+    categories: [STR_BAT_CAT_ARTIFACT]
+    size: 40
+    costSell: 0
+    listOrder: 16095
+  - type: STR_ANOMALY_CORE
+    categories: [STR_BAT_CAT_ARTIFACT]
+    size: 160
+    costSell: 0
+    listOrder: 16096
+
+### Related Overrides
+
+### Integration

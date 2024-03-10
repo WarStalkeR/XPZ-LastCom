@@ -1,0 +1,16 @@
+items:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # More Stun Effect
+  - update: STR_ANUS
+    damageAlter:
+      ToHealth: 0.2
+  - update: STR_PRED_DISC
+    damageBonus:
+      throwing: 0.3
+  - update: STR_ELECTRIC_NET
+    damageBonus:
+      throwing: 0.3

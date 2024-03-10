@@ -1,0 +1,403 @@
+startingBaseSuperhuman:
+  facilities:
+    - type: STR_ACCESS_LIFT
+      x: 2
+      y: 2
+    - type: STR_HANGAR
+      x: 0
+      y: 0
+    - type: STR_HANGAR
+      x: 2
+      y: 0
+    - type: STR_LIVING_QUARTERS_ADVANCED
+      x: 1
+      y: 2
+    - type: STR_LIVING_QUARTERS_ADVANCED
+      x: 1
+      y: 3
+    - type: STR_GENERAL_STORES_ARMORED
+      x: 1
+      y: 4
+    - type: STR_GENERAL_STORES_ARMORED
+      x: 1
+      y: 5
+    - type: STR_STILL
+      x: 0
+      y: 5
+    - type: STR_JAIL
+      x: 0
+      y: 4
+    - type: STR_CORRIDOR
+      x: 2
+      y: 3
+    - type: STR_LABORATORY
+      x: 2
+      y: 4
+    - type: STR_CORRIDOR
+      x: 2
+      y: 5
+    - type: STR_BURROW
+      x: 3
+      y: 5
+    - type: STR_SMALL_RADAR_SYSTEM
+      x: 4
+      y: 5
+    - type: STR_WELL
+      x: 5
+      y: 5
+    - type: STR_RUBBLE
+      x: 0
+      y: 2
+    - type: STR_RUBBLE
+      x: 0
+      y: 3
+    - type: STR_RUBBLE
+      x: 3
+      y: 3
+    - type: STR_RUBBLE
+      x: 4
+      y: 3
+    - type: STR_RUBBLE
+      x: 3
+      y: 4
+    - type: STR_RUBBLE
+      x: 4
+      y: 4
+    - type: STR_RUBBLE
+      x: 4
+      y: 0
+    - type: STR_RUBBLE
+      x: 5
+      y: 0
+    - type: STR_RUBBLE
+      x: 4
+      y: 1
+    - type: STR_RUBBLE
+      x: 5
+      y: 1
+  randomSoldiers:
+    STR_SOLDIER: 36
+  crafts: &BASE_CRAFTS
+    - type: STR_AIRBUS
+      id: 1
+      fuel: 800
+      damage: 0
+      items:
+        STR_HANDLE: 4
+        STR_KNUCKLES: 2
+        STR_KNOIF: 3
+        STR_PIPE: 2
+        STR_BATTO: 2
+        STR_SHORT_SWORD: 2
+        STR_AX: 2
+        STR_HAMMER: 1
+        STR_CHAINSAW: 1
+        STR_FLINTLOCK_PISTOL: 2
+        STR_FLINTLOCK_MUSKET: 2
+        STR_HARQUEBUS: 1
+        STR_FLINTLOCK_BALLS: 20
+        STR_SHOTGUN_G: 1
+        STR_SHOTGUN_G_SHELLS: 5
+        STR_MINI_CANNON: 1
+        STR_SL_HE: 6
+        STR_PIR_CANNON: 1
+        STR_PIR_CANNONBALL: 5
+        STR_ANARCHY_BOMB: 4
+        STR_MOLOTOV: 6
+        STR_BANDAGE: 10
+        STR_CANTEEN: 2
+        STR_MOONSHINE: 4
+      status: STR_READY
+  items: &BASE_ITEMS
+    STR_RAYGUN: 1
+    STR_RAYGUN_CLIP: 3
+    STR_SHIV: 5
+    STR_NOOSE: 3
+    STR_FLINTLOCK_BALLS: 10
+    STR_SHOTGUN_G_SHELLS: 5
+    STR_PIR_CANNONBALL: 3
+    STR_MOLOTOV: 4
+    STR_ANARCHY_BOMB: 2
+    STR_TINY_DRILL: 1
+    STR_ELERIUM_115: 5
+    STR_JUNK_PILE: 16
+    STR_BIG_ROCK: 169
+    STR_SCRAP_METAL: 100
+    STR_MENACING_HULL: 1
+    STR_RAIDER_CORPSE: 6
+    STR_MUTANT_MEAT: 6
+    STR_LAND_DEED: 1
+  scientists: 3
+  engineers: 10
+startingBaseGenius:
+  facilities:
+    - type: STR_ACCESS_LIFT
+      x: 2
+      y: 2
+    - type: STR_HANGAR
+      x: 0
+      y: 0
+    - type: STR_HANGAR
+      x: 2
+      y: 0
+    - type: STR_LIVING_QUARTERS_ADVANCED
+      x: 1
+      y: 2
+    - type: STR_LIVING_QUARTERS_ADVANCED
+      x: 1
+      y: 3
+    - type: STR_GENERAL_STORES_ARMORED
+      x: 1
+      y: 4
+    - type: STR_GENERAL_STORES_ARMORED
+      x: 1
+      y: 5
+    - type: STR_STILL
+      x: 0
+      y: 5
+    - type: STR_JAIL
+      x: 0
+      y: 4
+    - type: STR_CORRIDOR
+      x: 2
+      y: 3
+    - type: STR_LABORATORY
+      x: 2
+      y: 4
+    - type: STR_CORRIDOR
+      x: 2
+      y: 5
+    - type: STR_BURROW
+      x: 3
+      y: 5
+    - type: STR_SMALL_RADAR_SYSTEM
+      x: 4
+      y: 5
+    - type: STR_WELL
+      x: 5
+      y: 5
+    - type: STR_RUBBLE
+      x: 0
+      y: 2
+    - type: STR_RUBBLE
+      x: 0
+      y: 3
+    - type: STR_RUBBLE
+      x: 3
+      y: 3
+    - type: STR_RUBBLE
+      x: 4
+      y: 3
+    - type: STR_RUBBLE
+      x: 3
+      y: 4
+    - type: STR_RUBBLE
+      x: 4
+      y: 4
+    - type: STR_RUBBLE
+      x: 4
+      y: 0
+    - type: STR_RUBBLE
+      x: 5
+      y: 0
+  randomSoldiers:
+    STR_SOLDIER: 30
+  crafts: *BASE_CRAFTS
+  items: *BASE_ITEMS
+  scientists: 4
+  engineers: 15
+startingBaseVeteran:
+  facilities:
+    - type: STR_ACCESS_LIFT
+      x: 2
+      y: 2
+    - type: STR_HANGAR
+      x: 0
+      y: 0
+    - type: STR_HANGAR
+      x: 2
+      y: 0
+    - type: STR_LIVING_QUARTERS_ADVANCED
+      x: 1
+      y: 2
+    - type: STR_LIVING_QUARTERS_ADVANCED
+      x: 1
+      y: 3
+    - type: STR_GENERAL_STORES_ARMORED
+      x: 1
+      y: 4
+    - type: STR_GENERAL_STORES_ARMORED
+      x: 1
+      y: 5
+    - type: STR_STILL
+      x: 0
+      y: 5
+    - type: STR_JAIL
+      x: 0
+      y: 4
+    - type: STR_CORRIDOR
+      x: 2
+      y: 3
+    - type: STR_LABORATORY
+      x: 2
+      y: 4
+    - type: STR_CORRIDOR
+      x: 2
+      y: 5
+    - type: STR_BURROW
+      x: 3
+      y: 5
+    - type: STR_SMALL_RADAR_SYSTEM
+      x: 4
+      y: 5
+    - type: STR_WELL
+      x: 5
+      y: 5
+    - type: STR_RUBBLE
+      x: 0
+      y: 2
+    - type: STR_RUBBLE
+      x: 0
+      y: 3
+    - type: STR_RUBBLE
+      x: 3
+      y: 3
+    - type: STR_RUBBLE
+      x: 4
+      y: 3
+    - type: STR_RUBBLE
+      x: 3
+      y: 4
+    - type: STR_RUBBLE
+      x: 4
+      y: 4
+  randomSoldiers:
+    STR_SOLDIER: 24
+  crafts: *BASE_CRAFTS
+  items: *BASE_ITEMS
+  scientists: 6
+  engineers: 30
+startingBaseExperienced:
+  facilities:
+    - type: STR_ACCESS_LIFT
+      x: 2
+      y: 2
+    - type: STR_HANGAR
+      x: 0
+      y: 0
+    - type: STR_HANGAR
+      x: 2
+      y: 0
+    - type: STR_LIVING_QUARTERS_ADVANCED
+      x: 1
+      y: 2
+    - type: STR_LIVING_QUARTERS_ADVANCED
+      x: 1
+      y: 3
+    - type: STR_GENERAL_STORES_ARMORED
+      x: 1
+      y: 4
+    - type: STR_GENERAL_STORES_ARMORED
+      x: 1
+      y: 5
+    - type: STR_STILL
+      x: 0
+      y: 5
+    - type: STR_JAIL
+      x: 0
+      y: 4
+    - type: STR_CORRIDOR
+      x: 2
+      y: 3
+    - type: STR_LABORATORY
+      x: 2
+      y: 4
+    - type: STR_CORRIDOR
+      x: 2
+      y: 5
+    - type: STR_BURROW
+      x: 3
+      y: 5
+    - type: STR_SMALL_RADAR_SYSTEM
+      x: 4
+      y: 5
+    - type: STR_WELL
+      x: 5
+      y: 5
+    - type: STR_RUBBLE
+      x: 0
+      y: 2
+    - type: STR_RUBBLE
+      x: 0
+      y: 3
+    - type: STR_RUBBLE
+      x: 3
+      y: 3
+    - type: STR_RUBBLE
+      x: 4
+      y: 3
+  randomSoldiers:
+    STR_SOLDIER: 18
+  crafts: *BASE_CRAFTS
+  items: *BASE_ITEMS
+  scientists: 8
+  engineers: 40
+startingBaseBeginner:
+  facilities:
+    - type: STR_ACCESS_LIFT
+      x: 2
+      y: 2
+    - type: STR_HANGAR
+      x: 0
+      y: 0
+    - type: STR_HANGAR
+      x: 2
+      y: 0
+    - type: STR_LIVING_QUARTERS_ADVANCED
+      x: 1
+      y: 2
+    - type: STR_LIVING_QUARTERS_ADVANCED
+      x: 1
+      y: 3
+    - type: STR_GENERAL_STORES_ARMORED
+      x: 1
+      y: 4
+    - type: STR_GENERAL_STORES_ARMORED
+      x: 1
+      y: 5
+    - type: STR_STILL
+      x: 0
+      y: 5
+    - type: STR_JAIL
+      x: 0
+      y: 4
+    - type: STR_CORRIDOR
+      x: 2
+      y: 3
+    - type: STR_LABORATORY
+      x: 2
+      y: 4
+    - type: STR_CORRIDOR
+      x: 2
+      y: 5
+    - type: STR_BURROW
+      x: 3
+      y: 5
+    - type: STR_SMALL_RADAR_SYSTEM
+      x: 4
+      y: 5
+    - type: STR_WELL
+      x: 5
+      y: 5
+    - type: STR_RUBBLE
+      x: 0
+      y: 2
+    - type: STR_RUBBLE
+      x: 0
+      y: 3
+  randomSoldiers:
+    STR_SOLDIER: 12
+  crafts: *BASE_CRAFTS
+  items: *BASE_ITEMS
+  scientists: 10
+  engineers: 50

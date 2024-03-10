@@ -1,0 +1,10 @@
+items:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # Expensive Harvester Hull
+  - update: STR_WAR_HARVESTER_WRECK
+    costBuy: 5000000
+    costSell: 3000000

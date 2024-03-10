@@ -1,0 +1,117 @@
+items:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # Damage Bonus Rebalance
+  - update: STR_TASER
+    damageBonus:
+      firing: 0.4
+  - update: STR_TESLA_COIL
+    damageBonus:
+      firing: 0.4
+  - update: STR_PEPPER_PISTOL
+    damageBonus:
+      bravery: 0.1
+      firing: 0.1
+  - update: STR_ZAP_GUN
+    damageBonus:
+      bravery: 0.1
+      firing: 0.3
+  - update: STR_LASER_FIST
+    damageBonus:
+      firing: 0.2
+      reactions: 0.2
+  - update: STR_LASER_BALL
+    damageBonus:
+      reactions: 0.3
+  - update: STR_LASER_PISTOL_MINI
+    damageBonus:
+      firing: 0.05
+  - update: STR_LASER_PISTOL_LT
+    damageBonus:
+      firing: 0.075
+  - update: STR_HORNET
+    damageBonus:
+      firing: 0.075
+  - update: STR_ASSAULT_LASER
+    damageBonus:
+      firing: 0.1
+  - update: STR_LASER_PISTOL
+    damageBonus:
+      firing: 0.075
+  - update: STR_SCATTER_LASER
+    damageBonus:
+      bravery: 0.1
+      firing: 0.1
+  - update: STR_HELL_SHOTGUN
+    damageBonus:
+      psiStrength: 0.2
+      bravery: 0.1
+      firing: 0.05
+  - update: STR_FLECHETTE_GUN
+    damageBonus:
+      bravery: 0.1
+      firing: 0.1
+  - update: STR_LASER_CARBINE
+    damageBonus:
+      firing: 0.1
+  - update: STR_LASER_SUPERCHARGER
+    damageBonus:
+      firing: 0.2
+  - update: STR_LASER_RIFLE
+    damageBonus:
+      firing: 0.2
+  - update: STR_BATTLE_LASER
+    damageBonus:
+      firing: 0.2
+  - update: STR_WARP_RIFLE
+    damageBonus:
+      psiStrength: 0.1
+      firing: 0.2
+  - update: STR_HELL_RIFLE
+    damageBonus:
+      psiStrength: 0.25
+      firing: 0.1
+  - update: STR_FLECHETTE_CANNON
+    damageBonus:
+      strength: 0.2
+      firing: 0.2
+  - update: STR_WARP_CANNON
+    damageBonus:
+      strength: 0.1
+      psiStrength: 0.2
+      firing: 0.2
+  - update: STR_MINING_LASER
+    damageBonus:
+      strength: 0.2
+      firing: 0.2
+  - update: STR_GATLING_LASER
+    damageBonus:
+      strength: 0.2
+      firing: 0.2
+  - update: STR_MP_LASCANNON_N
+    damageBonus:
+      strength: 0.2
+      firing: 0.2
+  - update: STR_SSRL
+    damageBonus:
+      bravery: 0.1
+      firing: 0.1
+  - update: STR_SSRL_2
+    damageBonus:
+      bravery: 0.1
+      firing: 0.1
+  - update: STR_LIGHTER
+    damageBonus:
+      throwing: 0.075
+      bravery: 0.1
+  - update: STR_FLAME_PISTOL
+    damageBonus:
+      throwing: 0.075
+      bravery: 0.1
+  - update: STR_FIREBALL_LAUNCHER
+    damageBonus:
+      throwing: 0.075
+      bravery: 0.1

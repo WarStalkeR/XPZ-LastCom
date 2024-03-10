@@ -1,0 +1,19 @@
+items:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # Damage Bonus Rebalance
+  - update: AUX_MRSHAN_PERSONAL_LAUNCHER
+    damageBonus:
+      firing: 0.1
+      throwing: 0.1
+  - update: AUX_MRSHAN_PERSONAL_LAUNCHER_SEA
+    damageBonus:
+      firing: 0.1
+      throwing: 0.1
+  - update: AUX_MRSHAN_PERSONAL_LAUNCHER_SPACE
+    damageBonus:
+      firing: 0.1
+      throwing: 0.1

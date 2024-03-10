@@ -1,0 +1,33 @@
+crafts:
+### New Entries
+
+### Related Overrides
+  # HARVESTER Art + Rebalance
+  - update: STR_WAR_HARVESTER
+    spriteSize: [44, 50]
+    sprite: 229
+    fuelMax: 4500
+    refuelRate: 250
+    weapons: 4
+    weaponTypes: [[1], [1], [21], [21]]
+    weaponStrings: [STR_CRAFT_WEAPON_HEAVY_ONE, STR_CRAFT_WEAPON_HEAVY_TWO, STR_CRAFT_SYS_BTX, STR_CRAFT_SYS_BTX]
+
+  # PACHYDERM Slot Fix
+  - update: STR_CHARIOT
+    weaponTypes: [1, [23,25]]
+
+  # SHARK JETBIKE Art + Rebalance
+  - update: STR_JETBIKE
+    sprite: 144
+    accel: 15
+    weapons: 2
+    weaponTypes: [[0,4], [0,4]]
+    weaponStrings: [STR_CRAFT_WEAPON_LIGHTDIVE_ONE, STR_CRAFT_WEAPON_LIGHTDIVE_ONE]
+
+  # SKYRANGER Minor Rebalance
+  - update: STR_SKYRANGER
+    weapons: 2
+    weaponTypes: [[22,26], [22,26]]
+    weaponStrings: [STR_CRAFT_SYS_GTX, STR_CRAFT_SYS_GTX]
+
+### Integration

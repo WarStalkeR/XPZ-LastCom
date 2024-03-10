@@ -1,0 +1,120 @@
+manufacture:
+### New Entries
+  # Use Limitless Drills
+  - name: STR_USE_DRILL_ALL
+    category: STR_SPECIAL_PROJECT
+    requires:
+      - STR_TINY_DRILL_INVESTIGATION_DEP
+      - STR_TINY_DRILL_OVERRIDE
+    space: 100
+    time: 1000
+    cost: 0
+    requiredItems:
+      STR_SCRAP_METAL: 2500
+      STR_BIG_ROCK: 250
+      STR_TINY_DRILL: 1
+      STR_MENACING_HULL: 1
+    producedItems:
+      STR_FORTUNA_ANOMALY: 1
+      STR_FUEGO_ANOMALY: 1
+      STR_METALLO_ANOMALY: 1
+      STR_VENTURA_ANOMALY: 1
+      STR_ANOMALY_CORE: 1
+    refund: true
+
+  # Collapse Limitless Anomaly
+  - name: STR_LIMITLESS_ANOMALY_COLLAPSE
+    category: STR_SPECIAL_PROJECT
+    requires:
+      - STR_FORTUNA_ANOMALY
+      - STR_FUEGO_ANOMALY
+      - STR_METALLO_ANOMALY
+      - STR_VENTURA_ANOMALY
+      - STR_ANOMALY_CORE
+      - STR_ANOMALY_DEP2
+    space: 0
+    time: 10
+    cost: 100
+    requiredItems:
+      STR_FORTUNA_ANOMALY: 1
+      STR_FUEGO_ANOMALY: 1
+      STR_METALLO_ANOMALY: 1
+      STR_VENTURA_ANOMALY: 1
+      STR_ANOMALY_CORE: 1
+    producedItems:
+      STR_FORTUNA_HULL: 1
+      STR_CONVERSION_LAUNCHER: 4
+      STR_PHANTOM_MISSILES: 100
+      STR_FUEGO_HULL: 1
+      STR_FLAME_CANNON: 8
+      STR_METALLO_HULL: 1
+      STR_LITTLE_ILYA: 6
+      STR_SPIKE_ROCKETS: 250
+      STR_VENTURA_HULL: 1
+      STR_BIOPLASMA_PROJECTOR: 12
+    randomProducedItems:
+      - [1, {STR_JUNK_PILE: 10}]
+      - [1, {STR_JUNK_PILE: 30}]
+      - [1, {STR_JUNK_PILE: 50}]
+      - [1, {STR_JUNK_PILE: 70}]
+      - [1, {STR_JUNK_PILE: 90}]
+    refund: true
+
+### Related Overrides
+  # Dedicated Drill Usage
+  - update: STR_USE_DRILL_GRAY
+    requires: !add
+      - STR_ANOMALY_SHARD
+    producedItems:
+      STR_FORTUNA_ANOMALY: 1
+      STR_ANOMALY_SHARD: 1
+    space: 50
+  - update: STR_USE_DRILL_GOLD
+    requires: !add
+      - STR_ANOMALY_SHARD
+    producedItems:
+      STR_FUEGO_ANOMALY: 1
+      STR_ANOMALY_SHARD: 1
+    space: 50
+  - update: STR_USE_DRILL_RED
+    requires: !add
+      - STR_ANOMALY_SHARD
+    producedItems:
+      STR_METALLO_ANOMALY: 1
+      STR_ANOMALY_SHARD: 1
+    space: 50
+  - update: STR_USE_DRILL_GREEN
+    requires: !add
+      - STR_ANOMALY_SHARD
+    producedItems:
+      STR_VENTURA_ANOMALY: 1
+      STR_ANOMALY_SHARD: 1
+    space: 50
+
+  # Reworked Anomaly Collapse
+  - update: STR_FORTUNA_ANOMALY_COLLAPSE
+    requires: !add
+      - STR_ANOMALY_SHARD
+    requiredItems:
+      STR_FORTUNA_ANOMALY: 1
+      STR_ANOMALY_SHARD: 1
+  - update: STR_FUEGO_ANOMALY_COLLAPSE
+    requires: !add
+      - STR_ANOMALY_SHARD
+    requiredItems:
+      STR_FUEGO_ANOMALY: 1
+      STR_ANOMALY_SHARD: 1
+  - update: STR_METALLO_ANOMALY_COLLAPSE
+    requires: !add
+      - STR_ANOMALY_SHARD
+    requiredItems:
+      STR_METALLO_ANOMALY: 1
+      STR_ANOMALY_SHARD: 1
+  - update: STR_VENTURA_ANOMALY_COLLAPSE
+    requires: !add
+      - STR_ANOMALY_SHARD
+    requiredItems:
+      STR_VENTURA_ANOMALY: 1
+      STR_ANOMALY_SHARD: 1
+
+### Integration

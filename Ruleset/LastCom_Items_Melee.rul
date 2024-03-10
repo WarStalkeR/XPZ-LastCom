@@ -1,0 +1,87 @@
+items:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # Damage Bonus Rebalance
+  - update: STR_STUN_BATON
+    damageBonus:
+      reactions: 0.2
+      strength: 0.1
+      melee: 0.2
+  - update: STR_CHAOS_DAGGER
+    damageBonus:
+      reactions: 1
+      strength: -0.3
+  - update: STR_IRON_ROD
+    damageBonus:
+      strength: 0.6
+      bravery: 0.6
+      psiStrength: 0.6
+  - update: STR_CATTLE_PROD
+    damageBonus:
+      reactions: 0.1
+      strength: 0.2
+      melee: 0.3
+  - update: STR_GREAT_CLUB
+    damageBonus:
+      strength: 1.2
+      bravery: 0.6
+      melee: 0.6
+  - update: STR_STEAM_HAMMER
+    damageBonus:
+      bravery: 0.2
+      strength: 1.2
+  - update: STR_SLUDGEHAMMER
+    damageBonus:
+      strength: 0.9
+      melee: 0.9
+      psiStrength: 0.9
+  - update: STR_RIPPER
+    damageBonus:
+      bravery: 0.1
+      reactions: 0.2
+      melee: 0.2
+  - update: STR_CHAINSAW
+    damageBonus:
+      bravery: 0.2
+      melee: 0.4
+  - update: STR_CHAINSAW_LOLI
+    damageBonus:
+      bravery: 0.4
+      reactions: 0.1
+      melee: 0.2
+  - update: STR_AUTO_AXE
+    damageBonus:
+      strength: 0.3
+      melee: 0.2
+  - update: STR_CHAINSAW_HEAVY
+    damageBonus:
+      strength: 0.1
+      melee: 0.4
+  - update: STR_WHIP_LEATHER
+    categories: !add [STR_BAT_CAT_UNDERWATER]
+    damageBonus:
+      strength: 0.2
+      throwing: 0.3
+      reactions: 0.2
+  - update: STR_WHIP
+    categories: !add [STR_BAT_CAT_UNDERWATER]
+    damageBonus:
+      reactions: 0.6
+      throwing: 0.2
+  - update: STR_ELECTRIC_LASSO
+    damageBonus:
+      reactions: 0.4
+      throwing: 0.4
+    blockBothHands: false
+    oneHandedPenalty: 70
+  - update: STR_POISONOUS_TENTACLE
+    damageBonus:
+      throwing: 0.4
+      melee: 0.4
+  - update: STR_WRECKIN_BALL
+    damageBonus:
+      reactions: 0.4
+      strength: 0.2

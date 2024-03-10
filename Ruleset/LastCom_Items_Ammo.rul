@@ -1,0 +1,1024 @@
+items:
+### New Entries
+
+### Related Overrides
+
+### Integration
+  # Definitions: Various
+  - &BONUS_LONGBOW
+    ignore: BONUS_LONGBOW
+    damageBonus:
+      firing: 0.3
+      throwing: 0.2
+  - &BONUS_CROSSBOW
+    ignore: BONUS_CROSSBOW
+    damageBonus:
+      bravery: 0.2
+  - &BONUS_BALLISTA
+    ignore: BONUS_BALLISTA
+    damageBonus:
+      strength: 0.2
+      throwing: 0.1
+      firing: 0.1
+  - &BONUS_BLOWPIPE
+    ignore: BONUS_BLOWPIPE
+    damageBonus:
+      throwing: [0.36, -0.001]
+  - &BONUS_PREDATOR
+    ignore: BONUS_PREDATOR
+    damageBonus:
+      firing: 0.1
+      reactions: 0.1
+  - &BONUS_OVERWATCH
+    ignore: BONUS_OVERWATCH
+    damageBonus:
+      firing: 0.15
+      reactions: 0.15
+  - &BONUS_SUPPORT
+    ignore: BONUS_SUPPORT
+    damageBonus:
+      throwing: 0.1
+      bravery: 0.1
+  - &BONUS_ARCING
+    ignore: BONUS_ARCING
+    damageBonus:
+      throwing: 0.1
+      firing: 0.1
+
+  # Definitions: Psionic
+  - &BONUS_PSI_CRIT
+    ignore: BONUS_PSI_CRIT
+    damageBonus:
+      psiStrength: 0.5
+      firing: 0.1
+  - &BONUS_PSI_STRIK
+    ignore: BONUS_PSI_STRIK
+    damageBonus:
+      strength: 0.125
+      psiStrength: 0.25
+      firing: 0.125
+
+  # Definitions: Firing Only
+  - &BONUS_BASIC
+    ignore: BONUS_BASIC
+    damageBonus:
+      firing: 0.05
+  - &BONUS_IMPROVED
+    ignore: BONUS_IMPROVED
+    damageBonus:
+      firing: 0.065
+  - &BONUS_WEAKENED
+    ignore: BONUS_WEAKENED
+    damageBonus:
+      firing: 0.075
+  - &BONUS_STANDARD
+    ignore: BONUS_STANDARD
+    damageBonus:
+      firing: 0.1
+  - &BONUS_ADVANCED
+    ignore: BONUS_ADVANCED
+    damageBonus:
+      firing: 0.115
+  - &BONUS_POWERFUL
+    ignore: BONUS_POWERFUL
+    damageBonus:
+      firing: 0.135
+  - &BONUS_MILITARY
+    ignore: BONUS_MILITARY
+    damageBonus:
+      firing: 0.15
+  - &BONUS_IMPACT
+    ignore: BONUS_IMPACT
+    damageBonus:
+      firing: 0.175
+  - &BONUS_ASSAULT
+    ignore: BONUS_ASSAULT
+    damageBonus:
+      firing: 0.2
+  - &BONUS_SUPERIOR
+    ignore: BONUS_SUPERIOR
+    damageBonus:
+      firing: 0.235
+  - &BONUS_ELITE
+    ignore: BONUS_ELITE
+    damageBonus:
+      firing: 0.25
+
+  # Definitions: Bravery + Firing
+  - &BONUS_KNOCKER
+    ignore: BONUS_KNOCKER
+    damageBonus:
+      bravery: 0.05
+      firing: 0.05
+  - &BONUS_DOORSTOP
+    ignore: BONUS_DOORSTOP
+    damageBonus:
+      bravery: 0.065
+      firing: 0.065
+  - &BONUS_BOARDING
+    ignore: BONUS_BOARDING
+    damageBonus:
+      bravery: 0.1
+      firing: 0.05
+  - &BONUS_CRTICAL
+    ignore: BONUS_CRTICAL
+    damageBonus:
+      bravery: 0.1
+      firing: 0.1
+  - &BONUS_MAULER
+    ignore: BONUS_MAULER
+    damageBonus:
+      bravery: 0.1
+      firing: 0.125
+  - &BONUS_HARDCORE
+    ignore: BONUS_HARDCORE
+    damageBonus:
+      bravery: 0.1
+      firing: 0.15
+  - &BONUS_SWEEPER
+    ignore: BONUS_SWEEPER
+    damageBonus:
+      bravery: 0.125
+      firing: 0.15
+  - &BONUS_DESTROYER
+    ignore: BONUS_DESTROYER
+    damageBonus:
+      bravery: 0.1
+      firing: 0.2
+
+  # Definitions: Strength + Firing
+  - &BONUS_STORMER
+    ignore: BONUS_STORMER
+    damageBonus:
+      strength: 0.15
+      firing: 0.1
+  - &BONUS_STRIKER
+    ignore: BONUS_STRIKER
+    damageBonus:
+      strength: 0.125
+      firing: 0.125
+  - &BONUS_BARRAGER
+    ignore: BONUS_BARRAGER
+    damageBonus:
+      strength: 0.15
+      firing: 0.15
+  - &BONUS_REPULSOR
+    ignore: BONUS_REPULSOR
+    damageBonus:
+      strength: 0.2
+      firing: 0.1
+  - &BONUS_TACTICAL
+    ignore: BONUS_TACTICAL
+    damageBonus:
+      strength: 0.1
+      firing: 0.2
+  - &BONUS_ERASER
+    ignore: BONUS_ERASER
+    damageBonus:
+      strength: 0.2
+      firing: 0.15
+  - &BONUS_DECIMATOR
+    ignore: BONUS_DECIMATOR
+    damageBonus:
+      strength: 0.2
+      firing: 0.2
+  - &BONUS_MASSIVE
+    ignore: BONUS_MASSIVE
+    damageBonus:
+      strength: 0.3
+      firing: 0.1
+  - &BONUS_OVERPOWER
+    ignore: BONUS_OVERPOWER
+    damageBonus:
+      strength: 0.25
+      firing: 0.25
+
+  # Damage Bonus Update
+  - update: STR_BOW_ARROWS_HE
+    refNode: *BONUS_LONGBOW
+  - update: STR_LONGBOW_QUIVER_ACID
+    refNode: *BONUS_LONGBOW
+  - update: STR_LONGBOW_QUIVER_TARNIAN
+    refNode: *BONUS_LONGBOW
+  - update: STR_BLOWPIPE_DARTS_ACID
+    refNode: *BONUS_BLOWPIPE
+  - update: STR_CELATID_ESSENCE
+    refNode: *BONUS_CROSSBOW
+  - update: STR_XBOW_QUIVER
+    refNode: *BONUS_CROSSBOW
+  - update: STR_XBOW_CORAL_QUIVER
+    refNode: *BONUS_CROSSBOW
+  - update: STR_FLINTLOCK_BALLS
+    refNode: *BONUS_CRTICAL
+  - update: STR_FLINTLOCK_BALLS_SC
+    refNode: *BONUS_CRTICAL
+  - update: STR_FLINTLOCK_BALLS_G
+    refNode: *BONUS_CRTICAL
+  - update: STR_FLINTLOCK_BALLS_WP
+    refNode: *BONUS_CRTICAL
+  - update: STR_STAPLER_CLIP
+    refNode: *BONUS_IMPACT
+  - update: STR_DART_PISTOL_CLIP_BASIC
+    refNode: *BONUS_IMPACT
+  - update: STR_DART_PISTOL_CLIP
+    refNode: *BONUS_IMPACT
+  - update: STR_HARPOON_AP_CLIP
+    refNode: *BONUS_IMPACT
+  - update: STR_HARPOON_STUN_CLIP
+    refNode: *BONUS_IMPACT
+  - update: STR_HARPOON_STUN_B_CLIP
+    refNode: *BONUS_IMPACT
+  - update: STR_RETICULAN_ELECTROGUN_CLIP
+    refNode: *BONUS_SUPERIOR
+  - update: STR_MEGAVOLT_CLIP
+    refNode: *BONUS_SUPERIOR
+  - update: STR_PISTOL_LT_CLIP
+    refNode: *BONUS_BASIC
+  - update: STR_PISTOL_LT_CLIP_SLAYER
+    refNode: *BONUS_BASIC
+  - update: STR_PISTOL_LT_CLIP_AP
+    refNode: *BONUS_BASIC
+  - update: STR_REVOLVER_LT_DRUM
+    refNode: *BONUS_BASIC
+  - update: STR_REVOLVER_LT_DRUM_SLAYER
+    refNode: *BONUS_BASIC
+  - update: STR_REVOLVER_LT_DRUM_MAG
+    refNode: *BONUS_BASIC
+  - update: STR_OLD_PISTOL_CLIP
+    refNode: *BONUS_IMPROVED
+  - update: STR_OLD_PISTOL_CLIP_SLAYER
+    refNode: *BONUS_IMPROVED
+  - update: STR_OLD_PISTOL_CLIP_EP
+    refNode: *BONUS_IMPROVED
+  - update: STR_OLD_PISTOL_CLIP_MAGNUM
+    refNode: *BONUS_IMPROVED
+  - update: STR_REVOLVER_DRUM
+    refNode: *BONUS_STANDARD
+  - update: STR_REVOLVER_DRUM_SLAYER
+    refNode: *BONUS_STANDARD
+  - update: STR_PISTOL_BM_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_PISTOL_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_PISTOL_CLIP_SLAYER
+    refNode: *BONUS_STANDARD
+  - update: STR_PISTOL_ADV_CLIP
+    refNode: *BONUS_PREDATOR
+  - update: STR_COLT45_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_COLT45_CLIP_SLAYER
+    refNode: *BONUS_STANDARD
+  - update: STR_COLT45_CLIP_EP
+    refNode: *BONUS_STANDARD
+  - update: STR_SNUBBY_DRUM
+    refNode: *BONUS_STANDARD
+  - update: STR_SNUBBY_DRUM_SLAYER
+    refNode: *BONUS_STANDARD
+  - update: STR_SNUBBY_DRUM_NUKE
+    refNode: *BONUS_STANDARD
+  - update: STR_LIQUIDATOR_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_COMMANDO_PISTOL_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_HEAVY_PISTOL_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_HEAVY_PISTOL_CLIP_MAG
+    refNode: *BONUS_STANDARD
+  - update: STR_PREDATOR_PISTOL_CLIP
+    refNode: *BONUS_PREDATOR
+  - update: STR_OLD_MAGNUM_ROUNDS
+    refNode: *BONUS_ADVANCED
+  - update: STR_OLD_MAGNUM_ROUNDS_SLAYER
+    refNode: *BONUS_ADVANCED
+  - update: STR_MAGNUM_DRUM
+    refNode: *BONUS_ADVANCED
+  - update: STR_MAGNUM_DRUM_ACID
+    refNode: *BONUS_ADVANCED
+  - update: STR_MAGNUM_DRUM_SILVER
+    refNode: *BONUS_ADVANCED
+  - update: STR_UAC_PISTOL_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_UAC_PISTOL_CLIP_AQUA
+    refNode: *BONUS_STANDARD
+  - update: STR_SLUGGA_AMMO
+    refNode: *BONUS_CRTICAL
+  - update: STR_SLUGGA_AMMO_SHOT
+    refNode: *BONUS_CRTICAL
+  - update: STR_SLUGGA_AMMO_HE
+    refNode: *BONUS_CRTICAL
+  - update: STR_SLUGGA_AMMO_PSI
+    refNode: *BONUS_PSI_CRIT
+  - update: STR_SLUGGA_MK2_CLIP
+    refNode: *BONUS_CRTICAL
+  - update: STR_SLUGGA_MK2_CLIP_S
+    refNode: *BONUS_CRTICAL
+  - update: STR_SLUGGA_MK2_CLIP_HEX
+    refNode: *BONUS_CRTICAL
+  - update: STR_CONCEALABLE_RR_SHELLS
+    refNode: *BONUS_PREDATOR
+  - update: STR_LASER_PISTOL_SNUB_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_LASER_PISTOL_M_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_ES_PISTOL_CLIP
+    refNode: *BONUS_ADVANCED
+  - update: STR_SR_PISTOL_CLIP
+    refNode: *BONUS_POWERFUL
+  - update: STR_GAUSS_PISTOL_CLIP
+    refNode: *BONUS_IMPROVED
+  - update: STR_KRUGER_CLIP
+    refNode: *BONUS_BASIC
+  - update: STR_IGUN_CLIP
+    refNode: *BONUS_IMPROVED
+  - update: STR_PLASMA_PISTOL_LT_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_BLACK_DRAGON_PLASMAGUN_CLIP
+    refNode: *BONUS_WEAKENED
+  - update: STR_RAYGUN_CLIP
+    refNode: *BONUS_POWERFUL
+  - update: STR_SONIC_PISTOL_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_HEAT_RAY_PISTOL_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_TEC9_CLIP
+    refNode: *BONUS_BASIC
+  - update: STR_SMG_CLIP
+    refNode: *BONUS_BASIC
+  - update: STR_SMG_CLIP_ACID
+    refNode: *BONUS_BASIC
+  - update: STR_SMG_CLIP_INCENDIARY
+    refNode: *BONUS_BASIC
+  - update: STR_SKORPION_CLIP_API
+    refNode: *BONUS_IMPROVED
+  - update: STR_SMG_ADV_CLIP
+    refNode: *BONUS_IMPROVED
+  - update: STR_SMG_ADV_CLIP_ETAP
+    refNode: *BONUS_IMPROVED
+  - update: STR_PAINBRINGER_CLIP
+    refNode: *BONUS_IMPROVED
+  - update: STR_PAINBRINGER_CLIP_INC
+    refNode: *BONUS_IMPROVED
+  - update: STR_PAINBRINGER_CLIP_ACID
+    refNode: *BONUS_IMPROVED
+  - update: STR_DEATH_BLOSSOM_CLIP_AP
+    refNode: *BONUS_IMPROVED
+  - update: STR_DEATH_BLOSSOM_CLIP_HVAP
+    refNode: *BONUS_IMPROVED
+  - update: STR_DEATH_BLOSSOM_CLIP_ACID
+    refNode: *BONUS_IMPROVED
+  - update: STR_LASER_PISTOL_CLIP_LO
+    refNode: *BONUS_WEAKENED
+  - update: STR_LASER_PISTOL_CLIP_HI
+    refNode: *BONUS_WEAKENED
+  - update: STR_LASER_PISTOL_CLIP_AP
+    refNode: *BONUS_WEAKENED
+  - update: STR_XG_PISTOL_CLIP_AQUA
+    refNode: *BONUS_MILITARY
+  - update: STR_PIR_PLASMA_PISTOL_CLIP
+    refNode: *BONUS_WEAKENED
+  - update: STR_ELITE_PLASMA_PISTOL_CLIP
+    refNode: *BONUS_WEAKENED
+  - update: STR_PLASMA_CASTER_CLIP
+    refNode: *BONUS_WEAKENED
+  - update: STR_BUCKSHOT
+    refNode: *BONUS_KNOCKER
+  - update: STR_BUCKSHOT_HV
+    refNode: *BONUS_KNOCKER
+  - update: STR_BUCKSHOT_ACID
+    refNode: *BONUS_KNOCKER
+  - update: STR_BUCKSHOT_NUKE
+    refNode: *BONUS_KNOCKER
+  - update: STR_SHOTGUN_G_SHELLS
+    refNode: *BONUS_DOORSTOP
+  - update: STR_SHOTGUN_G_SHELLS_HV
+    refNode: *BONUS_DOORSTOP
+  - update: STR_SHOTGUN_G_SHELLS_I
+    refNode: *BONUS_DOORSTOP
+  - update: STR_SHOTGUN_G_SHELLS_NUKE
+    refNode: *BONUS_DOORSTOP
+  - update: STR_SHOTGUN_SHELLS
+    refNode: *BONUS_CRTICAL
+  - update: STR_SHOTGUN_SHELLS_AP
+    refNode: *BONUS_CRTICAL
+  - update: STR_SHOTGUN_SHELLS_RUBBER
+    refNode: *BONUS_CRTICAL
+  - update: STR_SHOTGUN_SHELLS_ACID
+    refNode: *BONUS_CRTICAL
+  - update: STR_SHOTGUN_SHELLS_HEAT
+    refNode: *BONUS_CRTICAL
+  - update: STR_SHOTGUN_SHELLS_NUKE
+    refNode: *BONUS_CRTICAL
+  - update: STR_SHOTGUN_PA_SHELLS
+    refNode: *BONUS_CRTICAL
+  - update: STR_SHOTGUN_PA_SLUGS
+    refNode: *BONUS_CRTICAL
+  - update: STR_SHOTGUN_PA_SHELLS_NUKE
+    refNode: *BONUS_CRTICAL
+  - update: STR_SHOTGUN_PA_SLUGS_AP
+    refNode: *BONUS_CRTICAL
+  - update: STR_UAC_SHOTGUN_SHELLS
+    refNode: *BONUS_MAULER
+  - update: STR_UAC_SHOTGUN_SHELLS_NUKE
+    refNode: *BONUS_MAULER
+  - update: STR_ASG12_DRUM
+    refNode: *BONUS_SWEEPER
+  - update: STR_ASG12_DRUM_RUBBER
+    refNode: *BONUS_SWEEPER
+  - update: STR_COMBAT_SHOTGUN_DRUM
+    refNode: *BONUS_MAULER
+  - update: STR_COMBAT_SHOTGUN_DRUM_I
+    refNode: *BONUS_MAULER
+  - update: STR_BLUNDERBUSS_AMMO
+    refNode: *BONUS_CRTICAL
+  - update: STR_BLUNDERBUSS_AMMO_ACID
+    refNode: *BONUS_CRTICAL
+  - update: STR_BLUNDERBUSS_AMMO_HE
+    refNode: *BONUS_CRTICAL
+  - update: STR_BLUNDERBUSS_DRUM_GOLD
+    refNode: *BONUS_CRTICAL
+  - update: STR_BLUNDERBUSS_DRUM_ACID
+    refNode: *BONUS_CRTICAL
+  - update: STR_BLUNDERBUSS_DRUM_HE
+    refNode: *BONUS_CRTICAL
+  - update: STR_SLUGTHROWER_SHELLS
+    refNode: *BONUS_CRTICAL
+  - update: STR_SLUGTHROWER_SHELLS_HE
+    refNode: *BONUS_CRTICAL
+  - update: STR_SLUGTHROWER_SHELLS_ACID
+    refNode: *BONUS_CRTICAL
+  - update: STR_CAWS_CLIP_AP
+    refNode: *BONUS_CRTICAL
+  - update: STR_CAWS_CLIP_S
+    refNode: *BONUS_CRTICAL
+  - update: STR_CAWS_CLIP_AQUA
+    refNode: *BONUS_CRTICAL
+  - update: STR_SUPER_SHOTGUN_CLIP
+    refNode: *BONUS_DESTROYER
+  - update: STR_SUPER_SHOTGUN_CLIP_HVAP
+    refNode: *BONUS_DESTROYER
+  - update: STR_MAMMOTH_SHOTGUN_CLIP
+    refNode: *BONUS_DESTROYER
+  - update: STR_MRSHAN_SHOTGUN_CLIP
+    refNode: *BONUS_CRTICAL
+  - update: STR_OGRE_SHOTGUN_SHELLS
+    refNode: *BONUS_CRTICAL
+  - update: STR_OGRE_SHOTGUN_SHELLS_I
+    refNode: *BONUS_CRTICAL
+  - update: STR_OGRE_SHOTGUN_SHELLS_NUKE
+    refNode: *BONUS_CRTICAL
+  - update: STR_BOOM_AMMO
+    refNode: *BONUS_CRTICAL
+  - update: STR_SR_SHOTGUN_CLIP
+    refNode: *BONUS_CRTICAL
+  - update: STR_FLAK_CANNON_DRUM
+    refNode: *BONUS_CRTICAL
+  - update: STR_PIR_HEAVY_BOLTER_AMMO
+    refNode: *BONUS_CRTICAL
+  - update: STR_PLASMA_SHOTGUN_CLIP
+    refNode: *BONUS_CRTICAL
+  - update: STR_HSMG_CLIP
+    refNode: *BONUS_MILITARY
+  - update: STR_HSMG_CLIP_AQUA
+    refNode: *BONUS_MILITARY
+  - update: STR_MP_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_MP_CLIP_EP
+    refNode: *BONUS_STANDARD
+  - update: STR_SMG_10MM_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_SMG_10MM_CLIP_AQUA
+    refNode: *BONUS_STANDARD
+  - update: STR_MINI_SMG_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_ASMG_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_ASMG_CLIP_HVAP
+    refNode: *BONUS_STANDARD
+  - update: STR_SMG_50CAL_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_TOMMYGUN_DRUM
+    refNode: *BONUS_STANDARD
+  - update: STR_TOMMYGUN_DRUM_LASER
+    refNode: *BONUS_STANDARD
+  - update: STR_STORM_LASER_CLIP_LO
+    refNode: *BONUS_STANDARD
+  - update: STR_STORM_LASER_CLIP_HI
+    refNode: *BONUS_STANDARD
+  - update: STR_STORM_LASER_CLIP_AP
+    refNode: *BONUS_STANDARD
+  - update: STR_MPG_CLIP
+    refNode: *BONUS_STANDARD
+  - update: STR_TOMMYGUN_DRUM_PLASMA
+    refNode: *BONUS_STANDARD
+  - update: STR_PIR_PLASMA_SUB_CLIP
+    refNode: *BONUS_ADVANCED
+  - update: STR_RAMJET_HARPOON_CLIP
+    refNode: *BONUS_IMPACT
+  - update: STR_HARPOON_AUTO_AP_CLIP
+    refNode: *BONUS_IMPACT
+  - update: STR_HARPOON_AUTO_POISON_CLIP
+    refNode: *BONUS_IMPACT
+  - update: STR_HARPOON_AUTO_TRANQ_CLIP
+    refNode: *BONUS_IMPACT
+  - update: STR_RIFLE_AK_CLIP
+    refNode: *BONUS_MILITARY
+  - update: STR_RIFLE_AK_CLIP_MAG
+    refNode: *BONUS_MILITARY
+  - update: STR_RIFLE_M16_CLIP
+    refNode: *BONUS_MILITARY
+  - update: STR_RIFLE_M16_CLIP_EP
+    refNode: *BONUS_MILITARY
+  - update: STR_ZEERUST_GL_DP_CLIP
+    refNode: *BONUS_MILITARY
+  - update: STR_RIFLE_CLIP
+    refNode: *BONUS_MILITARY
+  - update: STR_RIFLE_CLIP_AP
+    refNode: *BONUS_MILITARY
+  - update: STR_RIFLE_CLIP_PS
+    refNode: *BONUS_MILITARY
+  - update: STR_BATTLE_RIFLE_CLIP
+    refNode: *BONUS_MILITARY
+  - update: STR_BATTLE_RIFLE_CLIP_AP
+    refNode: *BONUS_MILITARY
+  - update: STR_BATTLE_RIFLE_CLIP_PS
+    refNode: *BONUS_MILITARY
+  - update: STR_OMEGA_RIFLE_CLIP
+    refNode: *BONUS_PREDATOR
+  - update: STR_OMEGA_RIFLE_CLIP_AP
+    refNode: *BONUS_PREDATOR
+  - update: STR_OMEGA_RIFLE_CLIP_ETAP
+    refNode: *BONUS_PREDATOR
+  - update: STR_ALPHA_RIFLE_CLIP
+    refNode: *BONUS_ASSAULT
+  - update: STR_SMARTRIFLE_CLIP
+    refNode: *BONUS_IMPACT
+  - update: STR_SMARTRIFLE_CLIP_HVAP
+    refNode: *BONUS_IMPACT
+  - update: STR_UAC_CLIP
+    refNode: *BONUS_IMPACT
+  - update: STR_UAC_CLIP_AQUA
+    refNode: *BONUS_IMPACT
+  - update: STR_SHOOTA_CLIP
+    refNode: *BONUS_BOARDING
+  - update: STR_SHOOTA_CLIP_SMALL
+    refNode: *BONUS_BOARDING
+  - update: STR_SHOOTA_CLIP_LARGE
+    refNode: *BONUS_BOARDING
+  - update: STR_AT_RIFLE_ROUND
+    refNode: *BONUS_ASSAULT
+  - update: STR_SUPERHEAVY_RIFLE_AMMO
+    refNode: *BONUS_ASSAULT
+  - update: STR_LASER_RIFLE_M_CLIP
+    refNode: *BONUS_ASSAULT
+  - update: STR_LASER_RIFLE_CLIP_LO
+    refNode: *BONUS_ASSAULT
+  - update: STR_LASER_RIFLE_CLIP_HI
+    refNode: *BONUS_ASSAULT
+  - update: STR_LASER_RIFLE_CLIP_AP
+    refNode: *BONUS_ASSAULT
+  - update: STR_ES_RIFLE_CLIP
+    refNode: *BONUS_ASSAULT
+  - update: STR_MARSEC_LASGUN_CLIP
+    refNode: *BONUS_ASSAULT
+  - update: STR_RETICULAN_LASER_GUN_CLIP
+    refNode: *BONUS_ASSAULT
+  - update: STR_DESTRUCTOR_RIFLE_CLIP
+    refNode: *BONUS_ASSAULT
+  - update: STR_RAIL_RIFLE_OLD_CLIP
+    refNode: *BONUS_DESTROYER
+  - update: STR_GAUSS_RIFLE_CLIP
+    refNode: *BONUS_ADVANCED
+  - update: STR_RAIL_RIFLE_CLIP
+    refNode: *BONUS_HARDCORE
+  - update: STR_RAIL_RIFLE_CLIP_AQUA
+    refNode: *BONUS_HARDCORE
+  - update: STR_XG_RIFLE_CLIP
+    refNode: *BONUS_HARDCORE
+  - update: STR_XG_RIFLE_CLIP_AQUA
+    refNode: *BONUS_HARDCORE
+  - update: STR_SONIC_RIFLE_CLIP
+    refNode: *BONUS_ASSAULT
+  - update: STR_RETICULAN_PLASMA_GUN_CLIP
+    refNode: *BONUS_ASSAULT
+  - update: STR_NOVA_PLASMA_GUN_CLIP
+    refNode: *BONUS_ASSAULT
+  - update: STR_HEAVY_PARTICLE_GUN_CLIP
+    refNode: *BONUS_ASSAULT
+  - update: STR_LPG_CLIP
+    refNode: *BONUS_ASSAULT
+  - update: STR_PIR_PLASMA_RIFLE_CLIP
+    refNode: *BONUS_ASSAULT
+  - update: STR_PIR_HEAVY_PLASMA_CLIP
+    refNode: *BONUS_ELITE
+  - update: STR_ELITE_HEAVY_PLASMA_CLIP
+    refNode: *BONUS_ELITE
+  - update: STR_BATTLE_PLASMA_CLIP
+    refNode: *BONUS_ELITE
+  - update: STR_WINCHESTER_AMMO
+    refNode: *BONUS_PREDATOR
+  - update: STR_WINCHESTER_AMMO_SLAYER
+    refNode: *BONUS_PREDATOR
+  - update: STR_WINCHESTER_AMMO_EP
+    refNode: *BONUS_PREDATOR
+  - update: STR_VARMINT_RIFLE_CLIP
+    refNode: *BONUS_PREDATOR
+  - update: STR_HUNTING_RIFLE_CLIP
+    refNode: *BONUS_PREDATOR
+  - update: STR_HUNTING_RIFLE_CLIP_PS
+    refNode: *BONUS_PREDATOR
+  - update: STR_HUNTING_LASER_CLIP
+    refNode: *BONUS_OVERWATCH
+  - update: STR_NARLOCK_LASGUN_CLIP
+    refNode: *BONUS_PREDATOR
+  - update: STR_ES_SNIPER_CLIP
+    refNode: *BONUS_OVERWATCH
+  - update: STR_SR_RIFLE_CLIP
+    refNode: *BONUS_OVERWATCH
+  - update: STR_HSR_CLIP_ACID
+    refNode: *BONUS_PREDATOR
+  - update: STR_HSR_CLIP_HE
+    refNode: *BONUS_PREDATOR
+  - update: STR_XG_SNIPER_RIFLE_CLIP_AQUA
+    refNode: *BONUS_MILITARY
+  - update: STR_PRECISION_PLASMA_CLIP
+    refNode: *BONUS_PREDATOR
+  - update: STR_SAW_CLIP
+    refNode: *BONUS_STRIKER
+  - update: STR_SAW_CLIP_PS
+    refNode: *BONUS_STRIKER
+  - update: STR_SAW_CLIP_ETAP
+    refNode: *BONUS_STRIKER
+  - update: STR_SAW_CLIP_PSI
+    refNode: *BONUS_PSI_STRIK
+  - update: STR_LMG_CLIP
+    refNode: *BONUS_STRIKER
+  - update: STR_LMG_CLIP_AP
+    refNode: *BONUS_STRIKER
+  - update: STR_LMG_CLIP_PS
+    refNode: *BONUS_STRIKER
+  - update: STR_SPARTAN_MG_AMMO
+    refNode: *BONUS_REPULSOR
+  - update: STR_MUTANT_MG_CLIP
+    refNode: *BONUS_REPULSOR
+  - update: STR_ASUKA_RIFLE_CLIP
+    refNode: *BONUS_REPULSOR
+  - update: STR_BOZAR_CLIP
+    refNode: *BONUS_DECIMATOR
+  - update: STR_BOZAR_CLIP_HVAP
+    refNode: *BONUS_DECIMATOR
+  - update: STR_SMART_CANNON_CLIP
+    refNode: *BONUS_OVERWATCH
+  - update: STR_MACHINEGUN_BELT
+    refNode: *BONUS_BARRAGER
+  - update: STR_MACHINEGUN_BELT_PS
+    refNode: *BONUS_BARRAGER
+  - update: STR_MACHINEGUN_BELT_MAG
+    refNode: *BONUS_BARRAGER
+  - update: STR_MACHINEGUN_BELT_LONG
+    refNode: *BONUS_BARRAGER
+  - update: STR_MACHINEGUN_BELT_LONG_PS
+    refNode: *BONUS_BARRAGER
+  - update: STR_MACHINEGUN_BELT_LONG_MAG
+    refNode: *BONUS_BARRAGER
+  - update: STR_HMG_CLIP
+    refNode: *BONUS_TACTICAL
+  - update: STR_HMG_CLIP_PS
+    refNode: *BONUS_TACTICAL
+  - update: STR_HMG_CLIP_MAG
+    refNode: *BONUS_TACTICAL
+  - update: STR_HMG_CLIP_SMALL
+    refNode: *BONUS_TACTICAL
+  - update: STR_HMG_CLIP_PS_SMALL
+    refNode: *BONUS_TACTICAL
+  - update: STR_HMG_CLIP_MAG_SMALL
+    refNode: *BONUS_TACTICAL
+  - update: STR_HMG_CLIP_LARGE
+    refNode: *BONUS_TACTICAL
+  - update: STR_HMG_CLIP_PS_LARGE
+    refNode: *BONUS_TACTICAL
+  - update: STR_HMG_CLIP_MAG_LARGE
+    refNode: *BONUS_TACTICAL
+  - update: STR_HYDRA_LASER_CLIP
+    refNode: *BONUS_DECIMATOR
+  - update: STR_AUTO_LASER_CLIP_LO
+    refNode: *BONUS_DECIMATOR
+  - update: STR_AUTO_LASER_CLIP_HI
+    refNode: *BONUS_DECIMATOR
+  - update: STR_AUTO_LASER_CLIP_AP
+    refNode: *BONUS_DECIMATOR
+  - update: STR_MEGA_LASER_CLIP
+    refNode: *BONUS_DECIMATOR
+  - update: STR_XG_HEAVY_CLIP
+    refNode: *BONUS_OVERPOWER
+  - update: STR_XG_HEAVY_CLIP_AQUA
+    refNode: *BONUS_OVERPOWER
+  - update: STR_HEAVY_GAUSS_CLIP
+    refNode: *BONUS_BARRAGER
+  - update: STR_UAC_PLASMAGUN_BATTERY
+    refNode: *BONUS_TACTICAL
+  - update: STR_RAIL_COIL
+    refNode: *BONUS_REPULSOR
+  - update: STR_IRRADIATOR_CELL
+    refNode: *BONUS_TACTICAL
+  - update: STR_COOKER_CLIP
+    refNode: *BONUS_REPULSOR
+  - update: STR_LIGHTNING_THROWER_CELL
+    refNode: *BONUS_DECIMATOR
+  - update: STR_CHAINGUN_CLIP
+    refNode: *BONUS_STORMER
+  - update: STR_CHAINGUN_CLIP_HEX
+    refNode: *BONUS_STORMER
+  - update: STR_ROTOGUN_AMMO
+    refNode: *BONUS_STORMER
+  - update: STR_MINIGUN_AMMO
+    refNode: *BONUS_STORMER
+  - update: STR_MINIGUN_AMMO_PS
+    refNode: *BONUS_STORMER
+  - update: STR_MINIGUN_AMMO_ETAP
+    refNode: *BONUS_STORMER
+  - update: STR_MINIGUN_2_AMMO
+    refNode: *BONUS_ERASER
+  - update: STR_MINIGUN_2_AMMO_HVAP
+    refNode: *BONUS_ERASER
+  - update: STR_UAC_HEAVY_NAILGUN_CLIP
+    refNode: *BONUS_DECIMATOR
+  - update: STR_NUB_LASER_GATLING_CLIP
+    refNode: *BONUS_DECIMATOR
+  - update: STR_LACC_AP_AMMO
+    refNode: *BONUS_STORMER
+  - update: STR_LACC_HE_AMMO
+    refNode: *BONUS_STORMER
+  - update: STR_LACC_I_AMMO
+    refNode: *BONUS_STORMER
+  - update: STR_LACC_PS_AMMO
+    refNode: *BONUS_STORMER
+  - update: STR_LACC_AQUA_AMMO
+    refNode: *BONUS_STORMER
+  - update: STR_LACC_HEX_AMMO
+    refNode: *BONUS_STORMER
+  - update: STR_HC_AP_AMMO
+    refNode: *BONUS_BARRAGER
+  - update: STR_HC_HE_AMMO
+    refNode: *BONUS_BARRAGER
+  - update: STR_HC_I_AMMO
+    refNode: *BONUS_BARRAGER
+  - update: STR_HC_PS_AMMO
+    refNode: *BONUS_BARRAGER
+  - update: STR_HC_AQUA_AMMO
+    refNode: *BONUS_BARRAGER
+  - update: STR_HC_HEX_AMMO
+    refNode: *BONUS_BARRAGER
+  - update: STR_HC_BS_AMMO
+    refNode: *BONUS_BARRAGER
+  - update: STR_AC_AP_AMMO
+    refNode: *BONUS_ERASER
+  - update: STR_AC_HE_AMMO
+    refNode: *BONUS_ERASER
+  - update: STR_AC_I_AMMO
+    refNode: *BONUS_ERASER
+  - update: STR_AC_PS_AMMO
+    refNode: *BONUS_ERASER
+  - update: STR_AC_AQUA_AMMO
+    refNode: *BONUS_ERASER
+  - update: STR_AC_HEX_AMMO
+    refNode: *BONUS_ERASER
+  - update: STR_AC_CRY_AMMO
+    refNode: *BONUS_ERASER
+  - update: STR_MC_HE_AMMO
+    refNode: *BONUS_MASSIVE
+  - update: STR_DURANDAL_CANNON_SHELLS
+    refNode: *BONUS_MASSIVE
+  - update: STR_ES_HEAVY_CLIP
+    refNode: *BONUS_DECIMATOR
+  - update: STR_HEAVY_LASER_CLIP_LO
+    refNode: *BONUS_DECIMATOR
+  - update: STR_HEAVY_LASER_CLIP_HI
+    refNode: *BONUS_DECIMATOR
+  - update: STR_HEAVY_LASER_CLIP_AP
+    refNode: *BONUS_DECIMATOR
+  - update: STR_MP_LASCANNON_CLIP_LO
+    refNode: *BONUS_MASSIVE
+  - update: STR_MP_LASCANNON_CLIP
+    refNode: *BONUS_MASSIVE
+  - update: STR_MP_LASCANNON_CLIP_AP
+    refNode: *BONUS_MASSIVE
+  - update: STR_SONIC_CANNON_CLIP
+    refNode: *BONUS_DECIMATOR
+  - update: STR_CANISTER_GUN_CLIP
+    refNode: *BONUS_OVERWATCH
+  - update: STR_CANISTER_GUN_CLIP_I
+    refNode: *BONUS_OVERWATCH
+  - update: STR_CANISTER_GUN_CLIP_G
+    refNode: *BONUS_OVERWATCH
+  - update: STR_TOXIGUN_CLIP
+    refNode: *BONUS_OVERWATCH
+  - update: STR_BALLISTA_BOLTS
+    refNode: *BONUS_BALLISTA
+  - update: STR_PIR_CANNONBALL
+    refNode: *BONUS_CRTICAL
+  - update: STR_PIR_CANNONBALL_HE
+    refNode: *BONUS_CRTICAL
+  - update: STR_PIR_CANNONBALL_INC
+    refNode: *BONUS_CRTICAL
+  - update: STR_PIR_CANNONBALL_ACID
+    refNode: *BONUS_CRTICAL
+  - update: STR_PIR_CANNONBALL_GAS
+    refNode: *BONUS_CRTICAL
+  - update: STR_PIR_CANNONBALL_SC
+    refNode: *BONUS_CRTICAL
+  - update: STR_PIR_CANNONBALL_CRY
+    refNode: *BONUS_CRTICAL
+  - update: STR_PIR_CANNONBALL_NUKE
+    refNode: *BONUS_CRTICAL
+  - update: STR_GL_HE
+    refNode: *BONUS_SUPPORT
+  - update: STR_GL_I
+    refNode: *BONUS_SUPPORT
+  - update: STR_GL_SMOKE
+    refNode: *BONUS_SUPPORT
+  - update: STR_GL_FAE
+    refNode: *BONUS_SUPPORT
+  - update: STR_GL_NUKE
+    refNode: *BONUS_SUPPORT
+  - update: STR_GL_FUSION
+    refNode: *BONUS_SUPPORT
+  - update: STR_GL_GAS
+    refNode: *BONUS_SUPPORT
+  - update: STR_GL_KNOCKOUT
+    refNode: *BONUS_SUPPORT
+  - update: STR_GL_EMP
+    refNode: *BONUS_SUPPORT
+  - update: STR_HGL_HE
+    refNode: *BONUS_SUPPORT
+  - update: STR_HGL_I
+    refNode: *BONUS_SUPPORT
+  - update: STR_HGL_SMOKE
+    refNode: *BONUS_SUPPORT
+  - update: STR_HGL_FAE
+    refNode: *BONUS_SUPPORT
+  - update: STR_HGL_NUKE
+    refNode: *BONUS_SUPPORT
+  - update: STR_HGL_FUSION
+    refNode: *BONUS_SUPPORT
+  - update: STR_HGL_GAS
+    refNode: *BONUS_SUPPORT
+  - update: STR_HGL_KNOCKOUT
+    refNode: *BONUS_SUPPORT
+  - update: STR_HGL_EMP
+    refNode: *BONUS_SUPPORT
+  - update: STR_AGL_CLIP
+    refNode: *BONUS_SUPPORT
+  - update: STR_AGL_CLIP_NAPALM
+    refNode: *BONUS_SUPPORT
+  - update: STR_TTGL_CLIP
+    refNode: *BONUS_SUPPORT
+  - update: STR_TTGL_CLIP_NUKE
+    refNode: *BONUS_SUPPORT
+  - update: STR_BLIZZARD_SHELLS_HE
+    refNode: *BONUS_CRTICAL
+  - update: STR_BLIZZARD_SHELLS_I
+    refNode: *BONUS_CRTICAL
+  - update: STR_BLIZZARD_SHELLS_SMOKE
+    refNode: *BONUS_CRTICAL
+  - update: STR_BLIZZARD_SHELLS_JUMPMINES
+    refNode: *BONUS_CRTICAL
+  - update: STR_BIO_FLASK_A
+    refNode: *BONUS_SUPPORT
+  - update: STR_ACID_FLASK_A
+    refNode: *BONUS_SUPPORT
+  - update: STR_RAD_FLASK_A
+    refNode: *BONUS_SUPPORT
+  - update: STR_MORTAR_SHELL_HE
+    refNode: *BONUS_ARCING
+  - update: STR_MORTAR_SHELL_I
+    refNode: *BONUS_ARCING
+  - update: STR_MORTAR_SHELL_SMOKE
+    refNode: *BONUS_ARCING
+  - update: STR_MORTAR_SHELL_GAS
+    refNode: *BONUS_ARCING
+  - update: STR_MORTAR_SHELL_NUKE
+    refNode: *BONUS_ARCING
+  - update: STR_MORTAR_SHELL_FUSION
+    refNode: *BONUS_ARCING
+  - update: STR_MORTAR_SHELL_CRY
+    refNode: *BONUS_ARCING
+  - update: STR_MORTAR_SHELL_ACID
+    refNode: *BONUS_ARCING
+  - update: STR_DC_SHELL
+    refNode: *BONUS_ARCING
+  - update: STR_BABY_NUKE
+    refNode: *BONUS_ARCING
+  - update: STR_3RL_HE
+    refNode: *BONUS_ARCING
+  - update: STR_3RL_NUKE
+    refNode: *BONUS_ARCING
+  - update: STR_3RL_FUSION
+    refNode: *BONUS_ARCING
+  - update: STR_ATG_RIFLE_ROUND
+    refNode: *BONUS_ARCING
+  - update: STR_SMALL_ROCKET
+    refNode: *BONUS_CRTICAL
+  - update: STR_SMALL_ROCKET_ADV
+    refNode: *BONUS_CRTICAL
+  - update: STR_SMALL_ROCKET_FAE
+    refNode: *BONUS_CRTICAL
+  - update: STR_SMALL_ROCKET_NUKE
+    refNode: *BONUS_CRTICAL
+  - update: STR_SMALL_ROCKET_FUSION
+    refNode: *BONUS_CRTICAL
+  - update: STR_SMALL_ROCKET_QUAD
+    refNode: *BONUS_CRTICAL
+  - update: STR_SMALL_ROCKET_ADV_QUAD
+    refNode: *BONUS_CRTICAL
+  - update: STR_SMALL_ROCKET_FAE_QUAD
+    refNode: *BONUS_CRTICAL
+  - update: STR_SMALL_ROCKET_NUKE_QUAD
+    refNode: *BONUS_CRTICAL
+  - update: STR_SMALL_ROCKET_FUSION_QUAD
+    refNode: *BONUS_CRTICAL
+  - update: STR_SMALL_ROCKET_NOOK
+    refNode: *BONUS_CRTICAL
+  - update: STR_RECOILLESS_RIFLE_SHELL
+    refNode: *BONUS_CRTICAL
+  - update: STR_RECOILLESS_RIFLE_SHELL_PS
+    refNode: *BONUS_CRTICAL
+  - update: STR_LARGE_ROCKET
+    refNode: *BONUS_CRTICAL
+  - update: STR_INCENDIARY_ROCKET
+    refNode: *BONUS_CRTICAL
+  - update: STR_AT_ROCKET
+    refNode: *BONUS_CRTICAL
+  - update: STR_MAG_ROCKET
+    refNode: *BONUS_CRTICAL
+  - update: STR_FLECHETTE_ROCKET
+    refNode: *BONUS_CRTICAL
+  - update: STR_NUKE_ROCKET
+    refNode: *BONUS_CRTICAL
+  - update: STR_FUSION_ROCKET
+    refNode: *BONUS_CRTICAL
+  - update: STR_FAE_ROCKET
+    refNode: *BONUS_CRTICAL
+  - update: STR_GAS_ROCKET
+    refNode: *BONUS_CRTICAL
+  - update: STR_EMP_ROCKET
+    refNode: *BONUS_CRTICAL
+  - update: STR_QUAD_ROCKETS
+    refNode: *BONUS_CRTICAL
+  - update: STR_QUAD_ROCKETS_NAPALM
+    refNode: *BONUS_CRTICAL
+  - update: STR_RED_DRAGON_MISSILE
+    refNode: *BONUS_CRTICAL
+  - update: STR_FAIRY_DRAGON_MISSILE
+    refNode: *BONUS_CRTICAL
+  - update: STR_UAC_ROCKET_LAUNCHER_ROCKETS
+    refNode: *BONUS_CRTICAL
+  - update: STR_MRSHAN_LAUNCHER_ROCKET_HEAT
+    refNode: *BONUS_CRTICAL
+  - update: STR_MRSHAN_LAUNCHER_ROCKET_FAE
+    refNode: *BONUS_CRTICAL
+  - update: STR_MRSHAN_LAUNCHER_ROCKET_STUN
+    refNode: *BONUS_CRTICAL
+  - update: STR_SPORES_TOXIN
+    refNode: *BONUS_ARCING
+  - update: STR_INCINERATOR_CLIP_PLUS
+    refNode: *BONUS_SUPPORT
+  - update: STR_SL_HE
+    refNode: *BONUS_SUPPORT
+  - update: STR_SL_I
+    refNode: *BONUS_SUPPORT
+  - update: STR_PIR_STUN_BOMB
+    refNode: *BONUS_SUPPORT
+  - update: STR_SL_ACID
+    refNode: *BONUS_SUPPORT
+  - update: STR_SL_SMOKE
+    refNode: *BONUS_SUPPORT
+  - update: STR_SL_GAS
+    refNode: *BONUS_SUPPORT
+  - update: STR_SL_EMP
+    refNode: *BONUS_SUPPORT
+  - update: STR_SL_HELL
+    refNode: *BONUS_SUPPORT
+  - update: STR_PLASMA_SCORCHER_CLIP
+    refNode: *BONUS_DECIMATOR
+  - update: STR_ES_ION_CANNON_CLIP
+    refNode: *BONUS_DECIMATOR
+  - update: STR_BFG_BATTERY
+    refNode: *BONUS_DECIMATOR
+  - update: STR_ATGM_ROUND
+    refNode: *BONUS_DECIMATOR
+  - update: STR_PIR_BLASTER_BOMB
+    refNode: *BONUS_DECIMATOR
+  - update: STR_PIR_BLASTER_BOMB_EMP
+    refNode: *BONUS_DECIMATOR
+  - update: STR_BLASTER_MULTI_BOMB
+    refNode: *BONUS_DECIMATOR
+  - update: STR_FLAMETHROWER_CLIP
+    refNode: *BONUS_SUPPORT
+  - update: STR_FLAMETHROWER_COMPRESSED_CLIP
+    refNode: *BONUS_SUPPORT
+  - update: STR_HEAVY_FLAMER_CLIP
+    refNode: *BONUS_SUPPORT
+  - update: STR_HEAVY_FLAMER_COMPRESSED_CLIP
+    refNode: *BONUS_SUPPORT
+  - update: STR_MEGA_FLAMER_CLIP
+    refNode: *BONUS_SUPPORT
