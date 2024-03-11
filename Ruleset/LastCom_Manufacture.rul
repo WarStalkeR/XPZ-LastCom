@@ -60,6 +60,94 @@ manufacture:
       - [1, {STR_JUNK_PILE: 90}]
     refund: true
 
+  # FORTUNA Hull Production
+  - name: STR_FORTUNA_HULL
+    category: STR_SPECIAL_PROJECT
+    space: 50
+    time: 15000
+    cost: 1500000
+    requires:
+      - STR_CODEX_GRAY
+      - STR_SHADOWTECH
+      - STR_AERODYNAMICS
+      - STR_HELLERIUM_FLIGHT_BASICS
+      - STR_TOME_OF_WITCHERY
+    requiredItems:
+      STR_ALIEN_ALLOYS: 75
+      STR_UFO_POWER_SOURCE: 2
+      STR_UFO_NAVIGATION: 2
+      STR_ALIEN_FOOD: 5
+      STR_DEMONIC_ESSENCE: 50
+    producedItems:
+      STR_FORTUNA_HULL: 1
+    refund: true
+
+  # FUEGO Hull Production
+  - name: STR_FUEGO_HULL
+    category: STR_SPECIAL_PROJECT
+    space: 50
+    time: 15000
+    cost: 1500000
+    requires:
+      - STR_CODEX_GOLD
+      - STR_SHADOWTECH
+      - STR_AERODYNAMICS
+      - STR_HELLERIUM_FLIGHT_BASICS
+      - STR_BOOK_OF_SORCERY
+    requiredItems:
+      STR_ALIEN_ALLOYS: 75
+      STR_UFO_POWER_SOURCE: 2
+      STR_UFO_NAVIGATION: 2
+      STR_ALIEN_FOOD: 5
+      STR_DEMONIC_ESSENCE: 50
+    producedItems:
+      STR_FUEGO_HULL: 1
+    refund: true
+
+  # METALLO Hull Production
+  - name: STR_METALLO_HULL
+    category: STR_SPECIAL_PROJECT
+    space: 50
+    time: 15000
+    cost: 1500000
+    requires:
+      - STR_CODEX_RED
+      - STR_SHADOWTECH
+      - STR_AERODYNAMICS
+      - STR_HELLERIUM_FLIGHT_BASICS
+      - STR_BOOK_OF_FIRE
+    requiredItems:
+      STR_ALIEN_ALLOYS: 75
+      STR_UFO_POWER_SOURCE: 2
+      STR_UFO_NAVIGATION: 2
+      STR_ALIEN_FOOD: 5
+      STR_DEMONIC_ESSENCE: 50
+    producedItems:
+      STR_METALLO_HULL: 1
+    refund: true
+
+  # VENTURA Hull Production
+  - name: STR_VENTURA_HULL
+    category: STR_SPECIAL_PROJECT
+    space: 50
+    time: 15000
+    cost: 1500000
+    requires:
+      - STR_CODEX_GREEN
+      - STR_SHADOWTECH
+      - STR_AERODYNAMICS
+      - STR_HELLERIUM_FLIGHT_BASICS
+      - STR_BOOK_OF_LIFE
+    requiredItems:
+      STR_ALIEN_ALLOYS: 75
+      STR_UFO_POWER_SOURCE: 2
+      STR_UFO_NAVIGATION: 2
+      STR_ALIEN_FOOD: 5
+      STR_DEMONIC_ESSENCE: 50
+    producedItems:
+      STR_VENTURA_HULL: 1
+    refund: true
+
 ### Related Overrides
   # Dedicated Drill Usage
   - update: STR_USE_DRILL_GRAY
