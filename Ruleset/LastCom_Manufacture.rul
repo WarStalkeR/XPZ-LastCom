@@ -62,94 +62,166 @@ manufacture:
 
   # FORTUNA Hull Production
   - name: STR_FORTUNA_HULL
-    category: STR_SPECIAL_PROJECT
+    category: STR_SUMMONING_RITUAL
     requires:
+      - STR_FORTUNA
+      - STR_FORTUNA_ANOMALY
       - STR_CODEX_GRAY
       - STR_SHADOWTECH
-      - STR_AERODYNAMICS
-      - STR_HELLERIUM_FLIGHT_BASICS
+      - STR_DARK_STAR
       - STR_TOME_OF_WITCHERY
     space: 50
     time: 15000
     cost: 1500000
-    requiresBaseFunc: [WORKS, LAB, LIB]
+    requiresBaseFunc: [WORKS, LAB, LIB, SUMM]
     requiredItems:
-      STR_ALIEN_ALLOYS: 75
-      STR_UFO_POWER_SOURCE: 2
-      STR_UFO_NAVIGATION: 2
-      STR_ALIEN_FOOD: 5
+      STR_SLAVE: 20
+      STR_MOONSHINE: 1000
       STR_DEMONIC_ESSENCE: 50
+      STR_ELERIUM_115: 75
+      STR_ALIEN_ALLOYS: 75
+      STR_UFO_POWER_SOURCE: 4
+      STR_UFO_NAVIGATION: 6
+      STR_ALIEN_FOOD: 13
     producedItems:
       STR_FORTUNA_HULL: 1
+    randomProducedItems:
+      - [8, {STR_JUNK_PILE: 3}]
+      - [8, {STR_JUNK_PILE: 5}]
+      - [8, {STR_JUNK_PILE: 8}]
+      - [8, {STR_BIG_ROCK: 3}]
+      - [8, {STR_BIG_ROCK: 5}]
+      - [8, {STR_BIG_ROCK: 8}]
+      - [8, {STR_MAD_SCRIBBLINGS: 1}]
+      - [8, {STR_MAD_SCRIBBLINGS: 2}]
+      - [8, {STR_MAD_SCRIBBLINGS: 3}]
+      - [8, {STR_HIDEOUT_CLEANING_BILL: 5}]
+      - [8, {STR_HIDEOUT_CLEANING_BILL: 10}]
+      - [8, {STR_HIDEOUT_CLEANING_BILL: 15}]
+      - [4, {STR_DEMONIC_INCURSION: 1}]
     refund: true
 
   # FUEGO Hull Production
   - name: STR_FUEGO_HULL
-    category: STR_SPECIAL_PROJECT
+    category: STR_SUMMONING_RITUAL
     requires:
+      - STR_FUEGO
+      - STR_FUEGO_ANOMALY
       - STR_CODEX_GOLD
       - STR_SHADOWTECH
-      - STR_AERODYNAMICS
-      - STR_HELLERIUM_FLIGHT_BASICS
+      - STR_DARK_STAR
       - STR_BOOK_OF_SORCERY
     space: 50
     time: 15000
     cost: 1500000
-    requiresBaseFunc: [WORKS, LAB, LIB]
+    requiresBaseFunc: [WORKS, LAB, LIB, SUMM]
     requiredItems:
-      STR_ALIEN_ALLOYS: 75
-      STR_UFO_POWER_SOURCE: 2
-      STR_UFO_NAVIGATION: 2
-      STR_ALIEN_FOOD: 5
+      STR_SLAVE: 20
+      STR_MOONSHINE: 1000
       STR_DEMONIC_ESSENCE: 50
+      STR_ELERIUM_115: 150
+      STR_ALIEN_ALLOYS: 75
+      STR_UFO_POWER_SOURCE: 4
+      STR_UFO_NAVIGATION: 2
+      STR_ALIEN_FOOD: 6
     producedItems:
       STR_FUEGO_HULL: 1
+    randomProducedItems:
+      - [8, {STR_JUNK_PILE: 3}]
+      - [8, {STR_JUNK_PILE: 5}]
+      - [8, {STR_JUNK_PILE: 8}]
+      - [8, {STR_BIG_ROCK: 3}]
+      - [8, {STR_BIG_ROCK: 5}]
+      - [8, {STR_BIG_ROCK: 8}]
+      - [8, {STR_MAD_SCRIBBLINGS: 1}]
+      - [8, {STR_MAD_SCRIBBLINGS: 2}]
+      - [8, {STR_MAD_SCRIBBLINGS: 3}]
+      - [8, {STR_HIDEOUT_CLEANING_BILL: 5}]
+      - [8, {STR_HIDEOUT_CLEANING_BILL: 10}]
+      - [8, {STR_HIDEOUT_CLEANING_BILL: 15}]
+      - [4, {STR_DEMONIC_INCURSION: 1}]
     refund: true
 
   # METALLO Hull Production
   - name: STR_METALLO_HULL
-    category: STR_SPECIAL_PROJECT
+    category: STR_SUMMONING_RITUAL
     requires:
+      - STR_METALLO
+      - STR_METALLO_ANOMALY
       - STR_CODEX_RED
       - STR_SHADOWTECH
-      - STR_AERODYNAMICS
-      - STR_HELLERIUM_FLIGHT_BASICS
+      - STR_DARK_STAR
       - STR_BOOK_OF_FIRE
     space: 50
     time: 15000
     cost: 1500000
-    requiresBaseFunc: [WORKS, LAB, LIB]
+    requiresBaseFunc: [WORKS, LAB, LIB, SUMM]
     requiredItems:
-      STR_ALIEN_ALLOYS: 75
-      STR_UFO_POWER_SOURCE: 2
-      STR_UFO_NAVIGATION: 2
-      STR_ALIEN_FOOD: 5
+      STR_SLAVE: 20
+      STR_MOONSHINE: 1000
       STR_DEMONIC_ESSENCE: 50
+      STR_ELERIUM_115: 25
+      STR_ALIEN_ALLOYS: 200
+      STR_UFO_POWER_SOURCE: 4
+      STR_UFO_NAVIGATION: 2
+      STR_ALIEN_FOOD: 8
     producedItems:
       STR_METALLO_HULL: 1
+    randomProducedItems:
+      - [8, {STR_JUNK_PILE: 3}]
+      - [8, {STR_JUNK_PILE: 5}]
+      - [8, {STR_JUNK_PILE: 8}]
+      - [8, {STR_BIG_ROCK: 3}]
+      - [8, {STR_BIG_ROCK: 5}]
+      - [8, {STR_BIG_ROCK: 8}]
+      - [8, {STR_MAD_SCRIBBLINGS: 1}]
+      - [8, {STR_MAD_SCRIBBLINGS: 2}]
+      - [8, {STR_MAD_SCRIBBLINGS: 3}]
+      - [8, {STR_HIDEOUT_CLEANING_BILL: 5}]
+      - [8, {STR_HIDEOUT_CLEANING_BILL: 10}]
+      - [8, {STR_HIDEOUT_CLEANING_BILL: 15}]
+      - [4, {STR_DEMONIC_INCURSION: 1}]
     refund: true
 
   # VENTURA Hull Production
   - name: STR_VENTURA_HULL
-    category: STR_SPECIAL_PROJECT
+    category: STR_SUMMONING_RITUAL
     requires:
+      - STR_VENTURA
+      - STR_VENTURA_ANOMALY
       - STR_CODEX_GREEN
       - STR_SHADOWTECH
-      - STR_AERODYNAMICS
-      - STR_HELLERIUM_FLIGHT_BASICS
+      - STR_DARK_STAR
       - STR_BOOK_OF_LIFE
     space: 50
     time: 15000
     cost: 1500000
-    requiresBaseFunc: [WORKS, LAB, LIB]
+    requiresBaseFunc: [WORKS, LAB, LIB, SUMM]
     requiredItems:
-      STR_ALIEN_ALLOYS: 75
-      STR_UFO_POWER_SOURCE: 2
-      STR_UFO_NAVIGATION: 2
-      STR_ALIEN_FOOD: 5
+      STR_SLAVE: 20
+      STR_MOONSHINE: 1000
       STR_DEMONIC_ESSENCE: 50
+      STR_ELERIUM_115: 25
+      STR_ALIEN_ALLOYS: 75
+      STR_UFO_POWER_SOURCE: 4
+      STR_UFO_NAVIGATION: 2
+      STR_ALIEN_FOOD: 9
     producedItems:
       STR_VENTURA_HULL: 1
+    randomProducedItems:
+      - [8, {STR_JUNK_PILE: 3}]
+      - [8, {STR_JUNK_PILE: 5}]
+      - [8, {STR_JUNK_PILE: 8}]
+      - [8, {STR_BIG_ROCK: 3}]
+      - [8, {STR_BIG_ROCK: 5}]
+      - [8, {STR_BIG_ROCK: 8}]
+      - [8, {STR_MAD_SCRIBBLINGS: 1}]
+      - [8, {STR_MAD_SCRIBBLINGS: 2}]
+      - [8, {STR_MAD_SCRIBBLINGS: 3}]
+      - [8, {STR_HIDEOUT_CLEANING_BILL: 5}]
+      - [8, {STR_HIDEOUT_CLEANING_BILL: 10}]
+      - [8, {STR_HIDEOUT_CLEANING_BILL: 15}]
+      - [4, {STR_DEMONIC_INCURSION: 1}]
     refund: true
 
 ### Related Overrides
