@@ -1,6 +1,6 @@
 ru:
 # Interface Strings
-  STR_DISTANCE_KM: "ДИСТ. (КМ)"
+  STR_BASE_DISTANCE: "УБЕЖИЩЕ/{NEWLINE}РАССТОЯНИЕ (КМ)"
   STR_CRAFT_SIZE_UC: "РАЗМЕР>{ALT}{0}{ALT}"
   STR_CRAFT_CLASS_UC: "КЛАСС>{ALT}{0}{ALT}"
   STR_HANGAR_CRAFT_CAP: "Вмест. Ангара"

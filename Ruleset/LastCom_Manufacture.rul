@@ -63,15 +63,16 @@ manufacture:
   # FORTUNA Hull Production
   - name: STR_FORTUNA_HULL
     category: STR_SPECIAL_PROJECT
-    space: 50
-    time: 15000
-    cost: 1500000
     requires:
       - STR_CODEX_GRAY
       - STR_SHADOWTECH
       - STR_AERODYNAMICS
       - STR_HELLERIUM_FLIGHT_BASICS
       - STR_TOME_OF_WITCHERY
+    space: 50
+    time: 15000
+    cost: 1500000
+    requiresBaseFunc: [WORKS, LAB, LIB]
     requiredItems:
       STR_ALIEN_ALLOYS: 75
       STR_UFO_POWER_SOURCE: 2
@@ -85,15 +86,16 @@ manufacture:
   # FUEGO Hull Production
   - name: STR_FUEGO_HULL
     category: STR_SPECIAL_PROJECT
-    space: 50
-    time: 15000
-    cost: 1500000
     requires:
       - STR_CODEX_GOLD
       - STR_SHADOWTECH
       - STR_AERODYNAMICS
       - STR_HELLERIUM_FLIGHT_BASICS
       - STR_BOOK_OF_SORCERY
+    space: 50
+    time: 15000
+    cost: 1500000
+    requiresBaseFunc: [WORKS, LAB, LIB]
     requiredItems:
       STR_ALIEN_ALLOYS: 75
       STR_UFO_POWER_SOURCE: 2
@@ -107,15 +109,16 @@ manufacture:
   # METALLO Hull Production
   - name: STR_METALLO_HULL
     category: STR_SPECIAL_PROJECT
-    space: 50
-    time: 15000
-    cost: 1500000
     requires:
       - STR_CODEX_RED
       - STR_SHADOWTECH
       - STR_AERODYNAMICS
       - STR_HELLERIUM_FLIGHT_BASICS
       - STR_BOOK_OF_FIRE
+    space: 50
+    time: 15000
+    cost: 1500000
+    requiresBaseFunc: [WORKS, LAB, LIB]
     requiredItems:
       STR_ALIEN_ALLOYS: 75
       STR_UFO_POWER_SOURCE: 2
@@ -129,15 +132,16 @@ manufacture:
   # VENTURA Hull Production
   - name: STR_VENTURA_HULL
     category: STR_SPECIAL_PROJECT
-    space: 50
-    time: 15000
-    cost: 1500000
     requires:
       - STR_CODEX_GREEN
       - STR_SHADOWTECH
       - STR_AERODYNAMICS
       - STR_HELLERIUM_FLIGHT_BASICS
       - STR_BOOK_OF_LIFE
+    space: 50
+    time: 15000
+    cost: 1500000
+    requiresBaseFunc: [WORKS, LAB, LIB]
     requiredItems:
       STR_ALIEN_ALLOYS: 75
       STR_UFO_POWER_SOURCE: 2
