@@ -16,22 +16,19 @@ craftClasses:
   -1: STR_CRAFT_CLASS_NO
 fixedUserOptions:
   oxcePediaShowClipSize: true
-  oxceBaseCraftListShowClass: true
-  oxceBaseCraftListClassShort: false
-  oxceBasescapeShortHangarLinks: true
-  oxcePediaFacilityLockedStats: false
-  oxcePediaFacilityRowsCutoff: 5
-  oxcePediaFacilityColOffset: 0
 constants:
   extendedPediaFacilityParams: [3, 3, -16, -16]
+  accelerationPenalty: [10, 10, 10, 10]
+  accelerationCoefficient: [[10, 20], [15, 35], [20, 50], [25, 70]]
+  baseCraftListShowClass: true
+  baseCraftListClassShort: false
+  baseShortHangarLinks: true
+  pediaFacilityLockedStats: false
+  pediaFacilityRowsCutoff: 5
+  pediaFacilityColOffset: 0
+  geoShowTargetCourseRange: true
+  geoTargetCourseRangeMult: 1.0
+  geoTargetRangeColOffset: -15
 initialFunding: 1500
 lessAliensDuringBaseDefense: true
 allowCountriesToCancelAlienPact: true
-accelerationPenaltyStandoff: 10
-accelerationPenaltyCautious: 10
-accelerationPenaltyCombat: 10
-accelerationPenaltyManeuver: 10
-accelerationCoefficientStandoff: [20, 10]
-accelerationCoefficientCautious: [35, 15]
-accelerationCoefficientCombat: [50, 20]
-accelerationCoefficientManeuver: [70, 25]
