@@ -1,5 +1,107 @@
 facilities:
 ### New Entries
+  # Camping Site
+  - type: STR_CAMPING_SITE
+    spriteShape: 2001
+    spriteFacility: 2521
+    placeSound: {mod: piratez, index: 317}
+    size: 1
+    requires:
+      - STR_EXCAVATION
+    destroyedFacility: STR_RUBBLE
+    monthlyCost: -50000
+    buildCost: 5000
+    buildTime: 5
+    refundValue: 3500
+    canBeBuiltOver: true
+    crafts: 1
+    craftOptions:
+      - {x: 1, y: -3, min: 2, max: 9, hide: false}
+    optionGroups: [1]
+    storage: 400
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBR_1000
+    missileAttraction: 50
+    listOrder: 9151
+
+  # Vehicle Garage
+  - type: STR_VEHICLE_GARAGE
+    spriteShape: 2001
+    spriteFacility: 2522
+    placeSound: {mod: piratez, index: 317}
+    size: 1
+    requires:
+      - STR_EXCAVATION
+    destroyedFacility: STR_RUBBLE
+    provideBaseFunc: [SHOP]
+    monthlyCost: -75000
+    buildCost: 25000
+    buildTime: 10
+    refundValue: 15000
+    canBeBuiltOver: true
+    crafts: 1
+    craftOptions:
+      - {x: 1, y: -3, min: 10, max: 19, hide: false}
+    optionGroups: [1]
+    workshops: 10
+    storage: 200
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBR_1000
+    missileAttraction: 50
+    listOrder: 9152
+
+  # Small Helipad
+  - type: STR_SMALL_HELIPAD
+    spriteShape: 2001
+    spriteFacility: 2523
+    placeSound: {mod: piratez, index: 317}
+    size: 1
+    requires:
+      - STR_EXCAVATION
+    destroyedFacility: STR_RUBBLE
+    requiresBaseFunc: [SHOP]
+    monthlyCost: 5000
+    buildCost: 100000
+    buildTime: 15
+    refundValue: 65000
+    canBeBuiltOver: true
+    crafts: 1
+    craftOptions:
+      - {x: 1, y: -3, min: 20, max: 29, hide: false}
+    optionGroups: [1]
+    storage: 50
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBR_1000
+    missileAttraction: 50
+    listOrder: 9153
+
+  # Mass Driver
+  - type: STR_MASS_DRIVER
+    spriteShape: 2001
+    spriteFacility: 2524
+    placeSound: {mod: piratez, index: 317}
+    size: 1
+    requires:
+      - STR_EXCAVATION
+    destroyedFacility: STR_RUBBLE
+    requiresBaseFunc: [PWR]
+    monthlyCost: 75000
+    buildCost: 750000
+    buildTime: 35
+    refundValue: 500000
+    canBeBuiltOver: true
+    crafts: 4
+    craftOptions:
+      - {x: -4, y: -8, min: 1, max: 1, hide: false}
+      - {x: 7, y: -8, min: 1, max: 1, hide: false}
+      - {x: -5, y: -9, min: 1, max: 1, hide: false}
+      - {x: 7, y: 3, min: 1, max: 1, hide: false}
+    optionGroups: [1, 1, 1, 1]
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBR_1000
+    missileAttraction: 100
+    listOrder: 9154
+
   # Reinforced Hangar
   - type: STR_HANGAR_REINFORCED
     spriteShape: 2011

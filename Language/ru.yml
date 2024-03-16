@@ -81,34 +81,34 @@ ru:
   STR_CASE_AT_MONTH: "Месяц {0}-й с Начала:"
 
 # Craft Classification
-  STR_CRAFT_CLASS_NO: "Сломан"		# Lower Limit
+  STR_CRAFT_CLASS_MINLIM: "Сломан"	# Lower Limit
   STR_CRAFT_CLASS_NA: "Н/Д"			# 0 - 0 (0)
-  STR_CRAFT_CLASS_01: "Капсула"		# 1 ~ 1 (0)
-  STR_CRAFT_CLASS_02: "Пехота"      # 2 ~ 9 (8)
-  STR_CRAFT_CLASS_03: "Машина"      # 10 ~ 19 (10)
-  STR_CRAFT_CLASS_04: "Эскорт"      # 20 ~ 29 (10)
-  STR_CRAFT_CLASS_05: "Малый"       # 30 ~ 49 (20)
-  STR_CRAFT_CLASS_06: "Средний"     # 50 ~ 69 (20)
-  STR_CRAFT_CLASS_07: "Большой"     # 70 ~ 99 (30)
-  STR_CRAFT_CLASS_08: "Штурмовой"   # 100 ~ 139 (40)
-  STR_CRAFT_CLASS_09: "Массивный"   # 140 ~ 199 (60)
-  STR_CRAFT_CLASS_10: "Линейный"    # 200 ~ 299 (100)
-  STR_CRAFT_CLASS_11: "Основной"    # 300 - 499 (200)
-  STR_CRAFT_CLASS_MX: "Лимит"       # Upper Limit
-  STR_CRAFT_CLASS_NO_UC: "X"
+  STR_CRAFT_CLASS_POD: "Капсула"	# 1 ~ 1 (0)
+  STR_CRAFT_CLASS_INF: "Пехота"		# 2 ~ 9 (8)
+  STR_CRAFT_CLASS_VEH: "Машина"		# 10 ~ 19 (10)
+  STR_CRAFT_CLASS_ESC: "Эскорт"		# 20 ~ 29 (10)
+  STR_CRAFT_CLASS_SML: "Малый"		# 30 ~ 49 (20)
+  STR_CRAFT_CLASS_MED: "Средний"	# 50 ~ 69 (20)
+  STR_CRAFT_CLASS_LRG: "Большой"	# 70 ~ 99 (30)
+  STR_CRAFT_CLASS_AST: "Штурмовой"	# 100 ~ 139 (40)
+  STR_CRAFT_CLASS_MSV: "Массивный"	# 140 ~ 199 (60)
+  STR_CRAFT_CLASS_WAR: "Линейный"	# 200 ~ 299 (100)
+  STR_CRAFT_CLASS_CAP: "Основной"	# 300 - 499 (200)
+  STR_CRAFT_CLASS_MAXLIM: "Лимит"	# Upper Limit
+  STR_CRAFT_CLASS_MINLIM_UC: "X"
   STR_CRAFT_CLASS_NA_UC: "Любой"
-  STR_CRAFT_CLASS_01_UC: "КП"
-  STR_CRAFT_CLASS_02_UC: "ПХ"
-  STR_CRAFT_CLASS_03_UC: "МШ"
-  STR_CRAFT_CLASS_04_UC: "ЭС"
-  STR_CRAFT_CLASS_05_UC: "МЛ"
-  STR_CRAFT_CLASS_06_UC: "СД"
-  STR_CRAFT_CLASS_07_UC: "БЛ"
-  STR_CRAFT_CLASS_08_UC: "ШТ"
-  STR_CRAFT_CLASS_09_UC: "МС"
-  STR_CRAFT_CLASS_10_UC: "ЛН"
-  STR_CRAFT_CLASS_11_UC: "ОС"
-  STR_CRAFT_CLASS_MX_UC: "ЛМ"
+  STR_CRAFT_CLASS_POD_UC: "КП"
+  STR_CRAFT_CLASS_INF_UC: "ПХ"
+  STR_CRAFT_CLASS_VEH_UC: "МШ"
+  STR_CRAFT_CLASS_ESC_UC: "ЭС"
+  STR_CRAFT_CLASS_SML_UC: "МЛ"
+  STR_CRAFT_CLASS_MED_UC: "СД"
+  STR_CRAFT_CLASS_LRG_UC: "БЛ"
+  STR_CRAFT_CLASS_AST_UC: "ШТ"
+  STR_CRAFT_CLASS_MSV_UC: "МС"
+  STR_CRAFT_CLASS_WAR_UC: "ЛН"
+  STR_CRAFT_CLASS_CAP_UC: "ОС"
+  STR_CRAFT_CLASS_MAXLIM_UC: "ЛМ"
 
 # Rank Progression Unlock
   STR_CAPTAINS_RANK_01_UNLOCK: "Повышение Ранга: Разбойник"
@@ -164,7 +164,7 @@ ru:
   STR_VEHICLE_GARAGE: "Машинный Гараж"
   STR_VEHICLE_GARAGE_UFOPEDIA: "Маленький ангар, который позволяет размещать и обеспечивать небольшую наземную технику. Легок в строительстве, но все равно требует время чтобы подготовить всю необходимую инфраструктуру для техобслуживания. Имеет небольшое складское помещение и ограниченные производственные возможности. Приносит небольшой пассивный доход за счет поиска утиля."
   STR_SMALL_HELIPAD: "Малая Авиа-Площадка"
-  STR_SMALL_HELIPAD_UFOPEDIA: "Маленький ангар который позволяет разменять и обслуживать одной эскортное судно и ничего кроме него. Имеет всю необходимую инфраструктуру для его техобслуживания и обеспечения. Требует базовые познания в технологии для работы. Имеет небольшое складское помещение, но не может использоваться для чего-то еще."
+  STR_SMALL_HELIPAD_UFOPEDIA: "Маленький ангар который позволяет разменять и обслуживать одной эскортное судно и ничего кроме него. Имеет всю необходимую инфраструктуру для его техобслуживания и обеспечения. Требует базовые познания в технологии и любое внешенее производство для работы. Имеет небольшое складское помещение, но не может использоваться для чего-то еще."
   STR_MASS_DRIVER: "Магнитная Катапульта"
   STR_MASS_DRIVER_UFOPEDIA: "Маленький ангар который позволяет размещать и обслуживать до 4-х капсул. Несмотря на свой размер, очень технологический продвинутый и нуждается во внешнем источнике питания для использования электромагнитных рельс, которые и запускают капсулы в нужное для нас направление. Весьма дорог в техобслуживании из-за высокой сложности строительства."
   STR_HANGAR: "Гражданский Ангар"

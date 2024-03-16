@@ -5,6 +5,42 @@ ufopaedia:
     requires:
       - STR_LUXURY_LIVING
 
+  # Camping Site
+  - id: STR_CAMPING_SITE
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_INSPECT_MACHINERY
+    text: STR_CAMPING_SITE_UFOPEDIA
+    listOrder: 19151
+
+  # Vehicle Garage
+  - id: STR_VEHICLE_GARAGE
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_INSPECT_MACHINERY
+    text: STR_VEHICLE_GARAGE_UFOPEDIA
+    listOrder: 19152
+
+  # Small Helipad
+  - id: STR_SMALL_HELIPAD
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_INSPECT_MACHINERY
+    text: STR_SMALL_HELIPAD_UFOPEDIA
+    listOrder: 19153
+
+  # Mass Driver
+  - id: STR_MASS_DRIVER
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_INSPECT_MACHINERY
+    text: STR_MASS_DRIVER_UFOPEDIA
+    listOrder: 19154
+
   # Old Civilian Hangar
   - id: STR_HANGAR
     text: STR_HANGAR_UFOPEDIA

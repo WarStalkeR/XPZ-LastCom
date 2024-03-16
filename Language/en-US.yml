@@ -81,34 +81,34 @@ en-US:
   STR_CASE_AT_MONTH: "Month {0} Since Start:"
 
 # Craft Classification
-  STR_CRAFT_CLASS_NO: "Broken"		# Lower Limit
+  STR_CRAFT_CLASS_MINLIM: "Broken"	# Lower Limit
   STR_CRAFT_CLASS_NA: "N/A"			# 0 - 0 (0)
-  STR_CRAFT_CLASS_01: "Pod"			# 1 ~ 1 (0)
-  STR_CRAFT_CLASS_02: "Infantry"	# 2 ~ 9 (8)
-  STR_CRAFT_CLASS_03: "Vehicle"		# 10 ~ 19 (10)
-  STR_CRAFT_CLASS_04: "Escort"		# 20 ~ 29 (10)
-  STR_CRAFT_CLASS_05: "Small"		# 30 ~ 49 (20)
-  STR_CRAFT_CLASS_06: "Medium"		# 50 ~ 69 (20)
-  STR_CRAFT_CLASS_07: "Large"		# 70 ~ 99 (30)
-  STR_CRAFT_CLASS_08: "Assault"		# 100 ~ 139 (40)
-  STR_CRAFT_CLASS_09: "Massive"		# 140 ~ 199 (60)
-  STR_CRAFT_CLASS_10: "Warship"		# 200 ~ 299 (100)
-  STR_CRAFT_CLASS_11: "Capital"		# 300 - 499 (200)
-  STR_CRAFT_CLASS_MX: "MAX"			# Upper Limit
-  STR_CRAFT_CLASS_NO_UC: "X"
+  STR_CRAFT_CLASS_POD: "Pod"		# 1 ~ 1 (0)
+  STR_CRAFT_CLASS_INF: "Infantry"	# 2 ~ 9 (8)
+  STR_CRAFT_CLASS_VEH: "Vehicle"	# 10 ~ 19 (10)
+  STR_CRAFT_CLASS_ESC: "Escort"		# 20 ~ 29 (10)
+  STR_CRAFT_CLASS_SML: "Small"		# 30 ~ 49 (20)
+  STR_CRAFT_CLASS_MED: "Medium"		# 50 ~ 69 (20)
+  STR_CRAFT_CLASS_LRG: "Large"		# 70 ~ 99 (30)
+  STR_CRAFT_CLASS_AST: "Assault"	# 100 ~ 139 (40)
+  STR_CRAFT_CLASS_MSV: "Massive"	# 140 ~ 199 (60)
+  STR_CRAFT_CLASS_WAR: "Warship"	# 200 ~ 299 (100)
+  STR_CRAFT_CLASS_CAP: "Capital"	# 300 - 499 (200)
+  STR_CRAFT_CLASS_MAXLIM: "Limit"	# Upper Limit
+  STR_CRAFT_CLASS_MINLIM_UC: "X"
   STR_CRAFT_CLASS_NA_UC: "Any"
-  STR_CRAFT_CLASS_01_UC: "PD"
-  STR_CRAFT_CLASS_02_UC: "IN"
-  STR_CRAFT_CLASS_03_UC: "VH"
-  STR_CRAFT_CLASS_04_UC: "ES"
-  STR_CRAFT_CLASS_05_UC: "SM"
-  STR_CRAFT_CLASS_06_UC: "MD"
-  STR_CRAFT_CLASS_07_UC: "LG"
-  STR_CRAFT_CLASS_08_UC: "AS"
-  STR_CRAFT_CLASS_09_UC: "MS"
-  STR_CRAFT_CLASS_10_UC: "WS"
-  STR_CRAFT_CLASS_11_UC: "CP"
-  STR_CRAFT_CLASS_MX_UC: "MX"
+  STR_CRAFT_CLASS_POD_UC: "PD"
+  STR_CRAFT_CLASS_INF_UC: "IN"
+  STR_CRAFT_CLASS_VEH_UC: "VH"
+  STR_CRAFT_CLASS_ESC_UC: "ES"
+  STR_CRAFT_CLASS_SML_UC: "SM"
+  STR_CRAFT_CLASS_MED_UC: "MD"
+  STR_CRAFT_CLASS_LRG_UC: "LG"
+  STR_CRAFT_CLASS_AST_UC: "AS"
+  STR_CRAFT_CLASS_MSV_UC: "MS"
+  STR_CRAFT_CLASS_WAR_UC: "WS"
+  STR_CRAFT_CLASS_CAP_UC: "CP"
+  STR_CRAFT_CLASS_MAXLIM_UC: "LM"
 
 # Rank Progression Unlock
   STR_CAPTAINS_RANK_01_UNLOCK: "Rank Progression: Brigand"
@@ -164,7 +164,7 @@ en-US:
   STR_VEHICLE_GARAGE: "Vehicle Garage"
   STR_VEHICLE_GARAGE_UFOPEDIA: "Small hangar that allows to house and maintain single Vehicle-class unit. Quite cheap in production, but takes some time to build due to all maintenance facilities required by the vehicles. Provides some storage and basic manufacturing capabilities. Generates small passive income through scavenging."
   STR_SMALL_HELIPAD: "Small Helipad"
-  STR_SMALL_HELIPAD_UFOPEDIA: "Small hangar that allows to keep single Escort-class crafts and doesn't support anything else. Has required infrastructure to repair and maintain supported craft class. Requires basic technology knowledge to operate. Has some storage capacity, but can't be used for anything else."
+  STR_SMALL_HELIPAD_UFOPEDIA: "Small hangar that allows to keep single Escort-class crafts and doesn't support anything else. Has required infrastructure to repair and maintain supported craft class. Requires basic technology knowledge and any external manufacturing to operate. Has some storage capacity, but can't be used for anything else."
   STR_MASS_DRIVER: "Mass Driver"
   STR_MASS_DRIVER_UFOPEDIA: "Small hangar that can store up to four Pod-class units. Despite its size, it is extremely advanced technologically and required external power supply to operate electromagnetic rails in order to launch pods toward their destination. Has quite expensive maintenance fee due to high complexity of the facility."
   STR_HANGAR: "Old Civilian Hangar"
