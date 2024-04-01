@@ -2,7 +2,17 @@ terrains:
   - name: XBASE
     addOnly: true
     mapBlocks:
-      - name: XBR_1000
+    ### New Entries
+      # Small Hangars Template
+      - name: LCBR_HANGAR_S_01
+        width: 10
+        length: 10
+
+    ### Related Overrides
+
+    ### Integration
+      # Camera Spawn in Access Lift
+      - name: LCBR_LIFT_ACC_01
         width: 10
         length: 10
         items:
@@ -10,7 +20,9 @@ terrains:
             - [4, 4, 4]
         fuseTimers:
           STR_SPAWN_CAMERA: [0, 0]
-      - name: XBR_1001
+
+     # Cameras Spawn in Large Hangar
+      - name: LCBR_HANGAR_L_01
         width: 10
         length: 10
         items:
@@ -18,7 +30,7 @@ terrains:
             - [2, 2, 4]
         fuseTimers:
           STR_SPAWN_CAMERA: [0, 0]
-      - name: XBR_1002
+      - name: LCBR_HANGAR_L_02
         width: 10
         length: 10
         items:
@@ -26,7 +38,7 @@ terrains:
             - [6, 2, 4]
         fuseTimers:
           STR_SPAWN_CAMERA: [0, 0]
-      - name: XBR_1003
+      - name: LCBR_HANGAR_L_03
         width: 10
         length: 10
         items:
@@ -34,7 +46,7 @@ terrains:
             - [2, 6, 4]
         fuseTimers:
           STR_SPAWN_CAMERA: [0, 0]
-      - name: XBR_1004
+      - name: LCBR_HANGAR_L_04
         width: 10
         length: 10
         items:

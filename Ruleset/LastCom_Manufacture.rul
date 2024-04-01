@@ -85,7 +85,7 @@ manufacture:
       STR_ALIEN_FOOD: 13
     producedItems:
       STR_FORTUNA_HULL: 1
-    randomProducedItems:
+    randomProducedItems: &ANOMALY_RANDOM
       - [8, {STR_JUNK_PILE: 3}]
       - [8, {STR_JUNK_PILE: 5}]
       - [8, {STR_JUNK_PILE: 8}]
@@ -126,20 +126,7 @@ manufacture:
       STR_ALIEN_FOOD: 6
     producedItems:
       STR_FUEGO_HULL: 1
-    randomProducedItems:
-      - [8, {STR_JUNK_PILE: 3}]
-      - [8, {STR_JUNK_PILE: 5}]
-      - [8, {STR_JUNK_PILE: 8}]
-      - [8, {STR_BIG_ROCK: 3}]
-      - [8, {STR_BIG_ROCK: 5}]
-      - [8, {STR_BIG_ROCK: 8}]
-      - [8, {STR_MAD_SCRIBBLINGS: 1}]
-      - [8, {STR_MAD_SCRIBBLINGS: 2}]
-      - [8, {STR_MAD_SCRIBBLINGS: 3}]
-      - [8, {STR_HIDEOUT_CLEANING_BILL: 5}]
-      - [8, {STR_HIDEOUT_CLEANING_BILL: 10}]
-      - [8, {STR_HIDEOUT_CLEANING_BILL: 15}]
-      - [4, {STR_DEMONIC_INCURSION: 1}]
+    randomProducedItems: *ANOMALY_RANDOM
     refund: true
 
   # METALLO Hull Production
@@ -167,20 +154,7 @@ manufacture:
       STR_ALIEN_FOOD: 8
     producedItems:
       STR_METALLO_HULL: 1
-    randomProducedItems:
-      - [8, {STR_JUNK_PILE: 3}]
-      - [8, {STR_JUNK_PILE: 5}]
-      - [8, {STR_JUNK_PILE: 8}]
-      - [8, {STR_BIG_ROCK: 3}]
-      - [8, {STR_BIG_ROCK: 5}]
-      - [8, {STR_BIG_ROCK: 8}]
-      - [8, {STR_MAD_SCRIBBLINGS: 1}]
-      - [8, {STR_MAD_SCRIBBLINGS: 2}]
-      - [8, {STR_MAD_SCRIBBLINGS: 3}]
-      - [8, {STR_HIDEOUT_CLEANING_BILL: 5}]
-      - [8, {STR_HIDEOUT_CLEANING_BILL: 10}]
-      - [8, {STR_HIDEOUT_CLEANING_BILL: 15}]
-      - [4, {STR_DEMONIC_INCURSION: 1}]
+    randomProducedItems: *ANOMALY_RANDOM
     refund: true
 
   # VENTURA Hull Production
@@ -208,20 +182,7 @@ manufacture:
       STR_ALIEN_FOOD: 9
     producedItems:
       STR_VENTURA_HULL: 1
-    randomProducedItems:
-      - [8, {STR_JUNK_PILE: 3}]
-      - [8, {STR_JUNK_PILE: 5}]
-      - [8, {STR_JUNK_PILE: 8}]
-      - [8, {STR_BIG_ROCK: 3}]
-      - [8, {STR_BIG_ROCK: 5}]
-      - [8, {STR_BIG_ROCK: 8}]
-      - [8, {STR_MAD_SCRIBBLINGS: 1}]
-      - [8, {STR_MAD_SCRIBBLINGS: 2}]
-      - [8, {STR_MAD_SCRIBBLINGS: 3}]
-      - [8, {STR_HIDEOUT_CLEANING_BILL: 5}]
-      - [8, {STR_HIDEOUT_CLEANING_BILL: 10}]
-      - [8, {STR_HIDEOUT_CLEANING_BILL: 15}]
-      - [4, {STR_DEMONIC_INCURSION: 1}]
+    randomProducedItems: *ANOMALY_RANDOM
     refund: true
 
 ### Related Overrides

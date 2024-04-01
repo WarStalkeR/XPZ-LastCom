@@ -20,7 +20,7 @@ facilities:
     optionGroups: [1]
     storage: 400
     storageTiles: [[-1, -1, -1]]
-    mapName: XBR_1000
+    mapName: LCBR_HANGAR_S_01
     missileAttraction: 50
     listOrder: 9151
 
@@ -46,7 +46,7 @@ facilities:
     workshops: 10
     storage: 200
     storageTiles: [[-1, -1, -1]]
-    mapName: XBR_1000
+    mapName: LCBR_HANGAR_S_01
     missileAttraction: 50
     listOrder: 9152
 
@@ -71,7 +71,7 @@ facilities:
     optionGroups: [1]
     storage: 50
     storageTiles: [[-1, -1, -1]]
-    mapName: XBR_1000
+    mapName: LCBR_HANGAR_S_01
     missileAttraction: 50
     listOrder: 9153
 
@@ -98,7 +98,7 @@ facilities:
       - {x: 7, y: 3, min: 1, max: 1, hide: false}
     optionGroups: [1, 1, 1, 1]
     storageTiles: [[-1, -1, -1]]
-    mapName: XBR_1000
+    mapName: LCBR_HANGAR_S_01
     missileAttraction: 100
     listOrder: 9154
 
@@ -133,7 +133,7 @@ facilities:
     workshops: 30
     storage: 150
     storageTiles: [[-1, -1, -1]]
-    mapName: XBR_1001
+    mapName: LCBR_HANGAR_L_01
     missileAttraction: 150
     listOrder: 9157
   - type: STR_HANGAR_REINFORCED_DAMAGE_1
@@ -161,7 +161,7 @@ facilities:
     workshops: 20
     storage: 100
     storageTiles: [[-1, -1, -1]]
-    mapName: XBR_1001
+    mapName: LCBR_HANGAR_L_01
     missileAttraction: 100
     listOrder: 9158
   - type: STR_HANGAR_REINFORCED_RUIN
@@ -187,7 +187,7 @@ facilities:
     workshops: 10
     storage: 50
     storageTiles: [[-1, -1, -1]]
-    mapName: XBR_1001
+    mapName: LCBR_HANGAR_L_01
     missileAttraction: 100
     listOrder: 9159
 
@@ -223,7 +223,7 @@ facilities:
     workshops: 30
     storage: 200
     storageTiles: [[-1, -1, -1]]
-    mapName: XBR_1001
+    mapName: LCBR_HANGAR_L_01
     missileAttraction: 150
     listOrder: 9160
   - type: STR_HANGAR_COMPOSITE_RUIN
@@ -291,7 +291,7 @@ facilities:
     workshops: 15
     storage: 100
     storageTiles: [[-1, -1, -1]]
-    mapName: XBR_1001
+    mapName: LCBR_HANGAR_L_01
     missileAttraction: 200
     listOrder: 9162
   - type: STR_HANGAR_INTERCEPTOR_RUIN
@@ -365,7 +365,7 @@ facilities:
     sickBayAbsoluteBonus: 2.0
     radarRange: 750
     radarChance: 80
-    mapName: XBR_1001
+    mapName: LCBR_HANGAR_L_01
     missileAttraction: 350
     listOrder: 9164
   - type: STR_HANGAR_XCOM_RELIC_SEALED
@@ -385,7 +385,7 @@ facilities:
     removalTime: 90
     refundValue: 0
     canBeBuiltOver: false
-    mapName: XBR_1001
+    mapName: LCBR_HANGAR_L_01
     missileAttraction: 25
     listOrder: 9165
   - type: STR_HANGAR_XCOM_RELIC_CLOSED
@@ -416,7 +416,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     radarRange: 750
     radarChance: 80
-    mapName: XBR_1001
+    mapName: LCBR_HANGAR_L_01
     missileAttraction: 350
     listOrder: 9166
   - type: STR_HANGAR_XCOM_RELIC_DAMAGE_1
@@ -447,7 +447,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     radarRange: 750
     radarChance: 80
-    mapName: XBR_1001
+    mapName: LCBR_HANGAR_L_01
     missileAttraction: 350
     listOrder: 9167
   - type: STR_HANGAR_XCOM_RELIC_DAMAGE_2
@@ -478,7 +478,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     radarRange: 750
     radarChance: 80
-    mapName: XBR_1001
+    mapName: LCBR_HANGAR_L_01
     missileAttraction: 350
     listOrder: 9168
   - type: STR_HANGAR_XCOM_RELIC_DAMAGE_3
@@ -509,7 +509,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     radarRange: 750
     radarChance: 80
-    mapName: XBR_1001
+    mapName: LCBR_HANGAR_L_01
     missileAttraction: 350
     listOrder: 9169
   - type: STR_HANGAR_XCOM_RELIC_RUIN
@@ -540,7 +540,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     radarRange: 750
     radarChance: 80
-    mapName: XBR_1001
+    mapName: LCBR_HANGAR_L_01
     missileAttraction: 350
     listOrder: 9170
 
@@ -567,7 +567,7 @@ facilities:
 ### Integration
   # Various Changes
   - update: STR_ACCESS_LIFT
-    mapName: XBR_1000
+    mapName: LCBR_LIFT_ACC_01
     sickBayAbsoluteBonus: 10
   - update: STR_BEAST_DEN
     canBeBuiltOver: true
