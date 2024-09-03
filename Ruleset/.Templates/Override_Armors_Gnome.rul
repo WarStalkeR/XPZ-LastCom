@@ -1,6 +1,7 @@
 armors:
   - update: STR_GNOME_DRESS_UC
   - update: STR_GNOME_EXPERIMENT_UC
+  - update: STR_GNOME_FIRESTARTER_UC
   - update: STR_GNOME_EXPLORER_UC
   - update: STR_GNOME_ENGINEER_UC
   - update: STR_GNOME_ENGINEER_2_UC

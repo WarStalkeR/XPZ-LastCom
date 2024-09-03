@@ -71,6 +71,7 @@ items:
   - update: STR_TEC_006
   - update: STR_TEC_044
   - update: STR_TEC_053
+  - update: STR_ZAN_01
   - update: STR_EXPEDITION_REPORTS
   - update: STR_JOURNEY_NOTES
   - update: STR_ZUBRIN_FILES

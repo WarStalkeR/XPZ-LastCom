@@ -36,3 +36,38 @@
 #      STR_PACIFIC: false
 #    xcomBaseInCountryTriggers:
 #      STR_BRAZIL: true
+
+#startingBaseSets:
+#- update: STR_INIT_BASE_REVOLUTION_HQ
+#  baseDefault:
+#    facilities:
+#      - type: STR_ACCESS_LIFT
+#        x: 2
+#        y: 0
+#      - type: STR_HANGAR
+#        x: 3
+#        y: 0
+#      - type: STR_HANGAR_XCOM_RELIC
+#        x: 0
+#        y: 0
+#      - type: STR_WAR_BARRACKS
+#        x: 1
+#        y: 2
+#      - type: STR_WELL
+#        x: 0
+#        y: 4
+#      - type: STR_STILL
+#        x: 4
+#        y: 3
+#      - type: STR_LABORATORY
+#        x: 2
+#        y: 5
+#      - type: STR_SMALL_RADAR_SYSTEM
+#        x: 0
+#        y: 3
+#      - type: STR_RUBBLE
+#        x: 1
+#        y: 5
+#      - type: STR_RUBBLE
+#        x: 3
+#        y: 5

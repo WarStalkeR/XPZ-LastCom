@@ -27,6 +27,7 @@ items:
   - update: STR_WRENCH
   - update: STR_AZTEC_CLUB
   - update: STR_SICKLE
+  - update: STR_THUNDER_SICKLE
   - update: STR_RUSTY_BLADE
   - update: STR_WRAITH_BLADE
   - update: STR_SHORT_SWORD

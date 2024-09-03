@@ -107,6 +107,10 @@ items:
     damageBonus:
       throwing: 0.075
       bravery: 0.1
+  - update: STR_FLAMETHROWER_FIRESTARTER
+    damageBonus:
+      throwing: 0.075
+      bravery: 0.1
   - update: STR_FLAME_PISTOL
     damageBonus:
       throwing: 0.075

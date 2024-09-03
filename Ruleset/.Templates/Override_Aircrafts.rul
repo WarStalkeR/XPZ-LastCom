@@ -81,4 +81,5 @@ crafts:
   - update: STR_CHURCH_ENTRY
   - update: STR_BIGENTRY
   - update: STR_MANHOLE_ENTRY
+  - update: STR_16_ENTRY_M
   - update: STR_CAVES_DROP_ENTRY

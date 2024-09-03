@@ -4,6 +4,7 @@ items:
   - update: AUX_TANK_GAUSS
   - update: AUX_ROTOGUN
   - update: AUX_ROTOGUN_HEAVY
+  - update: AUX_ROTOGUN_HEAVY_ENEMY
   - update: AUX_XTURRET_CANNON_WEAPON
   - update: AUX_XTURRET_LASER_WEAPON
   - update: AUX_XTURRET_GAUSS_WEAPON

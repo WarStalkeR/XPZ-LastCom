@@ -17,6 +17,7 @@ items:
   - update: STR_MAGIC_HAMMER
   - update: STR_TOME_LIGHTNING
   - update: STR_COBRA_STAFF
+  - update: STR_PRISM_STAFF
   - update: STR_PHANTOM_WHIP
   - update: STR_STAFF_OF_EXPLOSION
   - update: STR_HEARTGRIP_STAFF

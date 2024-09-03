@@ -95,6 +95,7 @@ items:
   - update: STR_RAGS
   - update: STR_GREMRIN_OUTFIT
   - update: STR_SP_BABYDOLL
+  - update: STR_SP_AMBER
   - update: STR_PELTAST_ARMOR
   - update: STR_PIROMAN_ARMOR
   - update: STR_CRUSADER_ARMOR
@@ -119,6 +120,7 @@ items:
   - update: STR_CENTURION_ARMOR
   - update: STR_TRIARIUS_ARMOR
   - update: STR_IMMOLATOR_ARMOR
+  - update: STR_HERO_KARATE_OUTFIT
   - update: STR_POLAR_OUTFIT
   - update: STR_DIVER_OUTFIT
   - update: STR_UAC_SPACE_SUIT
@@ -194,6 +196,7 @@ items:
   - update: STR_SYNTH_PIR_STEALTHSUIT
   - update: STR_JUGULATOR_ARMOR
   - update: STR_GNOME_EXPERIMENT_OUTFIT
+  - update: STR_GNOME_FIRESTARTER_OUTFIT
   - update: STR_GNOME_EXPLORER_OUTFIT
   - update: STR_GNOME_ENGINEER_OUTFIT
   - update: STR_GNOME_COMBAT_JACKET

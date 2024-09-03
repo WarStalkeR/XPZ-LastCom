@@ -15,6 +15,7 @@ items:
   - update: AURA_FEAR
   - update: AURA_FEAR_MANAREGEN
   - update: AURA_FEAR_HEAVY
+  - update: AURA_FEAR_SHIELDSOK
   - update: AURA_BRAVERY
   - update: AURA_ENEMY_MORALE
   - update: AURA_ACID_RAIN

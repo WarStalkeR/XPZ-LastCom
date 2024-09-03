@@ -35,3 +35,4 @@ items:
   - update: STR_WATER_OF_LIFE
   - update: STR_DEMON_HEART
   - update: STR_MANA_POTION
+  - update: STR_REJUVENATION_POTION

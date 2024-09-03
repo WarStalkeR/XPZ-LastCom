@@ -84,6 +84,7 @@ items:
   - update: STR_SMG_SPIKED
   - update: STR_SMG_SPIKED_HOLO
   - update: STR_SMG_RAMSH
+  - update: STR_SMG_BM_K
   - update: STR_SKORPION
   - update: STR_LYNX
   - update: STR_LAWGIVER
@@ -352,6 +353,7 @@ items:
   - update: STR_HAND_FLAMER
   - update: STR_FLAMETHROWER
   - update: STR_FLAMETHROWER_LR
+  - update: STR_FLAMETHROWER_FIRESTARTER
   - update: STR_HEAVY_FLAMER
   - update: STR_MEGA_FLAMER
   - update: STR_FLAME_PISTOL

@@ -29,6 +29,7 @@ items:
   - update: STR_ELECTRONIC_PIECES
   - update: STR_GENIUS_LOCI
   - update: STR_ORE
+  - update: STR_WASTELANDER_BACKPACK
   - update: STR_LOOTBOX_PREPPER
   - update: STR_LOOTBOX_EXPEDITION
   - update: STR_LOOTBOX_OLD_EARTH_WEAPONS

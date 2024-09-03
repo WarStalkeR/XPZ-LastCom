@@ -12,6 +12,7 @@ armors:
   - update: STR_PIR_NUDE_UC
   - update: STR_PIR_NUDE_SEA_UC
   - update: STR_PIR_NUDE_DREAMLAND_UC
+  - update: STR_SP_AMBER_UC
   - update: STR_SLAVE_NUDE_UC
   - update: STR_SLAVE_NUDE_SEA_UC
   - update: STR_SLAVE_NUDE_DREAMLAND_UC

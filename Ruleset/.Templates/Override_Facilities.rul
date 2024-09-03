@@ -100,6 +100,7 @@ facilities:
   - update: STR_DATA_CENTER
   - update: STR_COMPUTER_CORE
   - update: STR_ASTROSENSORIUM
+  - update: STR_NONPROFIT_LAB
   - update: STR_GDX_LAB
   - update: STR_RED_TOWER
   - update: STR_BLACK_TOWER

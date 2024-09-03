@@ -1,4 +1,5 @@
 items:
+  - update: STR_GDX_117
   - update: STR_BOUNTY_HUNTING_C_PASS
   - update: STR_BOUNTY_HUNTING_B_PASS
   - update: STR_BOUNTY_HUNTING_A_PASS
@@ -63,6 +64,7 @@ items:
   - update: STR_TROPHY_GAMBLER
   - update: STR_TROPHY_WORLD_IS_YOURS
   - update: STR_SPY_BADGE
+  - update: STR_CAPTAINS_11_TOKEN
   - update: STR_CASINO_KUPON_1
   - update: STR_CASINO_KUPON_2
   - update: STR_CASINO_KUPON_3

@@ -173,6 +173,9 @@ facilities:
     labs: 8
   - update: STR_ASTROSENSORIUM
     labs: 6
+  - update: STR_NONPROFIT_LAB
+    workshops: 30
+    labs: 6
   - update: STR_GDX_LAB
     labs: 20
   - update: STR_RED_TOWER

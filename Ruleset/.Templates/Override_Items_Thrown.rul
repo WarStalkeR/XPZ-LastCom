@@ -45,6 +45,7 @@ items:
   - update: STR_RIOT_GRENADE
   - update: STR_STICK_BOMB
   - update: STR_DYNAMITE
+  - update: STR_THE_FINAL_COUNTDOWN
   - update: STR_COV
   - update: STR_HIGH_EXPLOSIVE
   - update: STR_FIREBOMB

@@ -1,5 +1,6 @@
 fixedUserOptions:
   oxcePediaShowClipSize: true
+  #oxceStartingBaseSelection: true
 craftClasses:
   sizeClassMap:
     500: STR_CRAFT_CLASS_MAXLIM

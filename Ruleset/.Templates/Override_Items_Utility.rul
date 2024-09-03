@@ -57,6 +57,7 @@ items:
   - update: STR_HELLERIUM_CHARM
   - update: STR_GLITTERSKULL
   - update: STR_DRUG_DISPENSOR
+  - update: STR_DURATHREAD_BACKPACK
   - update: STR_GRAV_DAMPER
   - update: STR_ENERGY_SHIELD_SMALL
   - update: STR_REFRACTOR_SHIELD_SMALL
