@@ -19,20 +19,22 @@ ru:
   STR_CRAFT_CLASS_POD: "Капсула"	# 1 ~ 1 (0)
   STR_CRAFT_CLASS_INF: "Пехота"		# 2 ~ 9 (8)
   STR_CRAFT_CLASS_VEH: "Машина"		# 10 ~ 19 (10)
-  STR_CRAFT_CLASS_ESC: "Эскорт"		# 20 ~ 29 (10)
-  STR_CRAFT_CLASS_SML: "Малый"		# 30 ~ 49 (20)
-  STR_CRAFT_CLASS_MED: "Средний"	# 50 ~ 69 (20)
-  STR_CRAFT_CLASS_LRG: "Большой"	# 70 ~ 99 (30)
-  STR_CRAFT_CLASS_AST: "Штурмовой"	# 100 ~ 139 (40)
-  STR_CRAFT_CLASS_MSV: "Массивный"	# 140 ~ 199 (60)
-  STR_CRAFT_CLASS_WAR: "Линейный"	# 200 ~ 299 (100)
-  STR_CRAFT_CLASS_CAP: "Основной"	# 300 - 499 (200)
+  STR_CRAFT_CLASS_SCT: "Скаут"	    # 20 ~ 29 (10)
+  STR_CRAFT_CLASS_ESC: "Эскорт"		# 30 ~ 39 (10)
+  STR_CRAFT_CLASS_SML: "Малый"		# 40 ~ 59 (20)
+  STR_CRAFT_CLASS_MED: "Средний"	# 60 ~ 79 (20)
+  STR_CRAFT_CLASS_LRG: "Большой"	# 80 ~ 129 (50)
+  STR_CRAFT_CLASS_AST: "Штурмовой"	# 130 ~ 199 (70)
+  STR_CRAFT_CLASS_MSV: "Массивный"	# 200 ~ 299 (100)
+  STR_CRAFT_CLASS_WAR: "Линейный"	# 300 ~ 499 (200)
+  STR_CRAFT_CLASS_CAP: "Основной"	# 500 - 999 (500)
   STR_CRAFT_CLASS_MAXLIM: "Лимит"	# Upper Limit
   STR_CRAFT_CLASS_MINLIM_UC: "X"
   STR_CRAFT_CLASS_NA_UC: "Любой"
   STR_CRAFT_CLASS_POD_UC: "КП"
   STR_CRAFT_CLASS_INF_UC: "ПХ"
   STR_CRAFT_CLASS_VEH_UC: "МШ"
+  STR_CRAFT_CLASS_SCT_UC: "СК"
   STR_CRAFT_CLASS_ESC_UC: "ЭС"
   STR_CRAFT_CLASS_SML_UC: "МЛ"
   STR_CRAFT_CLASS_MED_UC: "СД"
