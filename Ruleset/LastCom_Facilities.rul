@@ -2,8 +2,8 @@ facilities:
 ### New Entries
   # Camping Site
   - type: STR_CAMPING_SITE
-    spriteShape: 2001
-    spriteFacility: 2521
+    spriteShape: 2000
+    spriteFacility: 3021
     placeSound: {mod: piratez, index: 317}
     size: 1
     requires:
@@ -26,8 +26,8 @@ facilities:
 
   # Vehicle Garage
   - type: STR_VEHICLE_GARAGE
-    spriteShape: 2001
-    spriteFacility: 2522
+    spriteShape: 2000
+    spriteFacility: 3022
     placeSound: {mod: piratez, index: 317}
     size: 1
     requires:
@@ -52,8 +52,8 @@ facilities:
 
   # Small Helipad
   - type: STR_SMALL_HELIPAD
-    spriteShape: 2001
-    spriteFacility: 2523
+    spriteShape: 2000
+    spriteFacility: 3023
     placeSound: {mod: piratez, index: 317}
     size: 1
     requires:
@@ -77,8 +77,8 @@ facilities:
 
   # Mass Driver
   - type: STR_MASS_DRIVER
-    spriteShape: 2001
-    spriteFacility: 2524
+    spriteShape: 2000
+    spriteFacility: 3024
     placeSound: {mod: piratez, index: 317}
     size: 1
     requires:
@@ -104,8 +104,8 @@ facilities:
 
   # Reinforced Hangar
   - type: STR_HANGAR_REINFORCED
-    spriteShape: 2011
-    spriteFacility: 2525
+    spriteShape: 2024
+    spriteFacility: 3025
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
@@ -137,8 +137,8 @@ facilities:
     missileAttraction: 150
     listOrder: 9157
   - type: STR_HANGAR_REINFORCED_DAMAGE_1
-    spriteShape: 2011
-    spriteFacility: 2529
+    spriteShape: 2024
+    spriteFacility: 3029
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
@@ -165,8 +165,8 @@ facilities:
     missileAttraction: 100
     listOrder: 9158
   - type: STR_HANGAR_REINFORCED_RUIN
-    spriteShape: 2111
-    spriteFacility: 2533
+    spriteShape: 2124
+    spriteFacility: 3033
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
@@ -193,8 +193,8 @@ facilities:
 
   # Composite Hangar
   - type: STR_HANGAR_COMPOSITE
-    spriteShape: 2011
-    spriteFacility: 2537
+    spriteShape: 2024
+    spriteFacility: 3037
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
@@ -227,8 +227,8 @@ facilities:
     missileAttraction: 150
     listOrder: 9160
   - type: STR_HANGAR_COMPOSITE_RUIN
-    spriteShape: 2111
-    spriteFacility: 2541
+    spriteShape: 2124
+    spriteFacility: 3041
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
@@ -260,8 +260,8 @@ facilities:
 
   # Interceptor Hangar
   - type: STR_HANGAR_INTERCEPTOR
-    spriteShape: 2011
-    spriteFacility: 2545
+    spriteShape: 2024
+    spriteFacility: 3045
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
@@ -295,8 +295,8 @@ facilities:
     missileAttraction: 200
     listOrder: 9162
   - type: STR_HANGAR_INTERCEPTOR_RUIN
-    spriteShape: 2111
-    spriteFacility: 2549
+    spriteShape: 2124
+    spriteFacility: 3049
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
@@ -329,8 +329,8 @@ facilities:
 
   # Relic X-COM Hangar
   - type: STR_HANGAR_XCOM_RELIC
-    spriteShape: 2011
-    spriteFacility: 2553
+    spriteShape: 2024
+    spriteFacility: 3053
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
@@ -369,8 +369,8 @@ facilities:
     missileAttraction: 350
     listOrder: 9164
   - type: STR_HANGAR_XCOM_RELIC_SEALED
-    spriteShape: 2011
-    spriteFacility: 2501
+    spriteShape: 2024
+    spriteFacility: 3001
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
@@ -389,8 +389,8 @@ facilities:
     missileAttraction: 25
     listOrder: 9165
   - type: STR_HANGAR_XCOM_RELIC_CLOSED
-    spriteShape: 2011
-    spriteFacility: 2501
+    spriteShape: 2024
+    spriteFacility: 3001
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
@@ -420,8 +420,8 @@ facilities:
     missileAttraction: 350
     listOrder: 9166
   - type: STR_HANGAR_XCOM_RELIC_DAMAGE_1
-    spriteShape: 2011
-    spriteFacility: 2505
+    spriteShape: 2024
+    spriteFacility: 3005
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
@@ -451,8 +451,8 @@ facilities:
     missileAttraction: 350
     listOrder: 9167
   - type: STR_HANGAR_XCOM_RELIC_DAMAGE_2
-    spriteShape: 2011
-    spriteFacility: 2509
+    spriteShape: 2024
+    spriteFacility: 3009
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
@@ -482,8 +482,8 @@ facilities:
     missileAttraction: 350
     listOrder: 9168
   - type: STR_HANGAR_XCOM_RELIC_DAMAGE_3
-    spriteShape: 2011
-    spriteFacility: 2513
+    spriteShape: 2024
+    spriteFacility: 3013
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
@@ -513,8 +513,8 @@ facilities:
     missileAttraction: 350
     listOrder: 9169
   - type: STR_HANGAR_XCOM_RELIC_RUIN
-    spriteShape: 2111
-    spriteFacility: 2517
+    spriteShape: 2124
+    spriteFacility: 3017
     spriteEnabled: true
     placeSound: {mod: piratez, index: 317}
     size: 2
