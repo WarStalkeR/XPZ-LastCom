@@ -14,15 +14,15 @@ crafts:
   - update: STR_AIRCAR
     craftSize: 30
   - update: STR_PIRANHA_AIRBIKE
-    craftSize: 30
+    craftSize: 20
   - update: STR_AIRSPEEDER
     craftSize: 30
   - update: STR_AIRVAN
-    craftSize: 40
+    craftSize: 30
   - update: STR_AIRBUS
-    craftSize: 40
+    craftSize: 30
   - update: STR_AIRBUS_STANDARD
-    craftSize: 40
+    craftSize: 30
   - update: STR_AIRTRUCK
     craftSize: 60
   - update: STR_FAUST
