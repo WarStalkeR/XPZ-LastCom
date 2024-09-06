@@ -475,16 +475,16 @@ extraSprites:
       2610: Resources/Basebits/Shapes/Round_Build_05_V_Top.png
       2611: Resources/Basebits/Shapes/Round_Build_07_V_Bottom.png
       2612: Resources/Basebits/Shapes/Round_Done_02_H_Left.png # 3x1
-      2613: Resources/Basebits/Shapes/Round_Done_03_H_Center.png
+      2613: Resources/Basebits/Shapes/Square_Done_03_H_Center.png
       2614: Resources/Basebits/Shapes/Round_Done_04_H_Right.png
       2615: Resources/Basebits/Shapes/Round_Build_02_H_Left.png
-      2616: Resources/Basebits/Shapes/Round_Build_03_H_Center.png
+      2616: Resources/Basebits/Shapes/Square_Build_03_H_Center.png
       2617: Resources/Basebits/Shapes/Round_Build_04_H_Right.png
       2618: Resources/Basebits/Shapes/Round_Done_05_V_Top.png # 1x3
-      2619: Resources/Basebits/Shapes/Round_Done_06_V_Center.png
+      2619: Resources/Basebits/Shapes/Square_Done_06_V_Center.png
       2620: Resources/Basebits/Shapes/Round_Done_07_V_Bottom.png
       2621: Resources/Basebits/Shapes/Round_Build_05_V_Top.png
-      2622: Resources/Basebits/Shapes/Round_Build_06_V_Center.png
+      2622: Resources/Basebits/Shapes/Square_Build_06_V_Center.png
       2623: Resources/Basebits/Shapes/Round_Build_07_V_Bottom.png
       2624: Resources/Basebits/Shapes/Round_Done_08_T_Left.png # 2x2
       2625: Resources/Basebits/Shapes/Round_Done_10_T_Right.png
@@ -495,46 +495,46 @@ extraSprites:
       2630: Resources/Basebits/Shapes/Round_Build_14_B_Left.png
       2631: Resources/Basebits/Shapes/Round_Build_16_B_Right.png
       2632: Resources/Basebits/Shapes/Round_Done_08_T_Left.png # 3x2
-      2633: Resources/Basebits/Shapes/Round_Done_09_T_Center.png
+      2633: Resources/Basebits/Shapes/Square_Done_09_T_Center.png
       2634: Resources/Basebits/Shapes/Round_Done_10_T_Right.png
       2635: Resources/Basebits/Shapes/Round_Done_14_B_Left.png
-      2636: Resources/Basebits/Shapes/Round_Done_15_B_Center.png
+      2636: Resources/Basebits/Shapes/Square_Done_15_B_Center.png
       2637: Resources/Basebits/Shapes/Round_Done_16_B_Right.png
       2638: Resources/Basebits/Shapes/Round_Build_08_T_Left.png
-      2639: Resources/Basebits/Shapes/Round_Build_09_T_Center.png
+      2639: Resources/Basebits/Shapes/Square_Build_09_T_Center.png
       2640: Resources/Basebits/Shapes/Round_Build_10_T_Right.png
       2641: Resources/Basebits/Shapes/Round_Build_14_B_Left.png
-      2642: Resources/Basebits/Shapes/Round_Build_15_B_Center.png
+      2642: Resources/Basebits/Shapes/Square_Build_15_B_Center.png
       2643: Resources/Basebits/Shapes/Round_Build_16_B_Right.png
       2644: Resources/Basebits/Shapes/Round_Done_08_T_Left.png # 2x3
       2645: Resources/Basebits/Shapes/Round_Done_10_T_Right.png
-      2646: Resources/Basebits/Shapes/Round_Done_11_C_Left.png
-      2647: Resources/Basebits/Shapes/Round_Done_13_C_Right.png
+      2646: Resources/Basebits/Shapes/Square_Done_11_C_Left.png
+      2647: Resources/Basebits/Shapes/Square_Done_13_C_Right.png
       2648: Resources/Basebits/Shapes/Round_Done_14_B_Left.png
       2649: Resources/Basebits/Shapes/Round_Done_16_B_Right.png
       2650: Resources/Basebits/Shapes/Round_Build_08_T_Left.png
       2651: Resources/Basebits/Shapes/Round_Build_10_T_Right.png
-      2652: Resources/Basebits/Shapes/Round_Build_11_C_Left.png
-      2653: Resources/Basebits/Shapes/Round_Build_13_C_Right.png
+      2652: Resources/Basebits/Shapes/Square_Build_11_C_Left.png
+      2653: Resources/Basebits/Shapes/Square_Build_13_C_Right.png
       2654: Resources/Basebits/Shapes/Round_Build_14_B_Left.png
       2655: Resources/Basebits/Shapes/Round_Build_16_B_Right.png
       2656: Resources/Basebits/Shapes/Round_Done_08_T_Left.png # 3x3
-      2657: Resources/Basebits/Shapes/Round_Done_09_T_Center.png
+      2657: Resources/Basebits/Shapes/Square_Done_09_T_Center.png
       2658: Resources/Basebits/Shapes/Round_Done_10_T_Right.png
-      2659: Resources/Basebits/Shapes/Round_Done_11_C_Left.png
-      2660: Resources/Basebits/Shapes/Round_Done_12_C_Filler.png
-      2661: Resources/Basebits/Shapes/Round_Done_13_C_Right.png
+      2659: Resources/Basebits/Shapes/Square_Done_11_C_Left.png
+      2660: Resources/Basebits/Shapes/Square_Done_12_C_Filler.png
+      2661: Resources/Basebits/Shapes/Square_Done_13_C_Right.png
       2662: Resources/Basebits/Shapes/Round_Done_14_B_Left.png
-      2663: Resources/Basebits/Shapes/Round_Done_15_B_Center.png
+      2663: Resources/Basebits/Shapes/Square_Done_15_B_Center.png
       2664: Resources/Basebits/Shapes/Round_Done_16_B_Right.png
       2665: Resources/Basebits/Shapes/Round_Build_08_T_Left.png
-      2666: Resources/Basebits/Shapes/Round_Build_09_T_Center.png
+      2666: Resources/Basebits/Shapes/Square_Build_09_T_Center.png
       2667: Resources/Basebits/Shapes/Round_Build_10_T_Right.png
-      2668: Resources/Basebits/Shapes/Round_Build_11_C_Left.png
-      2669: Resources/Basebits/Shapes/Round_Build_12_C_Filler.png
-      2670: Resources/Basebits/Shapes/Round_Build_13_C_Right.png
+      2668: Resources/Basebits/Shapes/Square_Build_11_C_Left.png
+      2669: Resources/Basebits/Shapes/Square_Build_12_C_Filler.png
+      2670: Resources/Basebits/Shapes/Square_Build_13_C_Right.png
       2671: Resources/Basebits/Shapes/Round_Build_14_B_Left.png
-      2672: Resources/Basebits/Shapes/Round_Build_15_B_Center.png
+      2672: Resources/Basebits/Shapes/Square_Build_15_B_Center.png
       2673: Resources/Basebits/Shapes/Round_Build_16_B_Right.png
 
       ## Round Facilitiy Shapes (Ruined):
@@ -549,16 +549,16 @@ extraSprites:
       2710: Resources/Basebits/Shapes/Round_Fault_05_V_Top.png
       2711: Resources/Basebits/Shapes/Round_Fault_07_V_Bottom.png
       2712: Resources/Basebits/Shapes/Round_Ruin_02_H_Left.png # 3x1
-      2713: Resources/Basebits/Shapes/Round_Ruin_03_H_Center.png
+      2713: Resources/Basebits/Shapes/Square_Ruin_03_H_Center.png
       2714: Resources/Basebits/Shapes/Round_Ruin_04_H_Right.png
       2715: Resources/Basebits/Shapes/Round_Fault_02_H_Left.png
-      2716: Resources/Basebits/Shapes/Round_Fault_03_H_Center.png
+      2716: Resources/Basebits/Shapes/Square_Fault_03_H_Center.png
       2717: Resources/Basebits/Shapes/Round_Fault_04_H_Right.png
       2718: Resources/Basebits/Shapes/Round_Ruin_05_V_Top.png # 1x3
-      2719: Resources/Basebits/Shapes/Round_Ruin_06_V_Center.png
+      2719: Resources/Basebits/Shapes/Square_Ruin_06_V_Center.png
       2720: Resources/Basebits/Shapes/Round_Ruin_07_V_Bottom.png
       2721: Resources/Basebits/Shapes/Round_Fault_05_V_Top.png
-      2722: Resources/Basebits/Shapes/Round_Fault_06_V_Center.png
+      2722: Resources/Basebits/Shapes/Square_Fault_06_V_Center.png
       2723: Resources/Basebits/Shapes/Round_Fault_07_V_Bottom.png
       2724: Resources/Basebits/Shapes/Round_Ruin_08_T_Left.png # 2x2
       2725: Resources/Basebits/Shapes/Round_Ruin_10_T_Right.png
@@ -569,46 +569,46 @@ extraSprites:
       2730: Resources/Basebits/Shapes/Round_Fault_14_B_Left.png
       2731: Resources/Basebits/Shapes/Round_Fault_16_B_Right.png
       2732: Resources/Basebits/Shapes/Round_Ruin_08_T_Left.png # 3x2
-      2733: Resources/Basebits/Shapes/Round_Ruin_09_T_Center.png
+      2733: Resources/Basebits/Shapes/Square_Ruin_09_T_Center.png
       2734: Resources/Basebits/Shapes/Round_Ruin_10_T_Right.png
       2735: Resources/Basebits/Shapes/Round_Ruin_14_B_Left.png
-      2736: Resources/Basebits/Shapes/Round_Ruin_15_B_Center.png
+      2736: Resources/Basebits/Shapes/Square_Ruin_15_B_Center.png
       2737: Resources/Basebits/Shapes/Round_Ruin_16_B_Right.png
       2738: Resources/Basebits/Shapes/Round_Fault_08_T_Left.png
-      2739: Resources/Basebits/Shapes/Round_Fault_09_T_Center.png
+      2739: Resources/Basebits/Shapes/Square_Fault_09_T_Center.png
       2740: Resources/Basebits/Shapes/Round_Fault_10_T_Right.png
       2741: Resources/Basebits/Shapes/Round_Fault_14_B_Left.png
-      2742: Resources/Basebits/Shapes/Round_Fault_15_B_Center.png
+      2742: Resources/Basebits/Shapes/Square_Fault_15_B_Center.png
       2743: Resources/Basebits/Shapes/Round_Fault_16_B_Right.png
       2744: Resources/Basebits/Shapes/Round_Ruin_08_T_Left.png # 2x3
       2745: Resources/Basebits/Shapes/Round_Ruin_10_T_Right.png
-      2746: Resources/Basebits/Shapes/Round_Ruin_11_C_Left.png
-      2747: Resources/Basebits/Shapes/Round_Ruin_13_C_Right.png
+      2746: Resources/Basebits/Shapes/Square_Ruin_11_C_Left.png
+      2747: Resources/Basebits/Shapes/Square_Ruin_13_C_Right.png
       2748: Resources/Basebits/Shapes/Round_Ruin_14_B_Left.png
       2749: Resources/Basebits/Shapes/Round_Ruin_16_B_Right.png
       2750: Resources/Basebits/Shapes/Round_Fault_08_T_Left.png
       2751: Resources/Basebits/Shapes/Round_Fault_10_T_Right.png
-      2752: Resources/Basebits/Shapes/Round_Fault_11_C_Left.png
-      2753: Resources/Basebits/Shapes/Round_Fault_13_C_Right.png
+      2752: Resources/Basebits/Shapes/Square_Fault_11_C_Left.png
+      2753: Resources/Basebits/Shapes/Square_Fault_13_C_Right.png
       2754: Resources/Basebits/Shapes/Round_Fault_14_B_Left.png
       2755: Resources/Basebits/Shapes/Round_Fault_16_B_Right.png
       2756: Resources/Basebits/Shapes/Round_Ruin_08_T_Left.png # 3x3
-      2757: Resources/Basebits/Shapes/Round_Ruin_09_T_Center.png
+      2757: Resources/Basebits/Shapes/Square_Ruin_09_T_Center.png
       2758: Resources/Basebits/Shapes/Round_Ruin_10_T_Right.png
-      2759: Resources/Basebits/Shapes/Round_Ruin_11_C_Left.png
-      2760: Resources/Basebits/Shapes/Round_Ruin_12_C_Filler.png
-      2761: Resources/Basebits/Shapes/Round_Ruin_13_C_Right.png
+      2759: Resources/Basebits/Shapes/Square_Ruin_11_C_Left.png
+      2760: Resources/Basebits/Shapes/Square_Ruin_12_C_Filler.png
+      2761: Resources/Basebits/Shapes/Square_Ruin_13_C_Right.png
       2762: Resources/Basebits/Shapes/Round_Ruin_14_B_Left.png
-      2763: Resources/Basebits/Shapes/Round_Ruin_15_B_Center.png
+      2763: Resources/Basebits/Shapes/Square_Ruin_15_B_Center.png
       2764: Resources/Basebits/Shapes/Round_Ruin_16_B_Right.png
       2765: Resources/Basebits/Shapes/Round_Fault_08_T_Left.png
-      2766: Resources/Basebits/Shapes/Round_Fault_09_T_Center.png
+      2766: Resources/Basebits/Shapes/Square_Fault_09_T_Center.png
       2767: Resources/Basebits/Shapes/Round_Fault_10_T_Right.png
-      2768: Resources/Basebits/Shapes/Round_Fault_11_C_Left.png
-      2769: Resources/Basebits/Shapes/Round_Fault_12_C_Filler.png
-      2770: Resources/Basebits/Shapes/Round_Fault_13_C_Right.png
+      2768: Resources/Basebits/Shapes/Square_Fault_11_C_Left.png
+      2769: Resources/Basebits/Shapes/Square_Fault_12_C_Filler.png
+      2770: Resources/Basebits/Shapes/Square_Fault_13_C_Right.png
       2771: Resources/Basebits/Shapes/Round_Fault_14_B_Left.png
-      2772: Resources/Basebits/Shapes/Round_Fault_15_B_Center.png
+      2772: Resources/Basebits/Shapes/Square_Fault_15_B_Center.png
       2773: Resources/Basebits/Shapes/Round_Fault_16_B_Right.png
 
       ## Pylon Facilitiy Shapes (Intact):
@@ -623,16 +623,16 @@ extraSprites:
       2810: Resources/Basebits/Shapes/Pylon_Build_05_V_Top.png
       2811: Resources/Basebits/Shapes/Pylon_Build_07_V_Bottom.png
       2812: Resources/Basebits/Shapes/Pylon_Done_02_H_Left.png # 3x1
-      2813: Resources/Basebits/Shapes/Pylon_Done_03_H_Center.png
+      2813: Resources/Basebits/Shapes/Square_Done_03_H_Center.png
       2814: Resources/Basebits/Shapes/Pylon_Done_04_H_Right.png
       2815: Resources/Basebits/Shapes/Pylon_Build_02_H_Left.png
-      2816: Resources/Basebits/Shapes/Pylon_Build_03_H_Center.png
+      2816: Resources/Basebits/Shapes/Square_Build_03_H_Center.png
       2817: Resources/Basebits/Shapes/Pylon_Build_04_H_Right.png
       2818: Resources/Basebits/Shapes/Pylon_Done_05_V_Top.png # 1x3
-      2819: Resources/Basebits/Shapes/Pylon_Done_06_V_Center.png
+      2819: Resources/Basebits/Shapes/Square_Done_06_V_Center.png
       2820: Resources/Basebits/Shapes/Pylon_Done_07_V_Bottom.png
       2821: Resources/Basebits/Shapes/Pylon_Build_05_V_Top.png
-      2822: Resources/Basebits/Shapes/Pylon_Build_06_V_Center.png
+      2822: Resources/Basebits/Shapes/Square_Build_06_V_Center.png
       2823: Resources/Basebits/Shapes/Pylon_Build_07_V_Bottom.png
       2824: Resources/Basebits/Shapes/Pylon_Done_08_T_Left.png # 2x2
       2825: Resources/Basebits/Shapes/Pylon_Done_10_T_Right.png
@@ -643,46 +643,46 @@ extraSprites:
       2830: Resources/Basebits/Shapes/Pylon_Build_14_B_Left.png
       2831: Resources/Basebits/Shapes/Pylon_Build_16_B_Right.png
       2832: Resources/Basebits/Shapes/Pylon_Done_08_T_Left.png # 3x2
-      2833: Resources/Basebits/Shapes/Pylon_Done_09_T_Center.png
+      2833: Resources/Basebits/Shapes/Square_Done_09_T_Center.png
       2834: Resources/Basebits/Shapes/Pylon_Done_10_T_Right.png
       2835: Resources/Basebits/Shapes/Pylon_Done_14_B_Left.png
-      2836: Resources/Basebits/Shapes/Pylon_Done_15_B_Center.png
+      2836: Resources/Basebits/Shapes/Square_Done_15_B_Center.png
       2837: Resources/Basebits/Shapes/Pylon_Done_16_B_Right.png
       2838: Resources/Basebits/Shapes/Pylon_Build_08_T_Left.png
-      2839: Resources/Basebits/Shapes/Pylon_Build_09_T_Center.png
+      2839: Resources/Basebits/Shapes/Square_Build_09_T_Center.png
       2840: Resources/Basebits/Shapes/Pylon_Build_10_T_Right.png
       2841: Resources/Basebits/Shapes/Pylon_Build_14_B_Left.png
-      2842: Resources/Basebits/Shapes/Pylon_Build_15_B_Center.png
+      2842: Resources/Basebits/Shapes/Square_Build_15_B_Center.png
       2843: Resources/Basebits/Shapes/Pylon_Build_16_B_Right.png
       2844: Resources/Basebits/Shapes/Pylon_Done_08_T_Left.png # 2x3
       2845: Resources/Basebits/Shapes/Pylon_Done_10_T_Right.png
-      2846: Resources/Basebits/Shapes/Pylon_Done_11_C_Left.png
-      2847: Resources/Basebits/Shapes/Pylon_Done_13_C_Right.png
+      2846: Resources/Basebits/Shapes/Square_Done_11_C_Left.png
+      2847: Resources/Basebits/Shapes/Square_Done_13_C_Right.png
       2848: Resources/Basebits/Shapes/Pylon_Done_14_B_Left.png
       2849: Resources/Basebits/Shapes/Pylon_Done_16_B_Right.png
       2850: Resources/Basebits/Shapes/Pylon_Build_08_T_Left.png
       2851: Resources/Basebits/Shapes/Pylon_Build_10_T_Right.png
-      2852: Resources/Basebits/Shapes/Pylon_Build_11_C_Left.png
-      2853: Resources/Basebits/Shapes/Pylon_Build_13_C_Right.png
+      2852: Resources/Basebits/Shapes/Square_Build_11_C_Left.png
+      2853: Resources/Basebits/Shapes/Square_Build_13_C_Right.png
       2854: Resources/Basebits/Shapes/Pylon_Build_14_B_Left.png
       2855: Resources/Basebits/Shapes/Pylon_Build_16_B_Right.png
       2856: Resources/Basebits/Shapes/Pylon_Done_08_T_Left.png # 3x3
-      2857: Resources/Basebits/Shapes/Pylon_Done_09_T_Center.png
+      2857: Resources/Basebits/Shapes/Square_Done_09_T_Center.png
       2858: Resources/Basebits/Shapes/Pylon_Done_10_T_Right.png
-      2859: Resources/Basebits/Shapes/Pylon_Done_11_C_Left.png
-      2860: Resources/Basebits/Shapes/Pylon_Done_12_C_Filler.png
-      2861: Resources/Basebits/Shapes/Pylon_Done_13_C_Right.png
+      2859: Resources/Basebits/Shapes/Square_Done_11_C_Left.png
+      2860: Resources/Basebits/Shapes/Square_Done_12_C_Filler.png
+      2861: Resources/Basebits/Shapes/Square_Done_13_C_Right.png
       2862: Resources/Basebits/Shapes/Pylon_Done_14_B_Left.png
-      2863: Resources/Basebits/Shapes/Pylon_Done_15_B_Center.png
+      2863: Resources/Basebits/Shapes/Square_Done_15_B_Center.png
       2864: Resources/Basebits/Shapes/Pylon_Done_16_B_Right.png
       2865: Resources/Basebits/Shapes/Pylon_Build_08_T_Left.png
-      2866: Resources/Basebits/Shapes/Pylon_Build_09_T_Center.png
+      2866: Resources/Basebits/Shapes/Square_Build_09_T_Center.png
       2867: Resources/Basebits/Shapes/Pylon_Build_10_T_Right.png
-      2868: Resources/Basebits/Shapes/Pylon_Build_11_C_Left.png
-      2869: Resources/Basebits/Shapes/Pylon_Build_12_C_Filler.png
-      2870: Resources/Basebits/Shapes/Pylon_Build_13_C_Right.png
+      2868: Resources/Basebits/Shapes/Square_Build_11_C_Left.png
+      2869: Resources/Basebits/Shapes/Square_Build_12_C_Filler.png
+      2870: Resources/Basebits/Shapes/Square_Build_13_C_Right.png
       2871: Resources/Basebits/Shapes/Pylon_Build_14_B_Left.png
-      2872: Resources/Basebits/Shapes/Pylon_Build_15_B_Center.png
+      2872: Resources/Basebits/Shapes/Square_Build_15_B_Center.png
       2873: Resources/Basebits/Shapes/Pylon_Build_16_B_Right.png
 
       ## Pylon Facilitiy Shapes (Ruined):
@@ -697,16 +697,16 @@ extraSprites:
       2910: Resources/Basebits/Shapes/Pylon_Fault_05_V_Top.png
       2911: Resources/Basebits/Shapes/Pylon_Fault_07_V_Bottom.png
       2912: Resources/Basebits/Shapes/Pylon_Ruin_02_H_Left.png # 3x1
-      2913: Resources/Basebits/Shapes/Pylon_Ruin_03_H_Center.png
+      2913: Resources/Basebits/Shapes/Square_Ruin_03_H_Center.png
       2914: Resources/Basebits/Shapes/Pylon_Ruin_04_H_Right.png
       2915: Resources/Basebits/Shapes/Pylon_Fault_02_H_Left.png
-      2916: Resources/Basebits/Shapes/Pylon_Fault_03_H_Center.png
+      2916: Resources/Basebits/Shapes/Square_Fault_03_H_Center.png
       2917: Resources/Basebits/Shapes/Pylon_Fault_04_H_Right.png
       2918: Resources/Basebits/Shapes/Pylon_Ruin_05_V_Top.png # 1x3
-      2919: Resources/Basebits/Shapes/Pylon_Ruin_06_V_Center.png
+      2919: Resources/Basebits/Shapes/Square_Ruin_06_V_Center.png
       2920: Resources/Basebits/Shapes/Pylon_Ruin_07_V_Bottom.png
       2921: Resources/Basebits/Shapes/Pylon_Fault_05_V_Top.png
-      2922: Resources/Basebits/Shapes/Pylon_Fault_06_V_Center.png
+      2922: Resources/Basebits/Shapes/Square_Fault_06_V_Center.png
       2923: Resources/Basebits/Shapes/Pylon_Fault_07_V_Bottom.png
       2924: Resources/Basebits/Shapes/Pylon_Ruin_08_T_Left.png # 2x2
       2925: Resources/Basebits/Shapes/Pylon_Ruin_10_T_Right.png
@@ -717,44 +717,44 @@ extraSprites:
       2930: Resources/Basebits/Shapes/Pylon_Fault_14_B_Left.png
       2931: Resources/Basebits/Shapes/Pylon_Fault_16_B_Right.png
       2932: Resources/Basebits/Shapes/Pylon_Ruin_08_T_Left.png # 3x2
-      2933: Resources/Basebits/Shapes/Pylon_Ruin_09_T_Center.png
+      2933: Resources/Basebits/Shapes/Square_Ruin_09_T_Center.png
       2934: Resources/Basebits/Shapes/Pylon_Ruin_10_T_Right.png
       2935: Resources/Basebits/Shapes/Pylon_Ruin_14_B_Left.png
-      2936: Resources/Basebits/Shapes/Pylon_Ruin_15_B_Center.png
+      2936: Resources/Basebits/Shapes/Square_Ruin_15_B_Center.png
       2937: Resources/Basebits/Shapes/Pylon_Ruin_16_B_Right.png
       2938: Resources/Basebits/Shapes/Pylon_Fault_08_T_Left.png
-      2939: Resources/Basebits/Shapes/Pylon_Fault_09_T_Center.png
+      2939: Resources/Basebits/Shapes/Square_Fault_09_T_Center.png
       2940: Resources/Basebits/Shapes/Pylon_Fault_10_T_Right.png
       2941: Resources/Basebits/Shapes/Pylon_Fault_14_B_Left.png
-      2942: Resources/Basebits/Shapes/Pylon_Fault_15_B_Center.png
+      2942: Resources/Basebits/Shapes/Square_Fault_15_B_Center.png
       2943: Resources/Basebits/Shapes/Pylon_Fault_16_B_Right.png
       2944: Resources/Basebits/Shapes/Pylon_Ruin_08_T_Left.png # 2x3
       2945: Resources/Basebits/Shapes/Pylon_Ruin_10_T_Right.png
-      2946: Resources/Basebits/Shapes/Pylon_Ruin_11_C_Left.png
-      2947: Resources/Basebits/Shapes/Pylon_Ruin_13_C_Right.png
+      2946: Resources/Basebits/Shapes/Square_Ruin_11_C_Left.png
+      2947: Resources/Basebits/Shapes/Square_Ruin_13_C_Right.png
       2948: Resources/Basebits/Shapes/Pylon_Ruin_14_B_Left.png
       2949: Resources/Basebits/Shapes/Pylon_Ruin_16_B_Right.png
       2950: Resources/Basebits/Shapes/Pylon_Fault_08_T_Left.png
       2951: Resources/Basebits/Shapes/Pylon_Fault_10_T_Right.png
-      2952: Resources/Basebits/Shapes/Pylon_Fault_11_C_Left.png
-      2953: Resources/Basebits/Shapes/Pylon_Fault_13_C_Right.png
+      2952: Resources/Basebits/Shapes/Square_Fault_11_C_Left.png
+      2953: Resources/Basebits/Shapes/Square_Fault_13_C_Right.png
       2954: Resources/Basebits/Shapes/Pylon_Fault_14_B_Left.png
       2955: Resources/Basebits/Shapes/Pylon_Fault_16_B_Right.png
       2956: Resources/Basebits/Shapes/Pylon_Ruin_08_T_Left.png # 3x3
-      2957: Resources/Basebits/Shapes/Pylon_Ruin_09_T_Center.png
+      2957: Resources/Basebits/Shapes/Square_Ruin_09_T_Center.png
       2958: Resources/Basebits/Shapes/Pylon_Ruin_10_T_Right.png
-      2959: Resources/Basebits/Shapes/Pylon_Ruin_11_C_Left.png
-      2960: Resources/Basebits/Shapes/Pylon_Ruin_12_C_Filler.png
-      2961: Resources/Basebits/Shapes/Pylon_Ruin_13_C_Right.png
+      2959: Resources/Basebits/Shapes/Square_Ruin_11_C_Left.png
+      2960: Resources/Basebits/Shapes/Square_Ruin_12_C_Filler.png
+      2961: Resources/Basebits/Shapes/Square_Ruin_13_C_Right.png
       2962: Resources/Basebits/Shapes/Pylon_Ruin_14_B_Left.png
-      2963: Resources/Basebits/Shapes/Pylon_Ruin_15_B_Center.png
+      2963: Resources/Basebits/Shapes/Square_Ruin_15_B_Center.png
       2964: Resources/Basebits/Shapes/Pylon_Ruin_16_B_Right.png
       2965: Resources/Basebits/Shapes/Pylon_Fault_08_T_Left.png
-      2966: Resources/Basebits/Shapes/Pylon_Fault_09_T_Center.png
+      2966: Resources/Basebits/Shapes/Square_Fault_09_T_Center.png
       2967: Resources/Basebits/Shapes/Pylon_Fault_10_T_Right.png
-      2968: Resources/Basebits/Shapes/Pylon_Fault_11_C_Left.png
-      2969: Resources/Basebits/Shapes/Pylon_Fault_12_C_Filler.png
-      2970: Resources/Basebits/Shapes/Pylon_Fault_13_C_Right.png
+      2968: Resources/Basebits/Shapes/Square_Fault_11_C_Left.png
+      2969: Resources/Basebits/Shapes/Square_Fault_12_C_Filler.png
+      2970: Resources/Basebits/Shapes/Square_Fault_13_C_Right.png
       2971: Resources/Basebits/Shapes/Pylon_Fault_14_B_Left.png
-      2972: Resources/Basebits/Shapes/Pylon_Fault_15_B_Center.png
+      2972: Resources/Basebits/Shapes/Square_Fault_15_B_Center.png
       2973: Resources/Basebits/Shapes/Pylon_Fault_16_B_Right.png
