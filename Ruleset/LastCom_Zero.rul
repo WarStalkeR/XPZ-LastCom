@@ -71,3 +71,47 @@
 #      - type: STR_RUBBLE
 #        x: 3
 #        y: 5
+
+#extended:
+#  scripts:
+#    sellCostItem:
+#      - offset: 12
+#        code: |
+#          var ptr Time t;
+#          geoscape_game.getTime t;
+#          t.getDaysPastEpoch cost_current;
+#          mod cost_current 100;
+#          add cost_current 100;
+#          return cost_current;
+
+#armors:
+#  - update: CAMERA_ARMOR
+#    scripts:
+#      createUnit: |
+#        var ptr GeoscapeGame game;
+#        var ptr RuleResearch targetTech;
+#        var ptr RuleUnit targetUnit;
+#        var int hasTech 0;
+#        
+#        battle_game.getGeoscapeGame game;
+#        
+#        # First Unit
+#        rules.getRuleResearch targetTech "STR_TECH_NAME_1";
+#        game.isResearched hasTech targetTech;
+#        if eq hasTech 1;
+#          rules.getRuleUnit targetUnit "STR_UNIT_NAME_1";
+#          unit.setSpawnUnit targetUnit;
+#          unit.setSpawnUnitFaction 0;
+#          unit.setSpawnUnitInstantRespawn 1;
+#          return;
+#        end;
+#        set hasTech 0;
+#        
+#        return;
+
+#armors:
+#  - update: CAMERA_ARMOR
+#    scripts:
+#      createUnit: |
+#        debug_log "Triggered CAMERA_ARMOR createUnit";
+#        return;

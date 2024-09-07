@@ -93,8 +93,13 @@ ru:
   STR_LIVING_QUARTERS_LARGE_DAMAGED: "Большой кубрик (X)"
   STR_LIVING_QUARTERS_ADVANCED_DAMAGED: "Элитный кубрик (+)"
   STR_LIVING_QUARTERS_ADVANCED_LARGE_DAMAGED: "Элитные апартаменты (+)"
+  STR_BUNKER_FACILITY_DAMAGED1: "Бункер (+)"
+  STR_BUNKER_FACILITY_DAMAGED2: "Бункер (X)"
   STR_GENERAL_STORES_LARGE_DAMAGED: "Большой склад (X)"
   STR_GENERAL_STORES_ARMORED_DAMAGED: "Защищенный склад (+)"
+  STR_WAR_BARRACKS_DAMAGED1: "Штаб революции (+)"
+  STR_WAR_BARRACKS_DAMAGED2: "Штаб революции (++)"
+  STR_WAR_BARRACKS_DAMAGED3: "Штаб революции (X)"
   STR_FLAK_TOWER_DAMAGED: "Зенитная батарея (+)"
 
 # New Facilities
