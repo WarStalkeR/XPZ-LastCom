@@ -5,6 +5,18 @@ ufopaedia:
     requires:
       - STR_LUXURY_LIVING
 
+  # Old Civilian Hangar
+  - id: STR_HANGAR
+    requires:
+      - STR_INSPECT_MACHINERY
+    text: STR_HANGAR_UFOPEDIA
+  - id: STR_HANGAR_DAMAGED
+    requires:
+      - STR_INSPECT_MACHINERY
+    text: STR_HANGAR_UFOPEDIA
+    hiddenByDefault: true
+
+### Last Commander New Ufopaedia Entries
   # Camping Site
   - id: STR_CAMPING_SITE
     type_id: 6
@@ -12,7 +24,7 @@ ufopaedia:
     requires:
       - STR_INSPECT_MACHINERY
     text: STR_CAMPING_SITE_UFOPEDIA
-    listOrder: 19151
+    listOrder: 191505
 
   # Vehicle Garage
   - id: STR_VEHICLE_GARAGE
@@ -21,7 +33,7 @@ ufopaedia:
     requires:
       - STR_INSPECT_MACHINERY
     text: STR_VEHICLE_GARAGE_UFOPEDIA
-    listOrder: 19152
+    listOrder: 191510
 
   # Small Helipad
   - id: STR_SMALL_HELIPAD
@@ -30,7 +42,7 @@ ufopaedia:
     requires:
       - STR_INSPECT_MACHINERY
     text: STR_SMALL_HELIPAD_UFOPEDIA
-    listOrder: 19153
+    listOrder: 191515
 
   # Mass Driver
   - id: STR_MASS_DRIVER
@@ -39,17 +51,8 @@ ufopaedia:
     requires:
       - STR_INSPECT_MACHINERY
     text: STR_MASS_DRIVER_UFOPEDIA
-    listOrder: 19154
+    listOrder: 191520
 
-  # Old Civilian Hangar
-  - id: STR_HANGAR
-    text: STR_HANGAR_UFOPEDIA
-    listOrder: 19155
-  - id: STR_HANGAR_DAMAGED
-    text: STR_HANGAR_UFOPEDIA
-    listOrder: 19156
-
-### Last Commander New Ufopaedia Entries
   # Reinforced Hangar
   - id: STR_HANGAR_REINFORCED
     type_id: 6
@@ -57,21 +60,23 @@ ufopaedia:
     requires:
       - STR_INSPECT_MACHINERY
     text: STR_HANGAR_REINFORCED_UFOPEDIA
-    listOrder: 19157
+    listOrder: 191715
   - id: STR_HANGAR_REINFORCED_DAMAGE_1
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
-      - STR_UNAVAILABLE
+      - STR_INSPECT_MACHINERY
     text: STR_HANGAR_REINFORCED_UFOPEDIA
-    listOrder: 19158
+    hiddenByDefault: true
+    listOrder: 191716
   - id: STR_HANGAR_REINFORCED_RUIN
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
-      - STR_UNAVAILABLE
+      - STR_INSPECT_MACHINERY
     text: STR_HANGAR_REINFORCED_UFOPEDIA
-    listOrder: 19159
+    hiddenByDefault: true
+    listOrder: 191717
 
   # Composite Hangar
   - id: STR_HANGAR_COMPOSITE
@@ -80,14 +85,14 @@ ufopaedia:
     requires:
       - STR_INSPECT_MACHINERY
     text: STR_HANGAR_COMPOSITE_UFOPEDIA
-    listOrder: 19160
+    listOrder: 191720
   - id: STR_HANGAR_COMPOSITE_RUIN
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
       - STR_UNAVAILABLE
     text: STR_HANGAR_COMPOSITE_UFOPEDIA
-    listOrder: 19161
+    listOrder: 191721
 
   # Interception Hangar
   - id: STR_HANGAR_INTERCEPTOR
@@ -96,14 +101,14 @@ ufopaedia:
     requires:
       - STR_INSPECT_MACHINERY
     text: STR_HANGAR_INTERCEPTOR_UFOPEDIA
-    listOrder: 19162
+    listOrder: 191725
   - id: STR_HANGAR_INTERCEPTOR_RUIN
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
       - STR_UNAVAILABLE
     text: STR_HANGAR_INTERCEPTOR_UFOPEDIA
-    listOrder: 19163
+    listOrder: 191726
 
   # Relic X-COM Hangar
   - id: STR_HANGAR_XCOM_RELIC
@@ -112,49 +117,49 @@ ufopaedia:
     requires:
       - STR_INSPECT_MACHINERY
     text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
-    listOrder: 19164
+    listOrder: 191730
   - id: STR_HANGAR_XCOM_RELIC_SEALED
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
       - STR_UNAVAILABLE
     text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
-    listOrder: 19165
+    listOrder: 191731
   - id: STR_HANGAR_XCOM_RELIC_CLOSED
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
       - STR_UNAVAILABLE
     text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
-    listOrder: 19166
-  - id: STR_HANGAR_XCOM_RELIC_DAMAGE_1
+    listOrder: 191732
+  - id: STR_HANGAR_XCOM_RELIC_DAMAGED_1
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
       - STR_UNAVAILABLE
     text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
-    listOrder: 19167
-  - id: STR_HANGAR_XCOM_RELIC_DAMAGE_2
+    listOrder: 191733
+  - id: STR_HANGAR_XCOM_RELIC_DAMAGED_2
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
       - STR_UNAVAILABLE
     text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
-    listOrder: 19168
-  - id: STR_HANGAR_XCOM_RELIC_DAMAGE_3
+    listOrder: 191734
+  - id: STR_HANGAR_XCOM_RELIC_DAMAGED_3
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
       - STR_UNAVAILABLE
     text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
-    listOrder: 19169
+    listOrder: 191735
   - id: STR_HANGAR_XCOM_RELIC_RUIN
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
       - STR_UNAVAILABLE
     text: STR_HANGAR_XCOM_RELIC_UFOPEDIA
-    listOrder: 19170
+    listOrder: 191736
 
   # No Codex Selection Limit
   - id: STR_TINY_DRILL_OVERRIDE
@@ -165,4 +170,4 @@ ufopaedia:
     text: STR_TINY_DRILL_OVERRIDE_UFOPAEDIA
     image_id: BIG_CODEX_CHOICE
     text_width: 310
-    listOrder: 15401
+    listOrder: 154005

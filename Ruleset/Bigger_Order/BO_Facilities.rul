@@ -1,0 +1,219 @@
+facilities:
+  - update: STR_ACCESS_LIFT
+    listOrder: 90000
+  - update: STR_CORRIDOR
+    listOrder: 90010
+  - update: STR_BURROW
+    listOrder: 90060
+  - update: STR_BEAST_DEN
+    listOrder: 90080
+  - update: STR_LIVING_QUARTERS_SMALL
+    listOrder: 90100
+  - update: STR_CAPSULE_QUARTERS
+    listOrder: 90150
+  - update: STR_LIVING_QUARTERS
+    listOrder: 90200
+  - update: STR_LIVING_QUARTERS_DAMAGED
+    listOrder: 90210
+  - update: STR_LIVING_QUARTERS_LARGE
+    listOrder: 90300
+  - update: STR_LIVING_QUARTERS_LARGE_DAMAGED
+    listOrder: 90310
+  - update: STR_LIVING_QUARTERS_ADVANCED
+    listOrder: 90350
+  - update: STR_LIVING_QUARTERS_ADVANCED_DAMAGED
+    listOrder: 90360
+  - update: STR_LIVING_QUARTERS_ADVANCED_LARGE
+    listOrder: 90370
+  - update: STR_LIVING_QUARTERS_ADVANCED_LARGE_DAMAGED
+    listOrder: 90370
+  - update: STR_BUNKER_FACILITY
+    listOrder: 90400
+  - update: STR_BUNKER_FACILITY_DAMAGED1
+    listOrder: 90410
+  - update: STR_BUNKER_FACILITY_DAMAGED2
+    listOrder: 90420
+  - update: STR_WAR_BARRACKS
+    listOrder: 90450
+  - update: STR_WAR_BARRACKS_DAMAGED1
+    listOrder: 90460
+  - update: STR_WAR_BARRACKS_DAMAGED2
+    listOrder: 90470
+  - update: STR_WAR_BARRACKS_DAMAGED3
+    listOrder: 90480
+  - update: STR_GENERAL_STORES
+    listOrder: 90500
+  - update: STR_GENERAL_STORES_DAMAGED
+    listOrder: 90510
+  - update: STR_GENERAL_STORES_LARGE
+    listOrder: 90600
+  - update: STR_GENERAL_STORES_LARGE_DAMAGED
+    listOrder: 90610
+  - update: STR_GENERAL_STORES_XLARGE
+    listOrder: 90630
+  - update: STR_GENERAL_STORES_ARMORED
+    listOrder: 90650
+  - update: STR_GENERAL_STORES_ARMORED_DAMAGED
+    listOrder: 90660
+  - update: STR_JAIL
+    listOrder: 90900
+  - update: STR_JAIL_DOUBLE
+    listOrder: 90910
+  - update: STR_PRISON
+    listOrder: 90920
+  - update: STR_CRYO_PRISON
+    listOrder: 90960
+  - update: STR_DUNGEON
+    listOrder: 90980
+  - update: STR_SMALL_RADAR_SYSTEM
+    listOrder: 91000
+  - update: STR_LARGE_RADAR_SYSTEM
+    listOrder: 91100
+  - update: STR_ALENIUM_CHAMBER
+    listOrder: 91300
+  - update: STR_HYPER_WAVE_DECODER
+    listOrder: 91400
+  - update: STR_SPACE_RADIO
+    listOrder: 91500
+  - update: STR_HANGAR
+    listOrder: 91700
+  - update: STR_HANGAR_DAMAGED
+    listOrder: 91710
+  - update: STR_EYE_OF_HORUS
+    listOrder: 91900
+  - update: STR_IRRADIATOR_TOWER
+    listOrder: 91950
+  - update: STR_FLAK_TOWER
+    listOrder: 92000
+  - update: STR_FLAK_TOWER_DAMAGED
+    listOrder: 92010
+  - update: STR_FLAK_DEFENSES
+    listOrder: 92050
+  - update: STR_VULCAN_DEFENSES
+    listOrder: 92090
+  - update: STR_SAM_DEFENSES
+    listOrder: 92100
+  - update: STR_MISSILE_DEFENSES
+    listOrder: 92200
+  - update: STR_LASER_DEFENSES
+    listOrder: 92300
+  - update: STR_GAUSS_DEFENSES
+    listOrder: 92400
+  - update: STR_PLASMA_DEFENSES
+    listOrder: 92600
+  - update: STR_FUSION_BALL_DEFENSES
+    listOrder: 92700
+  - update: STR_ARMORY
+    listOrder: 92800
+  - update: STR_ARMORY_DAMAGED_1
+    listOrder: 92810
+  - update: STR_ARMORY_DAMAGED_2
+    listOrder: 92820
+  - update: STR_GRAV_SHIELD
+    listOrder: 92900
+  - update: STR_GYM_ROOM
+    listOrder: 93000
+  - update: STR_ONSEN
+    listOrder: 93030
+  - update: STR_LUXURY_SPA
+    listOrder: 93050
+  - update: STR_VIP_CLUB_FAC
+    listOrder: 93080
+  - update: STR_MESS_HALL
+    listOrder: 93100
+  - update: STR_MESS_HALL_ADV
+    listOrder: 93110
+  - update: STR_HOTEL
+    listOrder: 93130
+  - update: STR_MED_BAY
+    listOrder: 93200
+  - update: STR_MASH
+    listOrder: 93220
+  - update: STR_LOVE_CLINIC
+    listOrder: 93240
+  - update: STR_METAGARDEN
+    listOrder: 93400
+  - update: STR_CLONING_CENTRE
+    listOrder: 93500
+  - update: STR_PSIONIC_LABORATORY
+    listOrder: 93550
+  - update: STR_MIND_SHIELD
+    listOrder: 93600
+  - update: STR_DISRUPTOR_SHROUD
+    listOrder: 93620
+  - update: STR_TRAP_ROOM
+    listOrder: 94000
+  - update: STR_FIRE_PIT
+    listOrder: 94050
+  - update: STR_GAS_CHAMBER
+    listOrder: 94100
+  - update: STR_HYDROPONICS
+    listOrder: 96600
+  - update: STR_HYDROPONICS_WEED
+    listOrder: 96620
+  - update: STR_HYDROPONICS_WEED_HARVEST
+    listOrder: 96630
+  - update: STR_HYDROPONICS_BOOM
+    listOrder: 96700
+  - update: STR_HYDROPONICS_BOOM_HARVEST
+    listOrder: 96710
+  - update: STR_BODY_FARM
+    listOrder: 96850
+  - update: STR_BODY_FARM_E
+    listOrder: 96860
+  - update: STR_BEE_HIVE
+    listOrder: 96900
+  - update: STR_CASINO
+    listOrder: 96990
+  - update: STR_STILL
+    listOrder: 97000
+  - update: STR_MINT
+    listOrder: 97100
+  - update: STR_REFINERY
+    listOrder: 97200
+  - update: STR_SUMMONING_CIRCLE
+    listOrder: 97300
+  - update: STR_WELL
+    listOrder: 97500
+  - update: STR_WORKSHOP
+    listOrder: 97600
+  - update: STR_HELLERIUM_PLANT
+    listOrder: 97700
+  - update: STR_INDUSTRIAL_PRINTER
+    listOrder: 97800
+  - update: STR_FACTORY
+    listOrder: 97900
+  - update: STR_POWER_PLANT
+    listOrder: 98000
+  - update: STR_FUSION_REACTOR
+    listOrder: 98500
+  - update: STR_LABORATORY
+    listOrder: 99000
+  - update: STR_PERSONAL_LABS
+    listOrder: 99040
+  - update: STR_LIBRARY
+    listOrder: 99100
+  - update: STR_GREAT_LIBRARY
+    listOrder: 99130
+  - update: STR_SURGERY_ROOM
+    listOrder: 99200
+  - update: STR_STUDY_ROOM
+    listOrder: 99300
+  - update: STR_DATA_CENTER
+    listOrder: 99350
+  - update: STR_COMPUTER_CORE
+    listOrder: 99400
+  - update: STR_WITCH_CAVE
+    listOrder: 99410
+  - update: STR_ASTROSENSORIUM
+    listOrder: 99420
+  - update: STR_NONPROFIT_LAB
+    listOrder: 99450
+  - update: STR_GDX_LAB
+    listOrder: 99600
+  - update: STR_RED_TOWER
+    listOrder: 99700
+  - update: STR_BLACK_TOWER
+    listOrder: 99710
+  - update: STR_RUBBLE
+    listOrder: 99990

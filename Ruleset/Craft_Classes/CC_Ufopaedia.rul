@@ -436,6 +436,12 @@ ufopaedia:
       y: 5
       width: 160
       height: 64
+  - id: STR_WAR_BIKE
+    rect_stats:
+      x: 5
+      y: 130
+      width: 160
+      height: 64
   - id: STR_DELOREAN
     rect_stats:
       x: 230
@@ -443,6 +449,12 @@ ufopaedia:
       width: 160
       height: 64
   - id: STR_CAPSULE
+    rect_stats:
+      x: 5
+      y: 40
+      width: 160
+      height: 64
+  - id: STR_SKYRANGER_SHADOW
     rect_stats:
       x: 5
       y: 40

@@ -22,7 +22,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     mapName: LCBR_HANGAR_S_01
     missileAttraction: 50
-    listOrder: 9151
+    listOrder: 91605
 
   # Vehicle Garage
   - type: STR_VEHICLE_GARAGE
@@ -48,7 +48,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     mapName: LCBR_HANGAR_S_01
     missileAttraction: 50
-    listOrder: 9152
+    listOrder: 91610
 
   # Small Helipad
   - type: STR_SMALL_HELIPAD
@@ -73,7 +73,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     mapName: LCBR_HANGAR_S_01
     missileAttraction: 50
-    listOrder: 9153
+    listOrder: 91615
 
   # Mass Driver
   - type: STR_MASS_DRIVER
@@ -100,7 +100,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     mapName: LCBR_HANGAR_S_01
     missileAttraction: 100
-    listOrder: 9154
+    listOrder: 91620
 
   # Reinforced Hangar
   - type: STR_HANGAR_REINFORCED
@@ -135,7 +135,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     mapName: LCBR_HANGAR_L_01
     missileAttraction: 150
-    listOrder: 9157
+    listOrder: 91715
   - type: STR_HANGAR_REINFORCED_DAMAGE_1
     spriteShape: 2024
     spriteFacility: 3029
@@ -163,7 +163,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     mapName: LCBR_HANGAR_L_01
     missileAttraction: 100
-    listOrder: 9158
+    listOrder: 91716
   - type: STR_HANGAR_REINFORCED_RUIN
     spriteShape: 2124
     spriteFacility: 3033
@@ -189,7 +189,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     mapName: LCBR_HANGAR_L_01
     missileAttraction: 100
-    listOrder: 9159
+    listOrder: 91717
 
   # Composite Hangar
   - type: STR_HANGAR_COMPOSITE
@@ -225,7 +225,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     mapName: LCBR_HANGAR_L_01
     missileAttraction: 150
-    listOrder: 9160
+    listOrder: 91720
   - type: STR_HANGAR_COMPOSITE_RUIN
     spriteShape: 2124
     spriteFacility: 3041
@@ -256,7 +256,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     mapName: XBR_116
     missileAttraction: 25
-    listOrder: 9161
+    listOrder: 91721
 
   # Interceptor Hangar
   - type: STR_HANGAR_INTERCEPTOR
@@ -293,7 +293,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     mapName: LCBR_HANGAR_L_01
     missileAttraction: 200
-    listOrder: 9162
+    listOrder: 91725
   - type: STR_HANGAR_INTERCEPTOR_RUIN
     spriteShape: 2124
     spriteFacility: 3049
@@ -325,7 +325,7 @@ facilities:
     storageTiles: [[-1, -1, -1]]
     mapName: XBR_116
     missileAttraction: 25
-    listOrder: 9163
+    listOrder: 91726
 
   # Relic X-COM Hangar
   - type: STR_HANGAR_XCOM_RELIC
@@ -336,7 +336,7 @@ facilities:
     size: 2
     requires:
       - STR_EXCAVATION
-    destroyedFacility: STR_HANGAR_XCOM_RELIC_DAMAGE_1
+    destroyedFacility: STR_HANGAR_XCOM_RELIC_DAMAGED_1
     provideBaseFunc: [SHOP, WORKS, MED]
     monthlyCost: 50000
     buildCost: 2500000
@@ -367,7 +367,7 @@ facilities:
     radarChance: 80
     mapName: LCBR_HANGAR_L_01
     missileAttraction: 350
-    listOrder: 9164
+    listOrder: 91730
   - type: STR_HANGAR_XCOM_RELIC_SEALED
     spriteShape: 2024
     spriteFacility: 3001
@@ -387,7 +387,7 @@ facilities:
     canBeBuiltOver: false
     mapName: LCBR_HANGAR_L_01
     missileAttraction: 25
-    listOrder: 9165
+    listOrder: 91731
   - type: STR_HANGAR_XCOM_RELIC_CLOSED
     spriteShape: 2024
     spriteFacility: 3001
@@ -398,7 +398,7 @@ facilities:
       - STR_UNAVAILABLE
     leavesBehindOnSell:
       - STR_HANGAR_XCOM_RELIC
-    destroyedFacility: STR_HANGAR_XCOM_RELIC_DAMAGE_1
+    destroyedFacility: STR_HANGAR_XCOM_RELIC_DAMAGED_1
     monthlyCost: 2500
     buildCost: 0
     buildTime: 1
@@ -419,8 +419,8 @@ facilities:
     radarChance: 80
     mapName: LCBR_HANGAR_L_01
     missileAttraction: 350
-    listOrder: 9166
-  - type: STR_HANGAR_XCOM_RELIC_DAMAGE_1
+    listOrder: 91732
+  - type: STR_HANGAR_XCOM_RELIC_DAMAGED_1
     spriteShape: 2024
     spriteFacility: 3005
     spriteEnabled: true
@@ -430,7 +430,7 @@ facilities:
       - STR_UNAVAILABLE
     leavesBehindOnSell:
       - STR_HANGAR_XCOM_RELIC_CLOSED
-    destroyedFacility: STR_HANGAR_XCOM_RELIC_DAMAGE_2
+    destroyedFacility: STR_HANGAR_XCOM_RELIC_DAMAGED_2
     monthlyCost: 7500
     buildCost: 100000
     buildTime: 5
@@ -451,8 +451,8 @@ facilities:
     radarChance: 80
     mapName: LCBR_HANGAR_L_01
     missileAttraction: 350
-    listOrder: 9167
-  - type: STR_HANGAR_XCOM_RELIC_DAMAGE_2
+    listOrder: 91733
+  - type: STR_HANGAR_XCOM_RELIC_DAMAGED_2
     spriteShape: 2024
     spriteFacility: 3009
     spriteEnabled: true
@@ -462,7 +462,7 @@ facilities:
       - STR_UNAVAILABLE
     leavesBehindOnSell:
       - STR_HANGAR_XCOM_RELIC_CLOSED
-    destroyedFacility: STR_HANGAR_XCOM_RELIC_DAMAGE_3
+    destroyedFacility: STR_HANGAR_XCOM_RELIC_DAMAGED_3
     monthlyCost: 7500
     buildCost: 250000
     buildTime: 10
@@ -483,8 +483,8 @@ facilities:
     radarChance: 80
     mapName: LCBR_HANGAR_L_01
     missileAttraction: 350
-    listOrder: 9168
-  - type: STR_HANGAR_XCOM_RELIC_DAMAGE_3
+    listOrder: 91734
+  - type: STR_HANGAR_XCOM_RELIC_DAMAGED_3
     spriteShape: 2024
     spriteFacility: 3013
     spriteEnabled: true
@@ -515,7 +515,7 @@ facilities:
     radarChance: 80
     mapName: LCBR_HANGAR_L_01
     missileAttraction: 350
-    listOrder: 9169
+    listOrder: 91735
   - type: STR_HANGAR_XCOM_RELIC_RUIN
     spriteShape: 2124
     spriteFacility: 3017
@@ -547,7 +547,7 @@ facilities:
     radarChance: 80
     mapName: LCBR_HANGAR_L_01
     missileAttraction: 350
-    listOrder: 9170
+    listOrder: 91736
 
 ### Related Overrides
   # Civilian Hangar
@@ -558,7 +558,6 @@ facilities:
       - {x: 1, y: -3, min: 2, max: 129, hide: false}
     optionGroups: [1]
     provideBaseFunc: [SHOP]
-    listOrder: 9155
   - update: STR_HANGAR_DAMAGED
     workshops: 10
     storage: 100
@@ -567,7 +566,6 @@ facilities:
     craftOptions:
       - {x: 1, y: -3, min: 2, max: 59, hide: false}
     optionGroups: [1]
-    listOrder: 9156
 
 ### Integration
   # Various Changes
