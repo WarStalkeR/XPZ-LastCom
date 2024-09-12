@@ -7,7 +7,7 @@ extraSprites:
       11: Resources/Basebits/Clean/XPZ_Hangar_S4_Civilian_3.png
       12: Resources/Basebits/Clean/XPZ_Hangar_S4_Civilian_4.png
       17: Resources/Basebits/Clean/XPZ_Access_S1_Basic.png
-      18: Resources/Basebits/Clean/XPZ_Living_Quarters_S1_Common.png
+      18: Resources/Basebits/Clean/XPZ_Barracks_S1_Common.png
       19: Resources/Basebits/Clean/XPZ_Laboratory_S1_Earth_Lab.png
       20: Resources/Basebits/Clean/XPZ_Factory_S1_Workshop.png
       21: Resources/Basebits/Clean/XPZ_Radar_S1_Small.png
@@ -18,20 +18,20 @@ extraSprites:
       26: Resources/Basebits/Clean/XPZ_Defense_S1_Laser_Turret.png
       27: Resources/Basebits/Clean/XPZ_Defense_S1_Plasma_Turret.png
       28: Resources/Basebits/Clean/XPZ_Defense_S1_Blaster_Silo.png
-      29: Resources/Basebits/Clean/XPZ_Support_S1_Repulsor.png
-      30: Resources/Basebits/Clean/XPZ_Support_S1_Shroud.png
+      29: Resources/Basebits/Clean/XPZ_Special_S1_Repulsor.png
+      30: Resources/Basebits/Clean/XPZ_Special_S1_Shroud.png
       31: Resources/Basebits/Clean/XPZ_Training_S1_Psi_School.png
       32: Resources/Basebits/Clean/XPZ_Radar_S1_Hyperwave.png
       300: Resources/Basebits/Clean/XPZ_Defense_S1_Gauss_Turret.png
-      301: Resources/Basebits/Clean/XPZ_Living_Quarters_S4_Basic_1.png
-      302: Resources/Basebits/Clean/XPZ_Living_Quarters_S4_Basic_2.png
-      303: Resources/Basebits/Clean/XPZ_Living_Quarters_S4_Basic_3.png
-      304: Resources/Basebits/Clean/XPZ_Living_Quarters_S4_Basic_4.png
+      301: Resources/Basebits/Clean/XPZ_Barracks_S4_Basic_1.png
+      302: Resources/Basebits/Clean/XPZ_Barracks_S4_Basic_2.png
+      303: Resources/Basebits/Clean/XPZ_Barracks_S4_Basic_3.png
+      304: Resources/Basebits/Clean/XPZ_Barracks_S4_Basic_4.png
       309: Resources/Basebits/Clean/XPZ_Storage_S4_Large_1.png
       310: Resources/Basebits/Clean/XPZ_Storage_S4_Large_2.png
       311: Resources/Basebits/Clean/XPZ_Storage_S4_Large_3.png
       312: Resources/Basebits/Clean/XPZ_Storage_S4_Large_4.png
-      317: Resources/Basebits/Clean/XPZ_Support_S1_Outpost.png
+      317: Resources/Basebits/Clean/XPZ_Special_S1_Outpost.png
       318: Resources/Basebits/Clean/XPZ_Factory_S9_Massive_1.png
       319: Resources/Basebits/Clean/XPZ_Factory_S9_Massive_2.png
       320: Resources/Basebits/Clean/XPZ_Factory_S9_Massive_3.png
@@ -46,12 +46,12 @@ extraSprites:
       338: Resources/Basebits/Clean/XPZ_Training_S1_Gym.png
       339: Resources/Basebits/Clean/XPZ_Factory_S1_Still.png
       340: Resources/Basebits/Clean/XPZ_Business_S1_Mint.png
-      341: Resources/Basebits/Clean/XPZ_Support_S1_Power_Station.png
+      341: Resources/Basebits/Clean/XPZ_Special_S1_Power_Plant.png
       342: Resources/Basebits/Clean/XPZ_Factory_S4_Printer_1.png
       343: Resources/Basebits/Clean/XPZ_Factory_S4_Printer_2.png
       344: Resources/Basebits/Clean/XPZ_Factory_S4_Printer_3.png
       345: Resources/Basebits/Clean/XPZ_Factory_S4_Printer_4.png
-      350: Resources/Basebits/Clean/XPZ_Support_S1_Fusion_Furnace.png
+      350: Resources/Basebits/Clean/XPZ_Special_S1_Fusion_Plant.png
       351: Resources/Basebits/Clean/XPZ_Medical_S1_Surgery.png
       352: Resources/Basebits/Clean/XPZ_Laboratory_S1_Analytics.png
       353: Resources/Basebits/Clean/XPZ_Defense_S1_SAM_Site.png
@@ -65,19 +65,19 @@ extraSprites:
       361: Resources/Basebits/Clean/XPZ_Training_S4_Spa_2.png
       362: Resources/Basebits/Clean/XPZ_Training_S4_Spa_3.png
       363: Resources/Basebits/Clean/XPZ_Training_S4_Spa_4.png
-      368: Resources/Basebits/Clean/XPZ_Living_Quarters_S1_Luxury.png
+      368: Resources/Basebits/Clean/XPZ_Barracks_S1_Luxury.png
       369: Resources/Basebits/Clean/XPZ_Factory_S1_Extractor.png
       370: Resources/Basebits/Clean/XPZ_Factory_S1_Refinery.png
       371: Resources/Basebits/Clean/XPZ_Medical_S1_Medbay.png
       372: Resources/Basebits/Clean/XPZ_Defense_S1_Armory.png
-      373: Resources/Basebits/Clean/XPZ_Support_S1_Mess_Hall.png
+      373: Resources/Basebits/Clean/XPZ_Special_S1_Mess_Hall.png
       374: Resources/Basebits/Clean/XPZ_Medical_S1_Cloning.png
-      375: Resources/Basebits/Clean/XPZ_Living_Quarters_S1_Burrow.png
+      375: Resources/Basebits/Clean/XPZ_Barracks_S1_Burrow.png
       376: Resources/Basebits/Clean/XPZ_Prison_S4_Large_1.png
       377: Resources/Basebits/Clean/XPZ_Prison_S4_Large_2.png
       378: Resources/Basebits/Clean/XPZ_Prison_S4_Large_3.png
       379: Resources/Basebits/Clean/XPZ_Prison_S4_Large_4.png
-      384: Resources/Basebits/Clean/XPZ_Prison_S1_Jail.png
+      384: Resources/Basebits/Clean/XPZ_Prison_S1_Jail_Basic.png
       385: Resources/Basebits/Clean/XPZ_Laboratory_S1_GDX_Lab.png
       386: Resources/Basebits/Clean/XPZ_Laboratory_S1_Data_Center.png
       387: Resources/Basebits/Clean/XPZ_Prison_S1_Beast_Den.png
@@ -107,107 +107,107 @@ extraSprites:
       462: Resources/Basebits/Clean/XPZ_Business_S4_Casino_3.png
       463: Resources/Basebits/Clean/XPZ_Business_S4_Casino_4.png
       468: Resources/Basebits/Clean/XPZ_Prison_S1_Dungeon.png
-      469: Resources/Basebits/CAPS.png
-      470: Resources/Basebits/MASH.png
-      471: Resources/Basebits/SKULL.png
-      472: Resources/Basebits/TRAPS.png
-      499: Resources/Basebits/RADIO.png
-      500: Resources/Basebits/Red_Tower.png
-      501: Resources/Basebits/Onsen.png
-      502: Resources/Basebits/P_LAB.png
-      503: Resources/Basebits/Vivarium.png
-      504: Resources/Basebits/MED2.png
+      469: Resources/Basebits/Clean/XPZ_Barracks_S1_Capsules.png
+      470: Resources/Basebits/Clean/XPZ_Medical_S1_Private.png
+      471: Resources/Basebits/Clean/XPZ_Special_S1_Witch_Cave.png
+      472: Resources/Basebits/Clean/XPZ_Corridor_S1_Spike_Trap.png
+      499: Resources/Basebits/Clean/XPZ_Special_S1_Space_Comms.png
+      500: Resources/Basebits/Clean/XPZ_Special_S1_Red_Tower.png
+      501: Resources/Basebits/Clean/XPZ_Training_S1_Onsen.png
+      502: Resources/Basebits/Clean/XPZ_Laboratory_S1_Personal.png
+      503: Resources/Basebits/Clean/XPZ_Special_S1_Metagarden.png
+      504: Resources/Basebits/Clean/XPZ_Medical_S1_Love_Clinic.png
       505: Resources/Basebits/Clean/XPZ_Laboratory_S4_Great_Library_1.png
       506: Resources/Basebits/Clean/XPZ_Laboratory_S4_Great_Library_2.png
       507: Resources/Basebits/Clean/XPZ_Laboratory_S4_Great_Library_3.png
       508: Resources/Basebits/Clean/XPZ_Laboratory_S4_Great_Library_4.png
-      513: Resources/Basebits/BEES2.png
+      513: Resources/Basebits/Clean/XPZ_Farm_S1_Bee_Hive.png
       514: Resources/Basebits/Clean/XPZ_Defense_S1_Flak_Tower.png
-      515: Resources/Basebits/SHROUD2.png
-      516: Resources/Basebits/Radar2.png
-      517: Resources/Basebits/HOD.png
+      515: Resources/Basebits/Clean/XPZ_Special_S1_Disruptor.png
+      516: Resources/Basebits/Clean/XPZ_Radar_S1_Alenium.png
+      517: Resources/Basebits/Clean/XPZ_Special_S1_Sensorium.png
       518: Resources/Basebits/Clean/XPZ_Defense_S1_Vulcan_Battery.png
       519: Resources/Basebits/Ruined/XPZ_Hangar_S4_Civilian_1.png
       520: Resources/Basebits/Ruined/XPZ_Hangar_S4_Civilian_2.png
       521: Resources/Basebits/Ruined/XPZ_Hangar_S4_Civilian_3.png
       522: Resources/Basebits/Ruined/XPZ_Hangar_S4_Civilian_4.png
-      527: Resources/Basebits/Ruined/XPZ_Living_Quarters_S4_Basic_1.png
-      528: Resources/Basebits/Ruined/XPZ_Living_Quarters_S4_Basic_2.png
-      529: Resources/Basebits/Ruined/XPZ_Living_Quarters_S4_Basic_3.png
-      530: Resources/Basebits/Ruined/XPZ_Living_Quarters_S4_Basic_4.png
+      527: Resources/Basebits/Ruined/XPZ_Barracks_S4_Basic_1.png
+      528: Resources/Basebits/Ruined/XPZ_Barracks_S4_Basic_2.png
+      529: Resources/Basebits/Ruined/XPZ_Barracks_S4_Basic_3.png
+      530: Resources/Basebits/Ruined/XPZ_Barracks_S4_Basic_4.png
       535: Resources/Basebits/Ruined/XPZ_Storage_S4_Large_1.png
       536: Resources/Basebits/Ruined/XPZ_Storage_S4_Large_2.png
       537: Resources/Basebits/Ruined/XPZ_Storage_S4_Large_3.png
       538: Resources/Basebits/Ruined/XPZ_Storage_S4_Large_4.png
-      543: Resources/Basebits/Ruined/XPZ_Living_Quarters_S1_Common.png
+      543: Resources/Basebits/Ruined/XPZ_Barracks_S1_Common.png
       544: Resources/Basebits/Ruined/XPZ_Storage_S1_Basic.png
-      545: Resources/Basebits/Damaged/XPZ_Living_Quarters_S1_Luxury.png
-      546: Resources/Basebits/Damaged/XPZ_Storage_S1_Armored.png
-      547: Resources/Basebits/Damaged/XPZ_Defense_S1_Armory_A.png
-      548: Resources/Basebits/Damaged/XPZ_Defense_S1_Armory_B.png
-      549: Resources/Basebits/Clean/XPZ_HQ_S9_Revolution_1.png
-      550: Resources/Basebits/Clean/XPZ_HQ_S9_Revolution_2.png
-      551: Resources/Basebits/Clean/XPZ_HQ_S9_Revolution_3.png
-      552: Resources/Basebits/Clean/XPZ_HQ_S9_Revolution_4.png
-      553: Resources/Basebits/Clean/XPZ_HQ_S9_Revolution_5.png
-      554: Resources/Basebits/Clean/XPZ_HQ_S9_Revolution_6.png
-      555: Resources/Basebits/Clean/XPZ_HQ_S9_Revolution_7.png
-      556: Resources/Basebits/Clean/XPZ_HQ_S9_Revolution_8.png
-      557: Resources/Basebits/Clean/XPZ_HQ_S9_Revolution_9.png
-      567: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_A_1.png
-      568: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_A_2.png
-      569: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_A_3.png
-      570: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_A_4.png
-      571: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_A_5.png
-      572: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_A_6.png
-      573: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_A_7.png
-      574: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_A_8.png
-      575: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_A_9.png
-      576: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_B_1.png
-      577: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_B_2.png
-      578: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_B_3.png
-      579: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_B_4.png
-      580: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_B_5.png
-      581: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_B_6.png
-      582: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_B_7.png
-      583: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_B_8.png
-      584: Resources/Basebits/Damaged/XPZ_HQ_S9_Revolution_B_9.png
-      585: Resources/Basebits/Ruined/XPZ_HQ_S9_Revolution_1.png
-      586: Resources/Basebits/Ruined/XPZ_HQ_S9_Revolution_2.png
-      587: Resources/Basebits/Ruined/XPZ_HQ_S9_Revolution_3.png
-      588: Resources/Basebits/Ruined/XPZ_HQ_S9_Revolution_4.png
-      589: Resources/Basebits/Ruined/XPZ_HQ_S9_Revolution_5.png
-      590: Resources/Basebits/Ruined/XPZ_HQ_S9_Revolution_6.png
-      591: Resources/Basebits/Ruined/XPZ_HQ_S9_Revolution_7.png
-      592: Resources/Basebits/Ruined/XPZ_HQ_S9_Revolution_8.png
-      593: Resources/Basebits/Ruined/XPZ_HQ_S9_Revolution_9.png
-      594: Resources/Basebits/Damaged/XPZ_Defense_S1_Flak_Tower.png
+      545: Resources/Basebits/Damaged/XPZ_Barracks_S1_Luxury_D1.png
+      546: Resources/Basebits/Damaged/XPZ_Storage_S1_Armored_D1.png
+      547: Resources/Basebits/Damaged/XPZ_Defense_S1_Armory_D1.png
+      548: Resources/Basebits/Damaged/XPZ_Defense_S1_Armory_D2.png
+      549: Resources/Basebits/Clean/XPZ_Special_S9_Revolution_1.png
+      550: Resources/Basebits/Clean/XPZ_Special_S9_Revolution_2.png
+      551: Resources/Basebits/Clean/XPZ_Special_S9_Revolution_3.png
+      552: Resources/Basebits/Clean/XPZ_Special_S9_Revolution_4.png
+      553: Resources/Basebits/Clean/XPZ_Special_S9_Revolution_5.png
+      554: Resources/Basebits/Clean/XPZ_Special_S9_Revolution_6.png
+      555: Resources/Basebits/Clean/XPZ_Special_S9_Revolution_7.png
+      556: Resources/Basebits/Clean/XPZ_Special_S9_Revolution_8.png
+      557: Resources/Basebits/Clean/XPZ_Special_S9_Revolution_9.png
+      567: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D1_1.png
+      568: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D1_2.png
+      569: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D1_3.png
+      570: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D1_4.png
+      571: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D1_5.png
+      572: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D1_6.png
+      573: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D1_7.png
+      574: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D1_8.png
+      575: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D1_9.png
+      576: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D2_1.png
+      577: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D2_2.png
+      578: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D2_3.png
+      579: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D2_4.png
+      580: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D2_5.png
+      581: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D2_6.png
+      582: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D2_7.png
+      583: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D2_8.png
+      584: Resources/Basebits/Damaged/XPZ_Special_S9_Revolution_D2_9.png
+      585: Resources/Basebits/Ruined/XPZ_Special_S9_Revolution_1.png
+      586: Resources/Basebits/Ruined/XPZ_Special_S9_Revolution_2.png
+      587: Resources/Basebits/Ruined/XPZ_Special_S9_Revolution_3.png
+      588: Resources/Basebits/Ruined/XPZ_Special_S9_Revolution_4.png
+      589: Resources/Basebits/Ruined/XPZ_Special_S9_Revolution_5.png
+      590: Resources/Basebits/Ruined/XPZ_Special_S9_Revolution_6.png
+      591: Resources/Basebits/Ruined/XPZ_Special_S9_Revolution_7.png
+      592: Resources/Basebits/Ruined/XPZ_Special_S9_Revolution_8.png
+      593: Resources/Basebits/Ruined/XPZ_Special_S9_Revolution_9.png
+      594: Resources/Basebits/Damaged/XPZ_Defense_S1_Flak_Tower_D1.png
       595: Resources/Basebits/Clean/XPZ_Business_S4_Hotel_1.png
       596: Resources/Basebits/Clean/XPZ_Business_S4_Hotel_2.png
       597: Resources/Basebits/Clean/XPZ_Business_S4_Hotel_3.png
       598: Resources/Basebits/Clean/XPZ_Business_S4_Hotel_4.png
-      603: Resources/Basebits/Radar3.png
-      604: Resources/Basebits/Bunker.png
-      605: Resources/Basebits/Bunker_DMG1.png
-      606: Resources/Basebits/Bunker_DMG2.png
-      607: Resources/Basebits/DOD.png
+      603: Resources/Basebits/Clean/XPZ_Defense_S1_Irradiator.png
+      604: Resources/Basebits/Clean/XPZ_Corridor_S1_Bunker.png
+      605: Resources/Basebits/Damaged/XPZ_Corridor_S1_Bunker_D1.png
+      606: Resources/Basebits/Damaged/XPZ_Corridor_S1_Bunker_D2.png
+      607: Resources/Basebits/Clean/XPZ_Business_S1_VIP_Club.png
       608: Resources/Basebits/Clean/XPZ_Factory_S4_Helerium_1.png
       609: Resources/Basebits/Clean/XPZ_Factory_S4_Helerium_2.png
       610: Resources/Basebits/Clean/XPZ_Factory_S4_Helerium_3.png
       611: Resources/Basebits/Clean/XPZ_Factory_S4_Helerium_4.png
-      616: Resources/Basebits/JAIL2.png
-      617: Resources/Basebits/Clean/XPZ_Living_Quarters_S4_Luxury_1.png
-      618: Resources/Basebits/Clean/XPZ_Living_Quarters_S4_Luxury_2.png
-      619: Resources/Basebits/Clean/XPZ_Living_Quarters_S4_Luxury_3.png
-      620: Resources/Basebits/Clean/XPZ_Living_Quarters_S4_Luxury_4.png
-      625: Resources/Basebits/Ruined/XPZ_Living_Quarters_S4_Luxury_1.png
-      626: Resources/Basebits/Ruined/XPZ_Living_Quarters_S4_Luxury_2.png
-      627: Resources/Basebits/Ruined/XPZ_Living_Quarters_S4_Luxury_3.png
-      628: Resources/Basebits/Ruined/XPZ_Living_Quarters_S4_Luxury_4.png
-      633: Resources/Basebits/Black_Tower.png
-      634: Resources/Basebits/Rubble.png
-      635: Resources/Basebits/HQ2.png
-      636: Resources/Basebits/NONPROFIT.png
+      616: Resources/Basebits/Clean/XPZ_Prison_S1_Jail_Double.png
+      617: Resources/Basebits/Clean/XPZ_Barracks_S4_Luxury_1.png
+      618: Resources/Basebits/Clean/XPZ_Barracks_S4_Luxury_2.png
+      619: Resources/Basebits/Clean/XPZ_Barracks_S4_Luxury_3.png
+      620: Resources/Basebits/Clean/XPZ_Barracks_S4_Luxury_4.png
+      625: Resources/Basebits/Ruined/XPZ_Barracks_S4_Luxury_1.png
+      626: Resources/Basebits/Ruined/XPZ_Barracks_S4_Luxury_2.png
+      627: Resources/Basebits/Ruined/XPZ_Barracks_S4_Luxury_3.png
+      628: Resources/Basebits/Ruined/XPZ_Barracks_S4_Luxury_4.png
+      633: Resources/Basebits/Clean/XPZ_Special_S1_Black_Tower.png
+      634: Resources/Basebits/Clean/XPZ_Zone_S1_Rubble.png
+      635: Resources/Basebits/Clean/XPZ_Special_S1_Mess_Luxury.png
+      636: Resources/Basebits/Clean/XPZ_Laboratory_S1_Nonprofit.png
       1018: Resources/Basebits/Clean/XPZ_Storage_S9_Ultimate_1.png
       1019: Resources/Basebits/Clean/XPZ_Storage_S9_Ultimate_2.png
       1020: Resources/Basebits/Clean/XPZ_Storage_S9_Ultimate_3.png
@@ -231,18 +231,18 @@ extraSprites:
       3002: Resources/Basebits/Clean/XPZ_Hangar_S4_Blocked_2.png
       3003: Resources/Basebits/Clean/XPZ_Hangar_S4_Blocked_3.png
       3004: Resources/Basebits/Clean/XPZ_Hangar_S4_Blocked_4.png
-      3005: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_A_1.png
-      3006: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_A_2.png
-      3007: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_A_3.png
-      3008: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_A_4.png
-      3009: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_B_1.png
-      3010: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_B_2.png
-      3011: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_B_3.png
-      3012: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_B_4.png
-      3013: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_C_1.png
-      3014: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_C_2.png
-      3015: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_C_3.png
-      3016: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_C_4.png
+      3005: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_D1_1.png
+      3006: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_D1_2.png
+      3007: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_D1_3.png
+      3008: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_D1_4.png
+      3009: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_D2_1.png
+      3010: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_D2_2.png
+      3011: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_D2_3.png
+      3012: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_D2_4.png
+      3013: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_D3_1.png
+      3014: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_D3_2.png
+      3015: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_D3_3.png
+      3016: Resources/Basebits/Damaged/XPZ_Hangar_S4_Blocked_D3_4.png
       3017: Resources/Basebits/Ruined/XPZ_Hangar_S4_Blocked_1.png
       3018: Resources/Basebits/Ruined/XPZ_Hangar_S4_Blocked_2.png
       3019: Resources/Basebits/Ruined/XPZ_Hangar_S4_Blocked_3.png
@@ -255,10 +255,10 @@ extraSprites:
       3026: Resources/Basebits/Clean/XPZ_Hangar_S4_Reinforced_2.png
       3027: Resources/Basebits/Clean/XPZ_Hangar_S4_Reinforced_3.png
       3028: Resources/Basebits/Clean/XPZ_Hangar_S4_Reinforced_4.png
-      3029: Resources/Basebits/Damaged/XPZ_Hangar_S4_Reinforced_1.png
-      3030: Resources/Basebits/Damaged/XPZ_Hangar_S4_Reinforced_2.png
-      3031: Resources/Basebits/Damaged/XPZ_Hangar_S4_Reinforced_3.png
-      3032: Resources/Basebits/Damaged/XPZ_Hangar_S4_Reinforced_4.png
+      3029: Resources/Basebits/Damaged/XPZ_Hangar_S4_Reinforced_D1_1.png
+      3030: Resources/Basebits/Damaged/XPZ_Hangar_S4_Reinforced_D1_2.png
+      3031: Resources/Basebits/Damaged/XPZ_Hangar_S4_Reinforced_D1_3.png
+      3032: Resources/Basebits/Damaged/XPZ_Hangar_S4_Reinforced_D1_4.png
       3033: Resources/Basebits/Ruined/XPZ_Hangar_S4_Reinforced_1.png
       3034: Resources/Basebits/Ruined/XPZ_Hangar_S4_Reinforced_2.png
       3035: Resources/Basebits/Ruined/XPZ_Hangar_S4_Reinforced_3.png
