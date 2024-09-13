@@ -567,6 +567,31 @@ facilities:
       - {x: 1, y: -3, min: 2, max: 59, hide: false}
     optionGroups: [1]
 
+  # Hydroponics
+  - delete: STR_HYDROPONICS_WEED_HARVEST
+  - delete: STR_HYDROPONICS_BOOM_HARVEST
+  - update: STR_HYDROPONICS_WEED
+    buildCostItems:
+      STR_SECTOWEED:
+        build: 12
+        refund: 240
+    leavesBehindOnSell:
+      - STR_HYDROPONICS
+    buildTime: 40
+    removalTime: 1
+  - update: STR_HYDROPONICS_BOOM
+    buildCostItems:
+      STR_BOOM_FRUIT:
+        build: 10
+        refund: 100
+      STR_ELERIUM_115:
+        build: 10
+        refund: 0
+    leavesBehindOnSell:
+      - STR_HYDROPONICS
+    buildTime: 40
+    removalTime: 1
+
 ### Integration
   # Various Changes
   - update: STR_ACCESS_LIFT

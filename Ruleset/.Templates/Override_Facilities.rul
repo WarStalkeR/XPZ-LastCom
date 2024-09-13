@@ -73,9 +73,9 @@ facilities:
   - update: STR_GAS_CHAMBER
   - update: STR_HYDROPONICS
   - update: STR_HYDROPONICS_WEED
-  - update: STR_HYDROPONICS_WEED_HARVEST
+  #- update: STR_HYDROPONICS_WEED_HARVEST
   - update: STR_HYDROPONICS_BOOM
-  - update: STR_HYDROPONICS_BOOM_HARVEST
+  #- update: STR_HYDROPONICS_BOOM_HARVEST
   - update: STR_BODY_FARM
   - update: STR_BODY_FARM_E
   - update: STR_BEE_HIVE

@@ -4979,10 +4979,10 @@ ufopaedia:
     listOrder: 194100
   - id: STR_HYDROPONICS
     listOrder: 196600
-  - id: STR_HYDROPONICS_WEED_HARVEST
-    listOrder: 196630
-  - id: STR_HYDROPONICS_BOOM_HARVEST
-    listOrder: 196710
+  #- id: STR_HYDROPONICS_WEED_HARVEST
+  #  listOrder: 196630
+  #- id: STR_HYDROPONICS_BOOM_HARVEST
+  #  listOrder: 196710
   - id: STR_BODY_FARM
     listOrder: 196850
   - id: STR_BEE_HIVE

@@ -151,12 +151,12 @@ facilities:
     listOrder: 96600
   - update: STR_HYDROPONICS_WEED
     listOrder: 96620
-  - update: STR_HYDROPONICS_WEED_HARVEST
-    listOrder: 96630
+  #- update: STR_HYDROPONICS_WEED_HARVEST
+  #  listOrder: 96630
   - update: STR_HYDROPONICS_BOOM
     listOrder: 96700
-  - update: STR_HYDROPONICS_BOOM_HARVEST
-    listOrder: 96710
+  #- update: STR_HYDROPONICS_BOOM_HARVEST
+  #  listOrder: 96710
   - update: STR_BODY_FARM
     listOrder: 96850
   - update: STR_BODY_FARM_E

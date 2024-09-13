@@ -16,6 +16,24 @@ ufopaedia:
     text: STR_HANGAR_UFOPEDIA
     hiddenByDefault: true
 
+  # Hydroponics Rework
+  - delete: STR_HYDROPONICS_WEED_HARVEST
+  - delete: STR_HYDROPONICS_BOOM_HARVEST
+  - id: STR_HYDROPONICS_WEED
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_HYDROPONICS_WEED_HARVEST
+    text: STR_HYDROPONICS_WEED_HARVEST_UFOPEDIA
+    listOrder: 196630
+  - id: STR_HYDROPONICS_BOOM
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    requires:
+      - STR_HYDROPONICS_BOOM_HARVEST
+    text: STR_HYDROPONICS_BOOM_HARVEST_UFOPEDIA
+    listOrder: 196710
+
 ### Last Commander New Ufopaedia Entries
   # Camping Site
   - id: STR_CAMPING_SITE

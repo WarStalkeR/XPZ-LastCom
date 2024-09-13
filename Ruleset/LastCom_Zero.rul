@@ -1,6 +1,7 @@
 #manufacture:
 #  - update: STR_HUNTING_PARTY
 #    time: 1
+
 #arcScripts:
 #  - type: STR_ARC_SCRIPT_LOL_NOPE
 #    sequentialArcs:
@@ -32,10 +33,29 @@
 #    facilityTriggers:
 #      STR_WAR_BARRACKS: true
 #      STR_LUXURY_SPA: false
+#    baseFunctionTriggers:
+#      SHOP: true
+#      WAVE: true
+#      WAVE2: false
 #    xcomBaseInRegionTriggers:
 #      STR_PACIFIC: false
 #    xcomBaseInCountryTriggers:
 #      STR_BRAZIL: true
+
+#eventScripts:
+#  - type: STR_EVENT_SCRIPT_LOL_NOPE
+#    eventWeights:
+#      0:
+#        STR_SOME_UNNECESSARY_EVENT: 100
+#    firstMonth: 0
+#    lastMonth: 0
+#    baseFunctionTriggers:
+#       OH_NO_ANYWAY: true
+#       CPU: true
+#       WELL: true
+#       WAVE: false
+#       WAVE2: false
+#    executionOdds: 100
 
 #startingBaseSets:
 #- update: STR_INIT_BASE_REVOLUTION_HQ

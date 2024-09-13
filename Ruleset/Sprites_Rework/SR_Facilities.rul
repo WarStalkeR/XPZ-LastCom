@@ -199,21 +199,23 @@ facilities:
     spriteShape: 2224
     spriteFacility: 405
     spriteEnabled: true
-  - update: STR_HYDROPONICS_WEED_HARVEST
-    connectorsOnSprite: true
-    spriteShape: 2224
-    spriteFacility: 409
-    spriteEnabled: true
+    altBuildSprite: true
+  #- update: STR_HYDROPONICS_WEED_HARVEST
+  #  connectorsOnSprite: true
+  #  spriteShape: 2224
+  #  spriteFacility: 409
+  #  spriteEnabled: true
   - update: STR_HYDROPONICS_BOOM
     connectorsOnSprite: true
     spriteShape: 2224
     spriteFacility: 413
     spriteEnabled: true
-  - update: STR_HYDROPONICS_BOOM_HARVEST
-    connectorsOnSprite: true
-    spriteShape: 2224
-    spriteFacility: 417
-    spriteEnabled: true
+    altBuildSprite: true
+  #- update: STR_HYDROPONICS_BOOM_HARVEST
+  #  connectorsOnSprite: true
+  #  spriteShape: 2224
+  #  spriteFacility: 417
+  #  spriteEnabled: true
   - update: STR_BODY_FARM
     spriteShape: 2024
     spriteFacility: 1044
