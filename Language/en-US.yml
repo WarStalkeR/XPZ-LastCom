@@ -16,22 +16,22 @@ en-US:
 # Craft Classification
   STR_CRAFT_CLASS_MINLIM: "Broken"	# Lower Limit
   STR_CRAFT_CLASS_NA: "N/A"			# 0 - 0 (0)
-  STR_CRAFT_CLASS_POD: "Pod"		# 1 ~ 1 (0)
-  STR_CRAFT_CLASS_INF: "Infantry"	# 2 ~ 9 (8)
-  STR_CRAFT_CLASS_VEH: "Vehicle"	# 10 ~ 19 (10)
-  STR_CRAFT_CLASS_SCT: "Scout"	    # 20 ~ 29 (10)
-  STR_CRAFT_CLASS_ESC: "Escort"		# 30 ~ 39 (10)
-  STR_CRAFT_CLASS_SML: "Small"		# 40 ~ 59 (20)
-  STR_CRAFT_CLASS_MED: "Medium"		# 60 ~ 79 (20)
-  STR_CRAFT_CLASS_LRG: "Large"		# 80 ~ 129 (50)
-  STR_CRAFT_CLASS_AST: "Assault"	# 130 ~ 199 (70)
-  STR_CRAFT_CLASS_MSV: "Massive"	# 200 ~ 299 (100)
-  STR_CRAFT_CLASS_WAR: "Warship"	# 300 ~ 499 (200)
-  STR_CRAFT_CLASS_CAP: "Capital"	# 500 - 999 (500)
+  STR_CRAFT_CLASS_BAL: "Ballistic"	# 1 - 9 (9)
+  STR_CRAFT_CLASS_INF: "Infantry"	# 10 - 19 (10)
+  STR_CRAFT_CLASS_VEH: "Vehicle"	# 20 - 39 (20)
+  STR_CRAFT_CLASS_SCT: "Scout"	    # 40 - 49 (10)
+  STR_CRAFT_CLASS_ESC: "Escort"		# 50 - 69 (20)
+  STR_CRAFT_CLASS_SML: "Small"		# 70 - 99 (30)
+  STR_CRAFT_CLASS_MED: "Medium"		# 100 - 139 (40)
+  STR_CRAFT_CLASS_LRG: "Large"		# 140 - 199 (60)
+  STR_CRAFT_CLASS_AST: "Assault"	# 200 - 279 (80)
+  STR_CRAFT_CLASS_MSV: "Massive"	# 280 - 399 (120)
+  STR_CRAFT_CLASS_WAR: "Warship"	# 400 - 599 (200)
+  STR_CRAFT_CLASS_CAP: "Capital"	# 600 - 999 (400)
   STR_CRAFT_CLASS_MAXLIM: "Limit"	# Upper Limit
   STR_CRAFT_CLASS_MINLIM_UC: "X"
   STR_CRAFT_CLASS_NA_UC: "Any"
-  STR_CRAFT_CLASS_POD_UC: "PD"
+  STR_CRAFT_CLASS_BAL_UC: "BL"
   STR_CRAFT_CLASS_INF_UC: "IN"
   STR_CRAFT_CLASS_VEH_UC: "VH"
   STR_CRAFT_CLASS_SCT_UC: "SC"

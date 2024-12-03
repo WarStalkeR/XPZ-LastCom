@@ -16,7 +16,7 @@ facilities:
     canBeBuiltOver: true
     crafts: 1
     craftOptions:
-      - {x: 1, y: -3, min: 2, max: 9, hide: false}
+      - {x: 1, y: -3, min: 10, max: 19, hide: false}
     optionGroups: [1]
     storage: 400
     storageTiles: [[-1, -1, -1]]
@@ -41,7 +41,7 @@ facilities:
     canBeBuiltOver: true
     crafts: 1
     craftOptions:
-      - {x: 1, y: -3, min: 10, max: 19, hide: false}
+      - {x: 1, y: -3, min: 10, max: 39, hide: false}
     optionGroups: [1]
     workshops: 10
     storage: 200
@@ -67,7 +67,7 @@ facilities:
     canBeBuiltOver: true
     crafts: 1
     craftOptions:
-      - {x: 1, y: -3, min: 20, max: 29, hide: false}
+      - {x: 1, y: -3, min: 40, max: 49, hide: false}
     optionGroups: [1]
     storage: 50
     storageTiles: [[-1, -1, -1]]
@@ -92,10 +92,10 @@ facilities:
     canBeBuiltOver: true
     crafts: 4
     craftOptions:
-      - {x: -4, y: -8, min: 1, max: 1, hide: false}
-      - {x: 7, y: -8, min: 1, max: 1, hide: false}
-      - {x: -5, y: -9, min: 1, max: 1, hide: false}
-      - {x: 7, y: 3, min: 1, max: 1, hide: false}
+      - {x: -4, y: -8, min: 1, max: 9, hide: false}
+      - {x: 7, y: -8, min: 1, max: 9, hide: false}
+      - {x: -5, y: -9, min: 1, max: 9, hide: false}
+      - {x: 7, y: 3, min: 1, max: 9, hide: false}
     optionGroups: [1, 1, 1, 1]
     storageTiles: [[-1, -1, -1]]
     mapName: LCBR_HANGAR_S_01
@@ -128,7 +128,7 @@ facilities:
     hitSound: 10
     crafts: 1
     craftOptions:
-      - {x: 1, y: -3, min: 20, max: 299, hide: false}
+      - {x: 1, y: -3, min: 40, max: 399, hide: false}
     optionGroups: [1]
     workshops: 30
     storage: 150
@@ -156,7 +156,7 @@ facilities:
     canBeBuiltOver: false
     crafts: 1
     craftOptions:
-      - {x: 1, y: -3, min: 20, max: 299, hide: false}
+      - {x: 1, y: -3, min: 40, max: 399, hide: false}
     optionGroups: [1]
     workshops: 20
     storage: 100
@@ -182,7 +182,7 @@ facilities:
     canBeBuiltOver: false
     crafts: 1
     craftOptions:
-      - {x: 1, y: -3, min: 20, max: 129, hide: false}
+      - {x: 1, y: -3, min: 40, max: 199, hide: false}
     optionGroups: [1]
     workshops: 10
     storage: 50
@@ -217,8 +217,8 @@ facilities:
     hitSound: 10
     crafts: 2
     craftOptions:
-      - {x: 12, y: 8, min: 2, max: 79, hide: false}
-      - {x: -5, y: -9, min: 2, max: 129, hide: false}
+      - {x: 12, y: 8, min: 10, max: 139, hide: false}
+      - {x: -5, y: -9, min: 10, max: 199, hide: false}
     optionGroups: [1, 1]
     workshops: 30
     storage: 200
@@ -248,8 +248,8 @@ facilities:
     hitSound: 10
     crafts: 2
     craftOptions:
-      - {x: 12, y: 8, min: 2, max: 39, hide: false}
-      - {x: -5, y: -9, min: 2, max: 59, hide: false}
+      - {x: 12, y: 8, min: 10, max: 69, hide: false}
+      - {x: -5, y: -9, min: 10, max: 99, hide: false}
     optionGroups: [1, 1]
     workshops: 20
     storage: 100
@@ -284,9 +284,9 @@ facilities:
     hitSound: 10
     crafts: 3
     craftOptions:
-      - {x: -12, y: -12, min: 20, max: 59, hide: false}
-      - {x: 14, y: -12, min: 20, max: 59, hide: false}
-      - {x: 1, y: 6, min: 20, max: 59, hide: false}
+      - {x: -12, y: -12, min: 40, max: 99, hide: false}
+      - {x: 14, y: -12, min: 40, max: 99, hide: false}
+      - {x: 1, y: 6, min: 40, max: 99, hide: false}
     optionGroups: [1, 1, 1]
     workshops: 15
     storage: 100
@@ -316,9 +316,9 @@ facilities:
     hitSound: 10
     crafts: 2
     craftOptions:
-      - {x: -12, y: -12, min: 20, max: 39, hide: false}
+      - {x: -12, y: -12, min: 40, max: 69, hide: false}
       - {x: 14, y: -12, min: -1, max: -1, hide: false}
-      - {x: 1, y: 6, min: 20, max: 29, hide: false}
+      - {x: 1, y: 6, min: 40, max: 49, hide: false}
     optionGroups: [1, 1, 1]
     workshops: 5
     storage: 25
@@ -353,9 +353,9 @@ facilities:
     hitSound: 10
     crafts: 3
     craftOptions:
-      - {x: -13, y: -3, min: 2, max: 39, hide: false}
-      - {x: 15, y: -3, min: 2, max: 39, hide: false}
-      - {x: 1, y: -3, min: 20, max: 299, hide: false}
+      - {x: -13, y: -3, min: 10, max: 69, hide: false}
+      - {x: 15, y: -3, min: 10, max: 69, hide: false}
+      - {x: 1, y: -3, min: 40, max: 399, hide: false}
     optionGroups: [1, 1, 1]
     workshops: 50
     labs: 12
@@ -408,9 +408,9 @@ facilities:
     crafts: 3
     craftsHidden: true
     craftOptions:
-      - {x: -13, y: -3, min: 2, max: 39, hide: false}
-      - {x: 15, y: -3, min: 2, max: 39, hide: false}
-      - {x: 1, y: -3, min: 20, max: 299, hide: false}
+      - {x: -13, y: -3, min: 10, max: 69, hide: false}
+      - {x: 15, y: -3, min: 10, max: 69, hide: false}
+      - {x: 1, y: -3, min: 40, max: 399, hide: false}
     optionGroups: [1, 1, 1]
     aliens: 20
     storage: 250
@@ -440,9 +440,9 @@ facilities:
     crafts: 3
     craftsHidden: true
     craftOptions:
-      - {x: -13, y: -3, min: 2, max: 39, hide: false}
-      - {x: 15, y: -3, min: 2, max: 39, hide: false}
-      - {x: 1, y: -3, min: 20, max: 299, hide: false}
+      - {x: -13, y: -3, min: 10, max: 69, hide: false}
+      - {x: 15, y: -3, min: 10, max: 69, hide: false}
+      - {x: 1, y: -3, min: 40, max: 399, hide: false}
     optionGroups: [1, 1, 1]
     aliens: 20
     storage: 250
@@ -472,9 +472,9 @@ facilities:
     crafts: 3
     craftsHidden: true
     craftOptions:
-      - {x: -13, y: -3, min: 2, max: 39, hide: false}
-      - {x: 15, y: -3, min: 2, max: 39, hide: false}
-      - {x: 1, y: -3, min: 20, max: 299, hide: false}
+      - {x: -13, y: -3, min: 10, max: 69, hide: false}
+      - {x: 15, y: -3, min: 10, max: 69, hide: false}
+      - {x: 1, y: -3, min: 40, max: 399, hide: false}
     optionGroups: [1, 1, 1]
     aliens: 20
     storage: 250
@@ -504,9 +504,9 @@ facilities:
     crafts: 3
     craftsHidden: true
     craftOptions:
-      - {x: -13, y: -3, min: 2, max: 39, hide: false}
-      - {x: 15, y: -3, min: 2, max: 39, hide: false}
-      - {x: 1, y: -3, min: 20, max: 299, hide: false}
+      - {x: -13, y: -3, min: 10, max: 69, hide: false}
+      - {x: 15, y: -3, min: 10, max: 69, hide: false}
+      - {x: 1, y: -3, min: 40, max: 399, hide: false}
     optionGroups: [1, 1, 1]
     aliens: 20
     storage: 250
@@ -536,9 +536,9 @@ facilities:
     crafts: 3
     craftsHidden: true
     craftOptions:
-      - {x: -13, y: -3, min: 2, max: 39, hide: false}
-      - {x: 15, y: -3, min: 2, max: 39, hide: false}
-      - {x: 1, y: -3, min: 20, max: 299, hide: false}
+      - {x: -13, y: -3, min: 10, max: 69, hide: false}
+      - {x: 15, y: -3, min: 10, max: 69, hide: false}
+      - {x: 1, y: -3, min: 40, max: 399, hide: false}
     optionGroups: [1, 1, 1]
     aliens: 20
     storage: 250
@@ -555,7 +555,7 @@ facilities:
     workshops: 20
     storage: 100
     craftOptions:
-      - {x: 1, y: -3, min: 2, max: 129, hide: false}
+      - {x: 1, y: -3, min: 10, max: 199, hide: false}
     optionGroups: [1]
     provideBaseFunc: [SHOP]
   - update: STR_HANGAR_DAMAGED
@@ -564,7 +564,7 @@ facilities:
     crafts: 1
     craftsHidden: false
     craftOptions:
-      - {x: 1, y: -3, min: 2, max: 59, hide: false}
+      - {x: 1, y: -3, min: 10, max: 99, hide: false}
     optionGroups: [1]
 
   # Hydroponics
