@@ -3,9 +3,6 @@ en-US:
   STR_BASE_DISTANCE: "HIDEOUT,{NEWLINE}DISTANCE (KM)"
   STR_SACK: "BOOT OUT!"
 
-# Settings Strings
-  STR_ENGINE_OTHER: "OXCEM"
-
 # Game Data Viewer
   STR_TRDIFF_LVL_0: "Dream"
   STR_TRDIFF_LVL_1: "Fair"

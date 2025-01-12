@@ -3,9 +3,6 @@ ru:
   STR_BASE_DISTANCE: "УБЕЖИЩЕ,{NEWLINE}РАССТОЯНИЕ (КМ)"
   STR_SACK: "ЗА БОРТ!"
 
-# Settings Strings
-  STR_ENGINE_OTHER: "OXCEM"
-
 # Game Data Viewer
   STR_TRDIFF_LVL_0: "Сон"
   STR_TRDIFF_LVL_1: "Честь"
