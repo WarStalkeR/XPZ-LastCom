@@ -13,7 +13,8 @@ ru:
 # Craft Classification
   STR_CRAFT_CLASS_MINLIM: "Сломан"	# Lower Limit
   STR_CRAFT_CLASS_NA: "Н/Д"			# 0 - 0 (0)
-  STR_CRAFT_CLASS_BAL: "Пусковой"	# 1 - 9 (9)
+  STR_CRAFT_CLASS_BAL: "Пусковой"	# 1 - 6 (6)
+  STR_CRAFT_CLASS_MGN: "Магнитный"	# 7 - 9 (3)
   STR_CRAFT_CLASS_INF: "Пехота"		# 10 - 19 (10)
   STR_CRAFT_CLASS_VEH: "Машина"		# 20 - 39 (20)
   STR_CRAFT_CLASS_SCT: "Скаут"	    # 40 - 49 (10)
@@ -29,6 +30,7 @@ ru:
   STR_CRAFT_CLASS_MINLIM_UC: "X"
   STR_CRAFT_CLASS_NA_UC: "Любой"
   STR_CRAFT_CLASS_BAL_UC: "ПУ"
+  STR_CRAFT_CLASS_MGN_UC: "МГ"
   STR_CRAFT_CLASS_INF_UC: "ПХ"
   STR_CRAFT_CLASS_VEH_UC: "МШ"
   STR_CRAFT_CLASS_SCT_UC: "СК"

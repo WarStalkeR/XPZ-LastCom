@@ -88,7 +88,7 @@ crafts:
   - update: STR_M_WING
     craftSize: 70
   - update: STR_RAIL_POD
-    craftSize: 1
+    craftSize: 9
   - update: STR_FATSUB
     craftSize: 100
   - update: STR_TRITON

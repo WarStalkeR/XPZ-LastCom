@@ -13,7 +13,8 @@ en-US:
 # Craft Classification
   STR_CRAFT_CLASS_MINLIM: "Broken"	# Lower Limit
   STR_CRAFT_CLASS_NA: "N/A"			# 0 - 0 (0)
-  STR_CRAFT_CLASS_BAL: "Ballistic"	# 1 - 9 (9)
+  STR_CRAFT_CLASS_BAL: "Ballistic"	# 1 - 6 (6)
+  STR_CRAFT_CLASS_MGN: "Magnetic"	# 7 - 9 (3)
   STR_CRAFT_CLASS_INF: "Infantry"	# 10 - 19 (10)
   STR_CRAFT_CLASS_VEH: "Vehicle"	# 20 - 39 (20)
   STR_CRAFT_CLASS_SCT: "Scout"	    # 40 - 49 (10)
@@ -29,6 +30,7 @@ en-US:
   STR_CRAFT_CLASS_MINLIM_UC: "X"
   STR_CRAFT_CLASS_NA_UC: "Any"
   STR_CRAFT_CLASS_BAL_UC: "BL"
+  STR_CRAFT_CLASS_MGN_UC: "MG"
   STR_CRAFT_CLASS_INF_UC: "IN"
   STR_CRAFT_CLASS_VEH_UC: "VH"
   STR_CRAFT_CLASS_SCT_UC: "SC"
@@ -153,14 +155,14 @@ en-US:
   STR_HANGAR_SPECIAL_OPS_UFOPEDIA: "This large hangar almost same as Relic X-COM Hangar, but refurbished, upgraded and refitted with newest technology. Can house Massive-class and two Medium-class crafts, blast doors material is replaced with high-end composite, all turrets (both, defense and AA) are replaced with precision railguns, barrack have been expanded into luxury quarters, storage received robotization upgrade, workshop got improved, laboratory has been replaced with advanced one and prison cells use cryonics. Also can't be destroyed by bombardment.{NEWLINE}Resilience: 8. Indestructible. Requires: Rail Accelerator *4. When hangar is sealed, production/research services are partially available."
   STR_HANGAR_DEVASTATOR: "Devastator Hangar"
   STR_HANGAR_DEVASTATOR_UFOPEDIA: "..two Massive-class crafts..."
+  STR_HANGAR_HEAVYDUTY: "Heavy Duty Hangar"
+  STR_HANGAR_HEAVYDUTY_UFOPEDIA: "...single Warship-class craft..."
   STR_HANGAR_FRONTLINE: "Frontline Hangar"
   STR_HANGAR_FRONTLINE_UFOPEDIA: "Massive hangar with cameras and basic autocannon turrets for one Massive-class and two Large-class crafts. Uses hydraulic craft auto-stacker to keep managing crafts. Technology itself isn't complicated, but construction is. Expensive to build especially at initial stages of the development. More resilient against bombardment. Has space to spare for many other things.{NEWLINE}Increases workshop space. Resilience: 4. Requires: Flak Tower Kit *6."
   STR_HANGAR_RETALIATOR: "Retaliator Hangar"
   STR_HANGAR_RETALIATOR_UFOPEDIA: "Massive hangar for six Large-class crafts. Equipped with IR/UV cameras, heavy laser cannons, powerful laser AA defenses and high quality long-range radar. Mostly used for offensive operations and for preemptively clearing up enemy air force.{NEWLINE}Has built-in power supply. Resilience: 6. Requires: Craft Lascannon *12."
   STR_HANGAR_ANNIHILATOR: "Annihilator Hangar"
   STR_HANGAR_ANNIHILATOR_UFOPEDIA: "Technologically advanced massive hangar for four Assault-class crafts. Equipped with IR/UV cameras, heavy plasma cannons, powerful plasma AA defenses and high quality long-range radar. Used to house entire offensive space force for surprise raids against enemy fleets and fortifications.{NEWLINE}Has built-in power supply. Resilience: 6. Requires: Plasma Spitter *12."
-  STR_HANGAR_SPACEWAR: "Space Warfare Hangar"
-  STR_HANGAR_SPACEWAR_UFOPEDIA: "...single Warship-class craft..."
   STR_HANGAR_ANTIGRAV: "Anti-Gravity Hangar"
   STR_HANGAR_ANTIGRAV_UFOPEDIA: "Extremely technologically advanced massive hangar for two Warship-class crafts. Defensive equipment pales in comparison with other massive hangars, but this is price you must pay if you want capability to deploy semi-autonomous space-capable ships for actual space warfare or just good old orbital bombardment.{NEWLINE}Has built-in power supply. Resilience: 4. Requires: Gauss Cannon *8."
   STR_HANGAR_BLACK_OPS: "Black Ops Hangar"
