@@ -120,7 +120,7 @@ en-US:
   STR_HANGAR_AIRFIELD_UFOPEDIA: "..single Escort-class craft..."
   STR_HANGAR_BIG_AIRFIELD: "Expanded Airfield"
   STR_HANGAR_BIG_AIRFIELD_UFOPEDIA: "..two Escort-class crafts..."
-  STR_HANGAR_RECON_BAY: "Reconnasince Bay"
+  STR_HANGAR_RECON_BAY: "Recon Ops Bay"
   STR_HANGAR_RECON_BAY_UFOPEDIA: "..two Vehicle-class crafts + two Scout-class crafts..."
   STR_HANGAR: "Old Civilian Hangar"
   STR_HANGAR_DAMAGED: "Old Civilian Hangar (X)"
@@ -165,6 +165,8 @@ en-US:
   STR_HANGAR_ANNIHILATOR_UFOPEDIA: "Technologically advanced massive hangar for four Assault-class crafts. Equipped with IR/UV cameras, heavy plasma cannons, powerful plasma AA defenses and high quality long-range radar. Used to house entire offensive space force for surprise raids against enemy fleets and fortifications.{NEWLINE}Has built-in power supply. Resilience: 6. Requires: Plasma Spitter *12."
   STR_HANGAR_ANTIGRAV: "Anti-Gravity Hangar"
   STR_HANGAR_ANTIGRAV_UFOPEDIA: "Extremely technologically advanced massive hangar for two Warship-class crafts. Defensive equipment pales in comparison with other massive hangars, but this is price you must pay if you want capability to deploy semi-autonomous space-capable ships for actual space warfare or just good old orbital bombardment.{NEWLINE}Has built-in power supply. Resilience: 4. Requires: Gauss Cannon *8."
+  STR_HANGAR_CAPITAL: "Capital Ops Hangar"
+  STR_HANGAR_CAPITAL_UFOPEDIA: "...single Capital-class craft and four Small-class crafts..."
   STR_HANGAR_BLACK_OPS: "Black Ops Hangar"
   STR_HANGAR_BLACK_OPS_UFOPEDIA: "Massive hangar with nearly indestructible massive shielded blast doors for one Capital-class craft and four Large-class crafts, comes equipped with TI/PS cameras, multiple anti-personnel Railgun Turrets, experimental precision Railgun AA Defenses, repulsor defenses and pinnacle hyperwave radar. Enemy invasion troops will be deployed in tight and vulnerable formation due to hangar's nature. Pinnacle of technology that requires nearly arcane knowledge and massive wealth to build and maintain. {NEWLINE}Resilience: 10. Indestructible. Requires: Rail Accelerator *16. All services are available, even if hangar is sealed."
 
